@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100vh;
+    background-color: #f0f3bd;
+}
+
+
+/*------- Menü ------*/
+
+header{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background-color: #02c39a;
+    padding: 0 30px;
+    z-index: 99;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #f0f3bd;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.logo img{
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.toggle{
+    display: none;
+}
+
+.menu_list ul{
+    display: flex;
+}
+
+.menu_list .nav_links{
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    padding: 6px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.1s;
+    margin: 0 5px;
+}
+
+.menu_list .nav_links:hover{
+    transition: all 0.1s;
+    box-shadow: #fff 0px 0px 5px;
+}
+
+.header_box{
+    margin-top: 60px;
+    height: 100%;
+    width: 100%;
+    background-image: url(img/Névtelen\ terv\(23\).png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+@media only screen and (max-width: 900px){
+    .toggle{
+            display: block;
+            cursor: pointer;
+        }
+    
+        .toggle .bar{
+            display: flex;
+            padding-right: 10px;
+            width: 30px;
+            height: 3px;
+            margin: 5px;
+            background: #fff;
+        }
+    
+        .menu_list{
+            height: 0;
+            position: absolute;
+            top: 60px;
+            left: 0;
+            right: 0;
+            width: 100vw;
+            background-color: #02c39a;
+            transition: all 0.2s;
+            overflow: hidden;
+        }
+    
+        .menu_list.active{
+            height: 450px;
+        }
+    
+        .menu_list.active ul{
+            opacity: 1;
+        }
+    
+        .menu_list ul {
+            display: block;
+            width: fit-content;
+            text-align: center;
+            margin: 80px auto 40px auto;
+            transition: all 0.2s;
+            opacity: 0;
+        }
+
+        .menu_list .nav_links{
+            margin: 15px;
+        }
+}
