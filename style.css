@@ -33,7 +33,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     height: 60px;
-    background-color: #02c39a;
+    background-color: transparent;
     padding: 0 30px;
     z-index: 99;
 }
@@ -42,9 +42,13 @@ nav{
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: #f0f3bd;
+    color: #fff;
     font-size: 2rem;
     font-weight: bold;
+}
+
+.logo_span{
+    color: #ef233c;
 }
 
 .logo img{
@@ -63,8 +67,8 @@ nav{
 
 .menu_list .nav_links{
     display: block;
-    color: #fff;
-    font-size: 18px;
+    color: #05668d;
+    font-size: 1.2rem;
     padding: 6px 20px;
     text-decoration: none;
     border-radius: 10px;
@@ -78,7 +82,6 @@ nav{
 }
 
 .header_box{
-    margin-top: 60px;
     height: 100%;
     width: 100%;
     background-image: url(img/Névtelen\ terv\(23\).png);
@@ -86,6 +89,21 @@ nav{
     background-size: cover;
 }
 
+.top_gradient{
+    position: absolute;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(to top, transparent, #f0f3bd);
+}
+
+.bottom_gradient{
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, transparent, #f0f3bd);
+}
 
 @media only screen and (max-width: 900px){
     .toggle{
@@ -109,13 +127,15 @@ nav{
             left: 0;
             right: 0;
             width: 100vw;
-            background-color: #02c39a;
-            transition: all 0.2s;
+            background-color: transparent;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s;
             overflow: hidden;
         }
     
         .menu_list.active{
             height: 450px;
+            transition: all 0.3s;
         }
     
         .menu_list.active ul{
@@ -133,5 +153,7 @@ nav{
 
         .menu_list .nav_links{
             margin: 15px;
+            color: #f0f3bd;
+            font-size: 1.3rem;
         }
 }
