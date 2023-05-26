@@ -153,7 +153,8 @@ nav{
 
         .menu_list .nav_links{
             margin: 15px;
-            color: #f0f3bd;
+            color: #ef233c;
+            font-weight: bold;
             font-size: 1.3rem;
         }
 }
