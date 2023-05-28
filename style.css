@@ -84,17 +84,11 @@ nav{
 .header_box{
     height: 100%;
     width: 100%;
-    background-image: url(img/Névtelen\ terv\(23\).png);
-    background-position: center;
-    background-size: cover;
 }
 
-.top_gradient{
-    position: absolute;
-    top: 0;
-    height: 100px;
+.header_box img{
+    height: 100%;
     width: 100%;
-    background-image: linear-gradient(to top, transparent, #f0f3bd);
 }
 
 .bottom_gradient{
