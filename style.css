@@ -95,14 +95,15 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .header_txt{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    height: 30%;
 }
 
 .header_box .header_txt div{
@@ -119,7 +120,6 @@ nav{
     color: #fff;
     font-size: 1.5rem;
     padding: 15px 30px;
-    margin-top: 20px;
     background-color: #ef233c;
     border-radius: 10px;
 }
@@ -204,7 +204,6 @@ main{
         }
 
         .header_box h1{
-            margin-top: 50px;
-            font-size: 4rem;
+            font-size: 3.5rem;
         }
 }
