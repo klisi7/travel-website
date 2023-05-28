@@ -145,6 +145,9 @@ nav{
 
 main{
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media only screen and (max-width: 900px){
