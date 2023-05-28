@@ -143,6 +143,10 @@ nav{
     background-image: linear-gradient(to bottom, transparent, #f0f3bd);
 }
 
+main{
+    height: 100vh;
+}
+
 @media only screen and (max-width: 900px){
     .toggle{
             display: block;
