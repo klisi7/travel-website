@@ -171,6 +171,14 @@ main{
     width: 100%;
 }
 
+.celok h2{
+    color: #d8182f;
+    font-size: 3rem;
+    font-style: oblique;
+    text-align: center;
+    margin: 5rem 0;
+}
+
 .celok_box{
     display: flex;
     align-items: center;
@@ -185,16 +193,30 @@ main{
     flex-basis: 20%;
     margin: 15px;
     border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     cursor: pointer;
 }
 
-.celok_box .box h3{
+.celok_box .box a{
+    height: 100%;
+    width: 100%;
     color: #fff;
     font-style: oblique;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: all .3s;
+    text-shadow: 3px 2px #d8182f;
+}
+
+.celok_box .box a:hover{
+    backdrop-filter: blur(2px);
+    transition: all .3s;
+    background-color: rgba(255, 255, 255, .2);
 }
 
 .celok_box .box:nth-child(1){
@@ -210,13 +232,13 @@ main{
 }
 
 .celok_box .box:nth-child(3){
-    background-image: url(img/olasz-3.png);
+    background-image: url(img/olasz-2.png);
     background-position: center;
     background-size: cover;
 }
 
 .celok_box .box:nth-child(4){
-    background-image: url(img/spanyol-3.png);
+    background-image: url(img/spanyol-1.png);
     background-position: center;
     background-size: cover;
 }
@@ -287,6 +309,10 @@ main{
 @media only screen and (max-width: 600px){
     .celok_box .box{
         flex-basis: 80%;
-        height: 250px;
+        height: 200px;
+    }
+
+    .celok_box .box a{
+        font-size: 2.5rem;
     }
 }
