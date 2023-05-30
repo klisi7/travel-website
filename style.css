@@ -38,8 +38,9 @@ nav{
     transition: all .3s;
 }
 
-.open{
+.sticky{
     backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .logo{
@@ -211,4 +212,5 @@ main{
         .header_box h1{
             font-size: 3.5rem;
         }
+
 }
