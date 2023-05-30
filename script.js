@@ -18,3 +18,11 @@ window.addEventListener("scroll", () =>{
 
     nav.classList.toggle("sticky", scrolled > 10);
 })
+
+document.querySelector(".header_btn").addEventListener("mouseover", () =>{
+    document.querySelector(".header_btn i").classList.add("go");
+})
+
+document.querySelector(".header_btn").addEventListener("mouseout", () =>{
+    document.querySelector(".header_btn i").classList.remove("go");
+})
