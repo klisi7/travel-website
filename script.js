@@ -1,13 +1,11 @@
-let nav = document.querySelector("nav");
-let scrolled = window.scrollY;
+var nav = document.querySelector("nav");
 
 document.querySelector(".toggle").onclick = () =>{
-    document.querySelector(".menu_list").classList.toggle("active");
-    nav.classList.toggle("open");
-
-
-
-};
+    let menu_list = document.querySelector(".menu_list");
+    
+    menu_list.classList.toggle("active");
+    nav.classList.add("sticky");
+};  
 
 document.querySelectorAll(".nav_links").forEach(links =>{
     links.onclick = function(){
@@ -16,14 +14,7 @@ document.querySelectorAll(".nav_links").forEach(links =>{
 })
 
 window.addEventListener("scroll", () =>{
+    let scrolled = window.scrollY;
 
-    if(window.scrollY > 10){
-        nav.style.backgroundColor = "rgba(0, 0, 0, .2)";
-        nav.style.backdropFilter = "blur(10px)";
-    }
-    else if(){
-        nav.style.backgroundColor = "transparent";
-        nav.style.backdropFilter = "blur(0px)";
-    }
-
+    nav.classList.toggle("sticky", scrolled > 10);
 })
