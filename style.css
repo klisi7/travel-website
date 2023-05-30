@@ -93,7 +93,7 @@ nav{
 }
 
 .header_box{
-    height: 100%;
+    height: 97%;
     width: 100%;
     background-image: url(img/header.png);
     background-size: cover;
@@ -155,19 +155,71 @@ nav{
 
 .bottom_gradient{
     position: absolute;
-    bottom: 0;
+    bottom: 15px;
     height: 100px;
     width: 100%;
     background-image: linear-gradient(to bottom, transparent, #f0f3bd);
 }
 
 main{
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.celok{
+    width: 100%;
+}
+
+.celok_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.celok_box .box{
+    min-width: 250px;
+    height: 150px;
+    flex-basis: 20%;
+    margin: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.celok_box .box h3{
+    color: #fff;
+    font-style: oblique;
+    font-size: 1.5rem;
+}
+
+.celok_box .box:nth-child(1){
+    background-image: url(img/gorog-3.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.celok_box .box:nth-child(2){
+    background-image: url(img/cyprus-3.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.celok_box .box:nth-child(3){
+    background-image: url(img/olasz-3.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.celok_box .box:nth-child(4){
+    background-image: url(img/spanyol-3.png);
+    background-position: center;
+    background-size: cover;
+}
 
 
 @media only screen and (max-width: 900px){
@@ -176,55 +228,65 @@ main{
             cursor: pointer;
         }
     
-        .toggle .bar{
-            display: flex;
-            padding-right: 10px;
-            width: 40px;
-            height: 5px;
-            margin: 5px;
-            background: #fff;
-            border-radius: 5px;
-        }
-    
-        .menu_list{
-            background-color: rgba(0, 0, 0, 0.3);
-            height: 0;
-            position: absolute;
-            top: 60px;
-            left: 0;
-            right: 0;
-            width: 100vw;
-            transition: all 0.3s;
-            overflow: hidden;
-        }
-    
-        .menu_list.active{
-            height: 450px;
-            transition: all 0.3s;
-            backdrop-filter: blur(10px);
-        }
-    
-        .menu_list.active ul{
-            opacity: 1;
-        }
-    
-        .menu_list ul {
-            display: block;
-            width: fit-content;
-            text-align: center;
-            margin: 80px auto 40px auto;
-            transition: all 0.2s;
-            opacity: 0;
-        }
+    .toggle .bar{
+        display: flex;
+        padding-right: 10px;
+        width: 40px;
+        height: 5px;
+        margin: 5px;
+        background: #fff;
+        border-radius: 5px;
+    }
 
-        .menu_list .nav_links{
-            margin: 15px;
-            font-weight: bold;
-            font-size: 1.3rem;
-        }
+    .menu_list{
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 0;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        transition: all 0.3s;
+        overflow: hidden;
+    }
 
-        .header_box h1{
-            font-size: 3.5rem;
-        }
+    .menu_list.active{
+        height: 450px;
+        transition: all 0.3s;
+        backdrop-filter: blur(10px);
+    }
 
+    .menu_list.active ul{
+        opacity: 1;
+    }
+
+    .menu_list ul {
+        display: block;
+        width: fit-content;
+        text-align: center;
+        margin: 80px auto 40px auto;
+        transition: all 0.2s;
+        opacity: 0;
+    }
+
+    .menu_list .nav_links{
+        margin: 15px;
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
+
+    .header_box h1{
+        font-size: 3.5rem;
+    }
+
+    .celok_box .box{
+        flex-basis: 40%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .celok_box .box{
+        flex-basis: 80%;
+        height: 250px;
+    }
 }
