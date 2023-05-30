@@ -40,7 +40,7 @@ nav{
 
 .sticky{
     backdrop-filter: blur(10px);
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .logo{
@@ -128,10 +128,22 @@ nav{
     padding: 15px 30px;
     background-color: #ef233c;
     border-radius: 10px;
+    transition: all .3s;
+}
+
+.header_btn:hover{
+    background-color: #d8182f;
+    transition: all .3s;
 }
 
 .header_btn i{
     padding-left: 10px;
+    transition: all .4s;
+}
+
+.go{
+    margin-left: 20px;
+    transition: all .4s;
 }
 
 .header_box h1{
@@ -156,6 +168,8 @@ main{
     justify-content: center;
 }
 
+
+
 @media only screen and (max-width: 900px){
     .toggle{
             display: block;
@@ -173,7 +187,7 @@ main{
         }
     
         .menu_list{
-            background-color: rgba(0, 0, 0, 0.5);
+            background-color: rgba(0, 0, 0, 0.3);
             height: 0;
             position: absolute;
             top: 60px;
