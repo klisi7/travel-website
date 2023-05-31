@@ -163,12 +163,14 @@ nav{
 
 main{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 .celok{
     width: 100%;
+    margin-bottom: 5rem;
 }
 
 .celok h2{
@@ -238,11 +240,60 @@ main{
 }
 
 .celok_box .box:nth-child(4){
-    background-image: url(img/spanyol-1.png);
+    background-image: url(img/spanyol-1.jpg);
     background-position: center;
     background-size: cover;
 }
 
+.cikkek{
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.cikkek_box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.cikkek_box .box{
+    height: 450px;
+    width: 450px;
+    margin: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding-bottom: 15px;
+}
+
+.cikkek_box .box img{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.cikkek_box .box h3{
+    margin-top: 10px;
+    font-size: 1.3rem;
+    color:#d8182f;
+    padding-left: 10px;
+}
+
+.cikkek_box .box .txt{
+    padding: 10px;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    text-align: justify;
+}
+
+.elolvas_btn{
+    float: right;
+    text-decoration: none;
+    color: #fff;
+    background-color: #d8182f;
+    border-radius: 5px;
+    padding: 5px 12px;
+}
 
 @media only screen and (max-width: 900px){
     .toggle{
@@ -306,6 +357,13 @@ main{
     }
 }
 
+@media only screen and (max-width: 750px){
+    .cikkek_box .box{
+        flex-basis: 80%;
+    }
+}
+
+
 @media only screen and (max-width: 600px){
     .celok_box .box{
         flex-basis: 80%;
@@ -314,5 +372,13 @@ main{
 
     .celok_box .box a{
         font-size: 2.5rem;
+    }
+
+    .cikkek_box .box{
+        flex-basis: 90%;
+    }
+
+    .cikkek_box .box h3{
+        font-size: 1.2rem;
     }
 }
