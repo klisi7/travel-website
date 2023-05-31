@@ -174,7 +174,7 @@ main{
 }
 
 .celok h2{
-    color: #d8182f;
+    color: #ef233c;
     font-size: 3rem;
     font-style: oblique;
     text-align: center;
@@ -212,7 +212,7 @@ main{
     justify-content: center;
     border-radius: 10px;
     transition: all .3s;
-    text-shadow: 3px 2px #d8182f;
+    text-shadow: 3px 2px #ef233c;
 }
 
 .celok_box .box a:hover{
@@ -275,7 +275,7 @@ main{
 .cikkek_box .box h3{
     margin-top: 10px;
     font-size: 1.3rem;
-    color:#d8182f;
+    color: #ef233c;
     padding-left: 10px;
 }
 
@@ -290,9 +290,16 @@ main{
     float: right;
     text-decoration: none;
     color: #fff;
-    background-color: #d8182f;
+    background-color: #ef233c;
     border-radius: 5px;
     padding: 5px 12px;
+    margin-top: 10px;
+    transition: all .3s;
+}
+
+.elolvas_btn:hover{
+    background-color: #d8182f;
+    transition: all .3s;
 }
 
 @media only screen and (max-width: 900px){
@@ -354,6 +361,10 @@ main{
 
     .celok_box .box{
         flex-basis: 40%;
+    }
+
+    .cikkek_box .box{
+        height: fit-content;
     }
 }
 
