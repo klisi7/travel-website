@@ -302,6 +302,29 @@ main{
     transition: all .3s;
 }
 
+.next{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #ef233c;
+    margin-top: 20px;
+    transition: all .3s;
+}
+
+.next i{
+    padding: 0 5px;
+}
+
+.next:hover{
+    border-bottom: 1px solid #ef233c;
+    transition: all .3s;
+}
+
+@media only screen and (max-width: 1000px){
+    .cikkek_box .box{
+        height: fit-content;
+    }
+}
+
 @media only screen and (max-width: 900px){
     .toggle{
             display: block;
