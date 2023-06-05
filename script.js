@@ -28,31 +28,3 @@ document.querySelector(".header_btn").addEventListener("mouseout", () =>{
 })
 
 
-
-// Carousel
-
-let carousel = document.querySelector(".carousel");
-
-let isDragStart = false, prevPageX, prevScrollLeft;
-
-let dragStart = (e) =>{
-    isDragStart = true;
-    prevPageX = e.pageX;
-    prevScrollLeft = carousel.scrollLeft;
-}
-
-let dragging = (e) =>{
-    if(!isDragStart) return;
-    e.preventDefault();
-
-    let positionDiff = e.pageX - prevPageX;
-    carousel.scrollLeft = prevScrollLeft - positionDiff;
-}
-
-let dragStop = () =>{
-    isDragStart = false;
-}
-
-carousel.addEventListener("mousedown", dragStart);
-carousel.addEventListener("mousemove", dragging);
-carousel.addEventListener("mouseup", dragStop);
