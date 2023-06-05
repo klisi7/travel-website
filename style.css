@@ -110,6 +110,7 @@ nav{
     align-items: center;
     justify-content: space-evenly;
     height: 30%;
+    font-family: 'Poppins', sans-serif;
 }
 
 .header_box .header_txt div{
@@ -422,5 +423,9 @@ main{
 
     .cikkek_box .box h3{
         font-size: 1.2rem;
+    }
+
+    .bottom_gradient{
+        bottom: 0;
     }
 }
