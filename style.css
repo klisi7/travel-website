@@ -156,7 +156,7 @@ nav{
 
 .bottom_gradient{
     position: absolute;
-    bottom: 15px;
+    bottom: 0;
     height: 100px;
     width: 100%;
     background-image: linear-gradient(to bottom, transparent, #f0f3bd);
@@ -324,9 +324,70 @@ main{
     transition: all .3s;
 }
 
+.slider_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider_section h2{
+    font-size: 2rem;
+    font-style: oblique;
+    color: #ef233c;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+.wrapper{
+    position: relative;
+}
+
+.wrapper i{
+    top: 50%;
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+    position: absolute;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper i:first-child{
+    left: 35px;
+}
+
+.wrapper i:last-child{
+    right: 25px;
+}
+
+.wrapper .carousel{
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 50px;
+}
+
+.carousel img{
+    height: 350px;
+    width: calc(100% / 3);
+    margin-left: 10px;
+}
+
+
+
 @media only screen and (max-width: 1000px){
     .cikkek_box .box{
         height: fit-content;
+    }
+
+    .carousel img{
+        width: calc(100% / 2);
     }
 }
 
@@ -400,6 +461,10 @@ main{
     .cikkek_box .box{
         flex-basis: 80%;
     }
+
+    .carousel img{
+        width: calc(100%);
+    }
 }
 
 
@@ -423,9 +488,5 @@ main{
 
     .cikkek_box .box h3{
         font-size: 1.2rem;
-    }
-
-    .bottom_gradient{
-        bottom: 0;
     }
 }
