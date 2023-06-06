@@ -153,6 +153,7 @@ nav{
     color: #fff;
     font-style: oblique;
     text-align: center;
+    margin: 5px;
 }
 
 .bottom_gradient{
@@ -339,35 +340,96 @@ main{
     color: #ef233c;
     text-align: center;
     line-height: 2.5rem;
+    margin: 10px;
+}
+
+.insp_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
 }
 
 .insp_imgs{
     display: flex;
     flex-wrap: nowrap;
-    position: relative;
-    margin: 20px;
+    margin-right: 20px;
 }
 
 .insp_imgs img{
-    height: 100%;
-    width: calc(100% / 3);
-    margin: 5px;
+    width: 90%;
     border-radius: 5px;
+}
+
+.insp_content .insp_txt{
+    max-width: 40%;
+    font-size: 1.3rem;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: justify;
+}
+
+.insp_txt .idezet{
+    margin: 5px;
+    font-size: 1.2rem;
+    font-style: oblique;
+}
+
+.insp_txt a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #ef233c;
+    border-radius: 5px;
+    padding: 5px 12px;
+    transition: all .3s;
+    width: fit-content;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.insp_txt a:hover{
+    background-color: #d8182f;
     transition: all .3s;
 }
 
-.insp_imgs img:hover{
-    transform: scale(1.1);
-    overflow: hidden;
-    transition: all .3s;
+.insp_txt a i {
+    font-size: 1rem;
+    padding-left: 10px;
 }
-
-
 
 @media only screen and (max-width: 1000px){
     .cikkek_box .box{
         height: fit-content;
     }
+
+    .insp_content{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .insp_imgs{
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .insp_imgs img{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .insp_content .insp_txt{
+        max-width: 80%;
+        margin-top: 30px;
+    }    
 }
 
 @media only screen and (max-width: 900px){
@@ -463,5 +525,14 @@ main{
 
     .cikkek_box .box h3{
         font-size: 1.2rem;
+    }
+
+    .insp_imgs img{
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .insp_content{
+        margin: 0;
     }
 }
