@@ -285,7 +285,8 @@ main{
     margin-top: 10px;
     font-size: 1.3rem;
     color: #ef233c;
-    padding-left: 10px;
+    padding: 0 10px;
+    font-weight: bold;
 }
 
 .cikkek_box .box .txt{
@@ -337,6 +338,7 @@ main{
 .insp_section h2{
     font-size: 2rem;
     font-style: oblique;
+    font-weight: bold;
     color: #ef233c;
     text-align: center;
     line-height: 2.5rem;
@@ -400,6 +402,19 @@ main{
 .insp_txt a i {
     font-size: 1rem;
     padding-left: 10px;
+}
+
+.cikkek.aktualis{
+    margin-top: 80px;
+}
+
+.cikkek.aktualis h2{
+    font-size: 2rem;
+    font-style: oblique;
+    color: #ef233c;
+    text-align: center;
+    line-height: 2.5rem;
+    margin: 10px;
 }
 
 @media only screen and (max-width: 1000px){
