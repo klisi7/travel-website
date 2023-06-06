@@ -74,6 +74,7 @@ nav{
 
 .menu_list ul{
     display: flex;
+    margin: 0;
 }
 
 .menu_list .nav_links{
@@ -167,6 +168,7 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #f0f3bd;
 }
 
 .celok{
@@ -299,7 +301,6 @@ main{
     background-color: #ef233c;
     border-radius: 5px;
     padding: 5px 12px;
-    margin-top: 10px;
     transition: all .3s;
 }
 
@@ -325,19 +326,40 @@ main{
     transition: all .3s;
 }
 
-.slider_section{
+.insp_section{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.slider_section h2{
+.insp_section h2{
     font-size: 2rem;
     font-style: oblique;
     color: #ef233c;
     text-align: center;
     line-height: 2.5rem;
+}
+
+.insp_imgs{
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    margin: 20px;
+}
+
+.insp_imgs img{
+    height: 100%;
+    width: calc(100% / 3);
+    margin: 5px;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+.insp_imgs img:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+    transition: all .3s;
 }
 
 
