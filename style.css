@@ -431,12 +431,13 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    width: 100%;
+    margin-top: 10px;
 }
 
 .footer_logo{
     display: flex;
     align-items: center;
-    width: 20%;
     text-decoration: none;
     color:#ef233c;
     font-size: 2rem;
@@ -468,7 +469,6 @@ footer{
 }
 
 .footer_links{
-    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -478,7 +478,6 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 100%;
     padding: 0;
     margin: 0;
 }
@@ -489,11 +488,47 @@ footer{
     margin: 5px;
     color: #ef233c;
     padding: 5px 10px;
+    transition: all .2s;
 }
 
-footer .up p{
-    width: 20%;
-    font-size: 1.2rem;
+.footer_links ul a:hover{
+    border-bottom: 1px solid #ef233c;
+    transition: all .2s;
+}
+
+footer p{
+    font-size: 1.5rem;
+    font-style: oblique;
+    margin: 40px 20px;
+    text-align: center;
+    color: #ef233c;
+    width: 90%;
+}
+
+footer .line{
+    width: 80%;
+    height: 1px;
+    background-color: #ef233c;
+}
+
+footer .contact_icons{
+    margin-top: 30px;
+}
+
+footer .contact_icons i{
+    font-size: 2rem;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.contact_icons a:nth-child(1){
+    color: rgb(63, 63, 235);
+}
+
+.contact_icons a:nth-child(2){
+    color: rgb(241, 27, 134);
 }
 
 @media only screen and (max-width: 1000px){
@@ -591,6 +626,15 @@ footer .up p{
     .cikkek_box .box{
         height: fit-content;
     }
+
+    .up{
+        flex-direction: column;
+    }
+
+    .up ul{
+        flex-direction: column;
+        margin-top: 30px;
+    }
 }
 
 @media only screen and (max-width: 750px){
@@ -629,5 +673,9 @@ footer .up p{
 
     .insp_content{
         margin: 0;
+    }
+
+    footer p{
+        font-size: 1.2rem;
     }
 }
