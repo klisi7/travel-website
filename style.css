@@ -417,6 +417,85 @@ main{
     margin: 10px;
 }
 
+footer{
+    background-color: #dadd9e;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.up{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer_logo{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    text-decoration: none;
+    color:#ef233c;
+    font-size: 2rem;
+    font-weight: bold;
+    transition: all .2s;
+    text-transform: uppercase;
+    width: fit-content;
+}
+
+.footer_logo span:nth-child(1){
+    color: #fff;
+    background-color: #ef233c;
+    padding: 5px 10px 5px 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.footer_logo span:nth-child(2){
+    color:#ef233c;
+    background-color:#fff;
+    padding: 5px 10px 5px 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.footer_logo img{
+    width: 100px;
+    height: 50px;
+}
+
+.footer_links{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_links ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.footer_links ul a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin: 5px;
+    color: #ef233c;
+    padding: 5px 10px;
+}
+
+footer .up p{
+    width: 20%;
+    font-size: 1.2rem;
+}
+
 @media only screen and (max-width: 1000px){
     .cikkek_box .box{
         height: fit-content;
@@ -497,7 +576,8 @@ main{
     .menu_list .nav_links{
         margin: 15px;
         font-weight: bold;
-        font-size: 1.3rem;
+        font-size: 1.6rem;
+        color: #ef233c;
     }
 
     .header_box h1{
