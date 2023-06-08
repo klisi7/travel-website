@@ -19,12 +19,21 @@ window.addEventListener("scroll", () =>{
     nav.classList.toggle("sticky", scrolled > 10);
 })
 
-document.querySelector(".header_btn").addEventListener("mouseover", () =>{
+if(document.querySelector(".header_btn")){
+    document.querySelector(".header_btn").addEventListener("mouseover", () =>{
     document.querySelector(".header_btn i").classList.add("go");
 })
 
 document.querySelector(".header_btn").addEventListener("mouseout", () =>{
     document.querySelector(".header_btn i").classList.remove("go");
 })
+}
 
+if(document.querySelector(".header_btn") == undefined){
+    document.querySelectorAll(".nav_links").forEach(links =>{
+        links.style.color = "#ef233c";
+        links.style.fontWeight = "100";
+        links.style.boxShadow = "none";
+    })
+}
 
