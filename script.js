@@ -40,10 +40,13 @@ if(document.querySelector(".header_btn") == undefined){
 document.querySelectorAll(".celok.uticelok .box").forEach(target =>{
     target.onclick = () =>{
         let selectedItem = document.querySelector(".celok.uticelok .celok_box .selected");
+        var selectedItemTxt = target.querySelector("a").innerHTML;
 
         if(selectedItem)
             selectedItem.classList.remove("selected");
 
         target.classList.add("selected");
+
+        console.log(selectedItemTxt);
     }
 })
