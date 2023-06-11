@@ -267,29 +267,6 @@ main{
     transition: all .2s;
 }
 
-.celok.uticelok .celok_box button{
-    height: 100%;
-    width: 100%;
-    color: #fff;
-    background-color: transparent;
-    border: none;
-    font-style: oblique;
-    font-size: 1.8rem;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    transition: all .3s;
-    text-shadow: 3px 2px #ef233c;
-}
-
-.celok.uticelok .celok_box button:hover{
-    backdrop-filter: blur(2px);
-    transition: all .3s;
-    background-color: rgba(255, 255, 255, .2);
-}
-
 .cikkek{
     width: 100%;
     margin-bottom: 5rem;
@@ -675,12 +652,6 @@ footer .contact_icons i{
     .up ul{
         flex-direction: column;
         margin-top: 30px;
-    }
-
-    .celok.uticelok .celok_box button:hover{
-        backdrop-filter: none;
-        transition: all .3s;
-        background-color: none;
     }
 }
 
