@@ -8,7 +8,7 @@ let uticelok = {
 
                 <div class="cikkek_box">
                     <div class="box">
-                    <img src="img/marmaras-1.jpg" alt="cyprus">
+                    <img src="img/Névtelen terv(6).png" alt="görögország">
                     
                     <h3>Neos Marmaras, Chalkidiki</h3>
 
@@ -23,7 +23,7 @@ let uticelok = {
                     </div>
 
                     <div class="box">
-                        <img src="img/athen-1.png" alt="cyprus">
+                        <img src="img/athen-1.png" alt="görögország">
                     
                         <h3>Athén</h3>
 
@@ -37,7 +37,7 @@ let uticelok = {
                     </div>
 
                     <div class="box">
-                        <img src="img/katerini-4.png" alt="cyprus">
+                        <img src="img/katerini-4.png" alt="görögország">
                     
                         <h3>Katerini</h3>
 
@@ -45,6 +45,20 @@ let uticelok = {
                             <p>
                                 Katerini egy festői város Észak-Görögországban, amely a gyönyörű Oroszország-hegység 
                                 közelében található, és kiváló kiindulópont a tengerparti üdülőhelyek és ...
+                            </p>
+                            <a href="#" class="elolvas_btn">Elolvasom</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="img/thessaloniki-1.png" alt="görögország">
+                    
+                        <h3>Thessaloniki</h3>
+
+                        <div class="txt">
+                            <p>
+                                Thessaloniki Észak-Görögországban található, és egy vibráló, kulturálisan gazdag város, 
+                                amely gazdag történelemmel, lenyűgöző ókori romokkal, élénk ...
                             </p>
                             <a href="#" class="elolvas_btn">Elolvasom</a>
                         </div>
@@ -61,17 +75,45 @@ let uticelok = {
 
                 <div class="cikkek_box">
                     <div class="box">
-                        <img src="img/cyprus-2.png" alt="cyprus">
+                        <img src="img/ayia-napa-1.png" alt="ciprus">
                         
-                        <h3>5 kihagyhatatlan hely, ha Cypruson jársz</h3>
+                        <h3>Ayia Napa</h3>
 
                         <div class="txt">
                             <p>
-                                Ha Cyprus mellett döntünk a nyaralásunk során, kétség kívül nehezen lőhetünk mellé.
-                                Sajátos tengerpartjainak, változatos látképének elbűvölő ereje van de vannak látványosságai,
-                                amit hiba lenne kihagyni ...
+                                Ayia Napa egy lenyűgöző üdülőhely Cipruson, amely híres a gyönyörű tengerpartjairól, 
+                                kristálytiszta vízéről és élénk éjszakai életéről, amely vonzza a fiatalokat és ...
                             </p>
                             <a href="#" class="elolvas_btn">Elolvasom</a>
+                        </div>
+                    </div>
+                    
+                    <div class="box">
+                        <img src="img/nicosia-1.png" alt="ciprus">
+                        
+                        <h3>Nicosia</h3>
+
+                        <div class="txt">
+                            <p>
+                                Nicosia Ciprus fővárosa, ahol a hagyomány és a modernizáció találkozik. Egyedülállóan 
+                                szép óvárosával, impozáns mecseteivel és templomaival, valamint ...
+                            </p>
+                            <a href="#" class="elolvas_btn">Elolvasom</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="img/paphos-1.png" alt="ciprus">
+                        
+                        <h3>Paphos</h3>
+
+                        <div class="txt">
+                            <p>
+                                Paphos Ciprus egyik gyöngyszeme, mely gazdag történelemmel és mesés tengerpartokkal 
+                                büszkélkedik. Az ókori romok, a Paphos-i régészeti park és a ...
+                            </p>
+                            <a href="#" class="elolvas_btn">Elolvasom</a>
+                        </div>
                     </div>
             </div>
             `
@@ -85,17 +127,44 @@ let uticelok = {
 
                 <div class="cikkek_box">
                     <div class="box">
-                    <img src="img/diving-1.png" alt="cyprus">
-                    
-                    <h3>Olaszország 5 legjobb búvárhelye kezdőknek</h3>
+                        <img src="img/napoly-1.png" alt="ciprus">
+                
+                        <h3>Nápoly</h3>
 
                         <div class="txt">
                             <p>
-                                Gondolkodtál már azon, hogy szabadtüdős merüléssel vagy könnyűbúvár felszereléssel merülj alá
-                                csodaszép tengerpartok habjai alá, hogy megcsodáld a meseszép vízivilág csodáit? 
-                                Itt van 5 olaszországi hely, ahol ...
+                                Nápoly Olaszország déli részén található, és lenyűgöző város, mely gazdag történelemmel, 
+                                művészettel és kulturális örökséggel büszkélkedhet. A Vezúv vulkán ...
                             </p>
-                            <a href="#" class="elolvas_btn">Elolvasom</a>
+                        <a href="#" class="elolvas_btn">Elolvasom</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="img/sicily-1.png" alt="ciprus">
+                
+                        <h3>Szicília</h3>
+
+                        <div class="txt">
+                            <p>
+                                Szicília a Földközi-tenger legnagyobb szigete, amely Olaszország déli részén helyezkedik 
+                                el. Ez a varázslatos helyszín gazdag történelemmel, lenyűgöző ...
+                            </p>
+                        <a href="#" class="elolvas_btn">Elolvasom</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="img/cagliari-1.png" alt="ciprus">
+                
+                        <h3>Cagliari</h3>
+
+                        <div class="txt">
+                            <p>
+                                Cagliari Sardinia fővárosa, amely a Földközi-tenger második legnagyobb szigetén található. 
+                                Ez a lenyűgöző város a művészetek, a történelem és a ...
+                            </p>
+                        <a href="#" class="elolvas_btn">Elolvasom</a>
                         </div>
                     </div>
                 </div>
@@ -110,15 +179,42 @@ let uticelok = {
 
                 <div class="cikkek_box">
                     <div class="box">
-                        <img src="img/tenerife-1.png" alt="cyprus">
-                
-                        <h3>Kanári-szigetek, Tenerife</h3>
+                        <img src="img/barcelona-1.png" alt="spanyolország">
+        
+                        <h3>Barcelona</h3>
 
                         <div class="txt">
                             <p>
-                                A Kanári-szigetek legnagyobbika, ahol akár télen is nyaralhatunk Spanyolországhoz tartozik,
-                                habár onnan 1000 km-re esik Afrika mellett. A sziget igazi turistaparadicsom számos utánozhatatlan
-                                ...
+                                Barcelona Spanyolország egyik legnépszerűbb és lenyűgöző városa, amely a Costa Brava 
+                                partvidékén található. A Gaudí által  ...
+                            </p>
+                        <a href="#" class="elolvas_btn">Elolvasom</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="img/malaga-1.png" alt="spanyolország">
+        
+                        <h3>Malaga</h3>
+
+                        <div class="txt">
+                            <p>
+                                Málaga egy gyönyörű város Dél-Spanyolországban, a Costa del Sol partvidékén. A város 
+                                lenyűgöző tengerpartjai, csillogó kék vizű öblök és ...
+                            </p>
+                        <a href="#" class="elolvas_btn">Elolvasom</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="img/mallorca-1.png" alt="spanyolország">
+        
+                        <h3>Mallorca</h3>
+
+                        <div class="txt">
+                            <p>
+                                Mallorca, Spanyolország Balear-szigetek legnagyobb tagja, és egy kivételes hely a 
+                                mediterrán paradicsom élményéhez. A lenyűgöző tengerpartok, mint ...
                             </p>
                         <a href="#" class="elolvas_btn">Elolvasom</a>
                         </div>
