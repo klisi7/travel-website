@@ -678,6 +678,7 @@ footer .contact_icons i{
 
     .cikkek_box .box{
         flex-basis: 90%;
+        width: 90%;
     }
 
     .cikkek_box .box h3{
