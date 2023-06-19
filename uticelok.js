@@ -246,31 +246,37 @@ let cikkek = {
 
                         <h3>Óváros:</h3>
                         <p>
-                            Nicosia központjában található Óváros, amely az egyetlen olyan városrész a világon, 
-                            amelyet még mindig kettéoszt a demarkációs vonal, elválasztva a görög és a török területeket. 
-                            Az Óváros hangulatos sikátorai között sétálva felfedezheted a középkori épületeket, mint 
-                            például a Leventis Múzeumot és a Székesegyházat. Látogass el az Óváros falain kívülre is, 
-                            hogy megcsodáld a várakat és a lenyűgöző műemlékeket.
+                            Nicosia központjában található Óváros, amely az egyetlen olyan városrész a világon, amelyet 
+                            még mindig kettéoszt a demarkációs vonal, elválasztva a görög és a török területeket. A 
+                            sétád során érezni fogod a múlt varázsát, miközben végigsétálsz a hangulatos sikátorokon 
+                            és megcsodálod a középkori épületeket. Az Óvárosban található Leventis Múzeum bemutatja 
+                            Ciprus történelmét és kulturális örökségét, a kezdetektől napjainkig. A Székesegyház pedig 
+                            impozáns építészeti jelenség, melyet érdemes meglátogatni és felfedezni annak díszes belső 
+                            tereit.
                         </p>
                         <img src="img/nicosia-old-town.jpg" alt="nicosia">
 
                         
                         <h3>Ciprusi Múzeum:</h3>
                         <p>
-                            Ha érdekel a ciprusi történelem és kultúra, látogass el a Ciprusi Múzeumba. Ez a múzeum a 
-                            legnagyobb és legjelentősebb múzeum az egész szigeten, ahol több ezer éves régészeti 
-                            leleteket és műtárgyakat láthatsz. Itt megismerheted Ciprus történelmének különböző 
-                            szakaszait, kezdve az ókori koriaktól egészen napjainkig.
+                            Ha érdekel a ciprusi történelem és kultúra, látogass el a Ciprusi Múzeumba, amely a 
+                            legnagyobb és legjelentősebb múzeum az egész szigeten. A múzeum gyűjteményében több 
+                            ezer éves régészeti leleteket és műtárgyakat láthatsz, amelyek bemutatják Ciprus 
+                            történelmének különböző szakaszait. A kiállítások által bepillantást nyerhetsz az ókori 
+                            kori civilizációk életébe, a görög és a római korból származó műalkotásoktól egészen a 
+                            középkori és a modern időkig.
                         </p>
-                        <img src="img/nicosia-muzeum.jpg" alt="nicosia">
+                        <img src="img/nicosia_muzeum.jpg" alt="nicosia">
 
 
                         <h3>Ledra utca:</h3>
                         <p>
-                            A Ledra utca Nicosia egyik legismertebb bevásárlóutcája, amely a két oldal közötti 
-                            határsávban található. Itt felfedezheted a modern üzleteket, butikokat, kávézókat és 
-                            éttermeket. Ne felejts el átlépni a határvonalat a török oldalra is, hogy megismerd az 
-                            ottani kulturális és gasztronómiai élményeket.
+                            A Ledra utca Nicosia egyik legismertebb és legforgalmasabb bevásárlóutcája, amely a két 
+                            oldal közötti határsávban található. A sétád során megtapasztalhatod a város két kulturális 
+                            és gazdasági részét, miközben felfedezed a modern üzleteket, butikokat, kávézókat és 
+                            éttermeket. Ahogy átléped a határt a török oldalra, újabb dimenziót nyitva meg előtted, 
+                            ahol megismerheted a török kultúrát, vásárolhatsz tradicionális ciprusi termékeket, és 
+                            élvezheted a helyi gasztronómiai specialitásokat.
                         </p>
                         <img src="img/nicosia-ledra.jpg" alt="nicosia">
 
@@ -278,9 +284,10 @@ let cikkek = {
                         <h3>Selimiye mecset:</h3>
                         <p>
                             A Selimiye mecset a város jelképe, és a világörökség része. Eredetileg gótikus stílusú 
-                            templomként épült, majd később oszmán mecsetté alakították át. A mecset lenyűgöző belső 
-                            terével és impozáns kupolájával elvarázsolja a látogatókat. Ne hagyd ki ezt a kulturális 
-                            látnivalót Nicosia felfedezése közben.
+                            templomként épült, majd később oszmán mecsetté alakították át. A mecset egyedi és 
+                            lenyűgöző belső terével, valamint impozáns kupolájával elvarázsolja a látogatókat. 
+                            Az építészeti részletek és a történelmi jelentősége együttesen teszik ezt a látnivalót 
+                            elengedhetetlenné Nicosia felfedezése során.
                         </p>
                         <img src="img/nicosia-selimiye.jpg" alt="nicosia">
 
@@ -289,8 +296,62 @@ let cikkek = {
                         <p>
                             A városfal egykor a város védelmét szolgálta. Ma már azonban a falak sétálóúttá alakultak, 
                             amelyeken barangolva izgalmas látnivalókhoz juthatsz. A városfal tetejéről fantasztikus 
-                            kilátás nyílik a városra és a környező területekre. Gyönyörködj a tájban, és ne felejtsd 
-                            el megörökíteni ezt a pillanatot egy fotóval.
+                            kilátás nyílik a városra és a környező területekre. Sétálj végig a falak mentén, és 
+                            fedezd fel a rejtett udvarokat, a védőbástyákat és a középkori kapukat. Ne felejtsd el 
+                            megörökíteni ezt a pillanatot egy fotóval, hogy emléked legyen a Nicosia-i kalandodról.
+                        </p>
+                        <img src="img/nicosia-wall.jpeg" alt="nicosia">
+
+                        <h3>Programajánló</h3>
+                        
+                        <ul>
+                            <li>
+                                Látogass el a központi piacra, ahol helyi ízekkel és ételekkel találkozhatsz. A piacon 
+                                számos friss termék, például zöldségek, gyümölcsök, halak és sajtok várják a látogatókat. 
+                                Kóstold meg a ciprusi konyha specialitásait, például a halloumit, a híres ciprusi sajtot, 
+                                vagy a souvlakit, a húspogácsát. Az autentikus ciprusi ízek és az élénk piaci hangulat 
+                                garantáltan felejthetetlen élményt nyújtanak.
+                            </li>
+
+                            <li>
+                                Vegyél részt egy városnéző túrán, ahol egy szakértő idegenvezető vezet végig a város 
+                                legfontosabb látnivalóin. Ez a lehetőség segít megismerni Nicosia történelmét és 
+                                kulturális örökségét. A szakértő magyarázatai és történetei segítségével mélyebben 
+                                megértheted a város sokszínűségét és a különböző kultúrák harmonikus együttélését.
+                            </li>
+
+                            <li>
+                                Látogass el a Nicosia modern negyedébe, ahol kávézók, éttermek és üzletek várnak. Ez a 
+                                rész a város dinamikus, pezsgő életét tükrözi, és lehetőséget ad arra, hogy még 
+                                közelebbről megismerd a helyi életstílust és divatot. Böngészd végig a butikokat, 
+                                ahol egyedi tervezésű ruhákra, kiegészítőkre és kézműves termékekre lelhetsz.
+                            </li>
+
+                            <li>
+                                Tölts el egy estét a Nicosia összművészeti központjában, ahol koncerteket, színházi 
+                                előadásokat és kiállításokat is megtekinthetsz. Ez a helyszín a város kulturális 
+                                életének központja, és ahol a helyi és nemzetközi művészek bemutatják tehetségüket. 
+                                Élvezd a zene, a tánc és a színház varázslatos világát, amelyek gazdagítják az itt 
+                                töltött idődet.
+                            </li>
+
+                            <li>
+                                Látogass el a Nicosia külvárosaiba, ahol csodálatos természeti látnivalók és vidéki 
+                                tájak várják. Fedezd fel a Troodos-hegység csodálatos panorámáját, ahol lehetőséged 
+                                nyílik túrázni és felfedezni a hegyvidéki falvakat. Ha inkább a tengerpartra vágyik 
+                                a szíved, látogass el a közeli strandokra, például a Fig Tree Bay-re vagy a Nissi 
+                                Beach-re, ahol élvezheted a kristálytiszta vizet és a napsütést.
+                            </li>
+                        </ul>
+
+                        <h3>Összegzés</h3>
+
+                        <p>
+                            Nicosia városa lenyűgöző kulturális és történelmi élményeket nyújt az ide látogatóknak. 
+                            Az Óváros sikátorainak, a modern bevásárlóutcák és a kulturális látnivalók gazdagsága 
+                            garantáltan emlékezetes utazást biztosít. Ne felejtsd el részt venni a helyi programokon 
+                            és felfedezni a ciprusi ízeket és gasztronómiát is. Nicosia varázslatos város, amely mindig 
+                            újabb felfedezésekre vár!
                         </p>
                     </section>
                 </article>
