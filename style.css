@@ -696,6 +696,25 @@ footer .contact_icons i{
     .cikkek_box .box{
         flex-basis: 80%;
     }
+
+    #target_uticel article img{
+        width: 100%; 
+    }
+
+    #target_uticel article p{
+        text-align: justify;
+        margin: 0 20px;
+        font-size: 1.3rem;
+    }
+
+    #target_uticel article ul li {
+        padding: 10px;
+        font-size: 1.3rem;
+    }
+
+    #target_uticel article ul {
+        margin: 15px;
+    }
 }
 
 
