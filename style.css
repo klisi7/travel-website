@@ -103,7 +103,7 @@ nav{
 }
 
 .header_box{
-    height: 97%;
+    height: 100%;
     width: 100%;
     background-image: url(img/header.png);
     background-size: cover;
@@ -163,14 +163,6 @@ nav{
     font-style: oblique;
     text-align: center;
     margin: 5px;
-}
-
-.bottom_gradient{
-    position: absolute;
-    bottom: 0;
-    height: 100px;
-    width: 100%;
-    background-image: linear-gradient(to bottom, transparent, #f0f3bd);
 }
 
 main{
