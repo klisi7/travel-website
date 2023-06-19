@@ -404,7 +404,7 @@ let cikkek = {
                             található kávézók és bárok lehetőséget nyújtanak egy frissítő ital vagy könnyű harapnivaló 
                             elfogyasztására a nap folyamán.
                         </p>
-                        <img src="img/makronissos-beach.jpg" alt="ayia-napa">
+                        <img src="img/makronissos-beach1.jpg" alt="ayia-napa">
 
 
                         <h3>Vízisí és vízi sportok:</h3>
