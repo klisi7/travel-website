@@ -2,7 +2,7 @@ let uticelok = {
     celok: [
         {
             hely: "Görögország",
-            tartalom: 
+            tartalom: /*html*/
             `
                 <section class="cikkek">
 
@@ -18,7 +18,7 @@ let uticelok = {
                                 és hangulatos kikötővel várja a látogatókat. A tradicionális
                                 ...
                             </p>
-                            <a href="#" class="elolvas_btn">Elolvasom</a>
+                            <a href="#article_cikk" class="elolvas_btn">Elolvasom</a>
                         </div>
                     </div>
 
@@ -32,7 +32,7 @@ let uticelok = {
                                 Athén Görögország fővárosa, ahol az ókori történelem és a modern életstílus találkozik,
                                  lenyűgözőantik emlékekkel, izgalmas múzeumokkal és pezsgő városi élettel ...
                             </p>
-                            <a href="#" class="elolvas_btn">Elolvasom</a>
+                            <a href="#article_cikk" class="elolvas_btn">Elolvasom</a>
                         </div>
                     </div>
 
@@ -46,7 +46,7 @@ let uticelok = {
                                 Katerini egy festői város Észak-Görögországban, amely a gyönyörű Oroszország-hegység 
                                 közelében található, és kiváló kiindulópont a tengerparti üdülőhelyek és ...
                             </p>
-                            <a href="#" class="elolvas_btn">Elolvasom</a>
+                            <a href="#article_cikk" class="elolvas_btn">Elolvasom</a>
                         </div>
                     </div>
 
@@ -60,7 +60,7 @@ let uticelok = {
                                 Thessaloniki Észak-Görögországban található, és egy vibráló, kulturálisan gazdag város, 
                                 amely gazdag történelemmel, lenyűgöző ókori romokkal, élénk ...
                             </p>
-                            <a href="#" class="elolvas_btn">Elolvasom</a>
+                            <a href="#article_cikk" class="elolvas_btn">Elolvasom</a>
                         </div>
                     </div>
                 </div>
@@ -69,7 +69,7 @@ let uticelok = {
 
         {
             hely: "Ciprus",
-            tartalom: 
+            tartalom: /*html*/
             `
                 <section class="cikkek">
 
@@ -84,7 +84,7 @@ let uticelok = {
                                 Ayia Napa egy lenyűgöző üdülőhely Cipruson, amely híres a gyönyörű tengerpartjairól, 
                                 kristálytiszta vízéről és élénk éjszakai életéről, amely vonzza a fiatalokat és ...
                             </p>
-                            <a href="#" class="elolvas_btn">Elolvasom</a>
+                            <a href="#article_cikk" class="elolvas_btn">Elolvasom</a>
                         </div>
                     </div>
                     
@@ -98,7 +98,7 @@ let uticelok = {
                                 Nicosia Ciprus fővárosa, ahol a hagyomány és a modernizáció találkozik. Egyedülállóan 
                                 szép óvárosával, impozáns mecseteivel és templomaival, valamint ...
                             </p>
-                            <a href="#" class="elolvas_btn">Elolvasom</a>
+                            <a href="#article_cikk" class="elolvas_btn">Elolvasom</a>
                         </div>
                     </div>
 
@@ -112,7 +112,7 @@ let uticelok = {
                                 Paphos Ciprus egyik gyöngyszeme, mely gazdag történelemmel és mesés tengerpartokkal 
                                 büszkélkedik. Az ókori romok, a Paphos-i régészeti park és a ...
                             </p>
-                            <a href="#" class="elolvas_btn">Elolvasom</a>
+                            <a href="#article_cikk" class="elolvas_btn">Elolvasom</a>
                         </div>
                     </div>
             </div>
@@ -121,7 +121,7 @@ let uticelok = {
 
         {
             hely: "Olaszország",
-            tartalom: 
+            tartalom: /*html*/
             `
                 <section class="cikkek">
 
@@ -136,7 +136,7 @@ let uticelok = {
                                 Nápoly Olaszország déli részén található, és lenyűgöző város, mely gazdag történelemmel, 
                                 művészettel és kulturális örökséggel büszkélkedhet. A Vezúv vulkán ...
                             </p>
-                        <a href="#" class="elolvas_btn">Elolvasom</a>
+                        <a href="#article_cikk" class="elolvas_btn">Elolvasom</a>
                         </div>
                     </div>
 
@@ -150,7 +150,7 @@ let uticelok = {
                                 Szicília a Földközi-tenger legnagyobb szigete, amely Olaszország déli részén helyezkedik 
                                 el. Ez a varázslatos helyszín gazdag történelemmel, lenyűgöző ...
                             </p>
-                        <a href="#" class="elolvas_btn">Elolvasom</a>
+                        <a href="#article_cikk" class="elolvas_btn">Elolvasom</a>
                         </div>
                     </div>
 
@@ -164,7 +164,7 @@ let uticelok = {
                                 Cagliari Sardinia fővárosa, amely a Földközi-tenger második legnagyobb szigetén található. 
                                 Ez a lenyűgöző város a művészetek, a történelem és a ...
                             </p>
-                        <a href="#" class="elolvas_btn">Elolvasom</a>
+                        <a href="#article_cikk" class="elolvas_btn">Elolvasom</a>
                         </div>
                     </div>
                 </div>
@@ -173,7 +173,7 @@ let uticelok = {
 
         {
             hely: "Spanyolország",
-            tartalom: 
+            tartalom: /*html*/
             `
                 <section class="cikkek">
 
@@ -188,7 +188,7 @@ let uticelok = {
                                 Barcelona Spanyolország egyik legnépszerűbb és lenyűgöző városa, amely a Costa Brava 
                                 partvidékén található. A Gaudí által  ...
                             </p>
-                        <a href="#" class="elolvas_btn">Elolvasom</a>
+                        <a href="#article_cikk" class="elolvas_btn">Elolvasom</a>
                         </div>
                     </div>
 
@@ -202,7 +202,7 @@ let uticelok = {
                                 Málaga egy gyönyörű város Dél-Spanyolországban, a Costa del Sol partvidékén. A város 
                                 lenyűgöző tengerpartjai, csillogó kék vizű öblök és ...
                             </p>
-                        <a href="#" class="elolvas_btn">Elolvasom</a>
+                        <a href="#article_cikk" class="elolvas_btn">Elolvasom</a>
                         </div>
                     </div>
 
@@ -216,12 +216,86 @@ let uticelok = {
                                 Mallorca, Spanyolország Balear-szigetek legnagyobb tagja, és egy kivételes hely a 
                                 mediterrán paradicsom élményéhez. A lenyűgöző tengerpartok, mint ...
                             </p>
-                        <a href="#" class="elolvas_btn">Elolvasom</a>
+                        <a href="#article_cikk" class="elolvas_btn">Elolvasom</a>
                         </div>
                     </div>
                 </div>
             `
         },
+    ]
+};
+
+let cikkek = {
+    hely: [
+        {
+            cel: "Nicosia",
+            cikk: /*html*/
+            `
+                <article id="article_cikk">
+                    <h2>Felfedezésre váró Nicosia: A ciprusi kulturális és történelmi kincsek városa</h2>
+
+                    <section>
+                        <p>
+                            Nicosia, Ciprus fővárosa, egy olyan város, amely tele van élettel, történelemmel 
+                            és kulturális kincsekkel. Gazdag múltja, keleti és nyugati hatásainak keveredése, 
+                            valamint modern városi élete mind-mind lenyűgöző élményeket nyújtanak az ide látogatóknak. 
+                            Ebben a cikkben felfedezzük Nicosia legfontosabb látnivalóit, valamint ajánlunk néhány 
+                            programot, hogy az utazásod igazán emlékezetessé váljon.
+                        </p>
+                        <img src="img/Nicosia1.jpg" alt="nicosia">
+
+                        <h3>Óváros:</h3>
+                        <p>
+                            Nicosia központjában található Óváros, amely az egyetlen olyan városrész a világon, 
+                            amelyet még mindig kettéoszt a demarkációs vonal, elválasztva a görög és a török területeket. 
+                            Az Óváros hangulatos sikátorai között sétálva felfedezheted a középkori épületeket, mint 
+                            például a Leventis Múzeumot és a Székesegyházat. Látogass el az Óváros falain kívülre is, 
+                            hogy megcsodáld a várakat és a lenyűgöző műemlékeket.
+                        </p>
+                        <img src="img/nicosia-old-town.jpg" alt="nicosia">
+
+                        
+                        <h3>Ciprusi Múzeum:</h3>
+                        <p>
+                            Ha érdekel a ciprusi történelem és kultúra, látogass el a Ciprusi Múzeumba. Ez a múzeum a 
+                            legnagyobb és legjelentősebb múzeum az egész szigeten, ahol több ezer éves régészeti 
+                            leleteket és műtárgyakat láthatsz. Itt megismerheted Ciprus történelmének különböző 
+                            szakaszait, kezdve az ókori koriaktól egészen napjainkig.
+                        </p>
+                        <img src="img/nicosia-muzeum.jpg" alt="nicosia">
+
+
+                        <h3>Ledra utca:</h3>
+                        <p>
+                            A Ledra utca Nicosia egyik legismertebb bevásárlóutcája, amely a két oldal közötti 
+                            határsávban található. Itt felfedezheted a modern üzleteket, butikokat, kávézókat és 
+                            éttermeket. Ne felejts el átlépni a határvonalat a török oldalra is, hogy megismerd az 
+                            ottani kulturális és gasztronómiai élményeket.
+                        </p>
+                        <img src="img/nicosia-ledra.jpg" alt="nicosia">
+
+
+                        <h3>Selimiye mecset:</h3>
+                        <p>
+                            A Selimiye mecset a város jelképe, és a világörökség része. Eredetileg gótikus stílusú 
+                            templomként épült, majd később oszmán mecsetté alakították át. A mecset lenyűgöző belső 
+                            terével és impozáns kupolájával elvarázsolja a látogatókat. Ne hagyd ki ezt a kulturális 
+                            látnivalót Nicosia felfedezése közben.
+                        </p>
+                        <img src="img/nicosia-selimiye.jpg" alt="nicosia">
+
+
+                        <h3>Nicosia városfal:</h3>
+                        <p>
+                            A városfal egykor a város védelmét szolgálta. Ma már azonban a falak sétálóúttá alakultak, 
+                            amelyeken barangolva izgalmas látnivalókhoz juthatsz. A városfal tetejéről fantasztikus 
+                            kilátás nyílik a városra és a környező területekre. Gyönyörködj a tájban, és ne felejtsd 
+                            el megörökíteni ezt a pillanatot egy fotóval.
+                        </p>
+                    </section>
+                </article>
+            `
+        }
     ]
 }
 
@@ -279,6 +353,16 @@ document.querySelectorAll(".celok.uticelok .box").forEach(target =>{
                 document.querySelector("#target_uticel").innerHTML = uticelok.celok[i].tartalom;
             }
         }
+
+        document.querySelectorAll("#target_uticel .elolvas_btn").forEach(target =>{
+            target.onclick = () =>{
+                let parentH3 = target.parentNode.parentNode.querySelector("h3").innerHTML;
+
+                for(let i = 0; i < cikkek.hely.length; i++){
+                    if(parentH3 == cikkek.hely[i].cel)
+                        document.querySelector("#target_uticel").innerHTML = cikkek.hely[i].cikk;
+                }
+            }
+        })
     }
 })
-
