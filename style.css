@@ -690,15 +690,15 @@ footer .contact_icons i{
         flex-direction: column;
         margin-top: 30px;
     }
+
+    #target_uticel article img{
+        width: 100%; 
+    }
 }
 
 @media only screen and (max-width: 750px){
     .cikkek_box .box{
         flex-basis: 80%;
-    }
-
-    #target_uticel article img{
-        width: 100%; 
     }
 
     #target_uticel article p{
