@@ -382,7 +382,7 @@ let cikkek = {
                             lazíthat a napozóágyakon. A strand környékén bárok és éttermek is találhatók, ahol frissítő 
                             italokat és helyi specialitásokat kóstolhatsz meg.
                         </p>
-                        <img src="img/ayia-napa-nissi-beach.jpg" alt="ayia-napa">
+                        <img src="img/nissi-beach.jpg" alt="ayia-napa">
 
                         
                         <h3>Ayia Napa kolostor:</h3>
@@ -404,7 +404,7 @@ let cikkek = {
                             található kávézók és bárok lehetőséget nyújtanak egy frissítő ital vagy könnyű harapnivaló 
                             elfogyasztására a nap folyamán.
                         </p>
-                        <img src="img/ayia-napa-makronissos2.jpg" alt="ayia-napa">
+                        <img src="img/makronissos-beach.jpg" alt="ayia-napa">
 
 
                         <h3>Vízisí és vízi sportok:</h3>
@@ -426,7 +426,7 @@ let cikkek = {
                             és a szórakozásra. Ayia Napa híres DJ-k és előadók rendszeres fellépéseiről, így garantáltan 
                             felejthetetlen éjszakákat tölthetsz el itt.
                         </p>
-                        <img src="img/ayia-napa-night.jpg" alt="ayia-napa">
+                        <img src="img/night-life.jpg" alt="ayia-napa">
                         <img src="img/ayia-napa-night.webp" alt="ayia-napa">
 
                         <h3>Programajánló</h3>
