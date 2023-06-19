@@ -356,6 +356,218 @@ let cikkek = {
                     </section>
                 </article>
             `
+        },
+        {
+            cel: "Ayia Napa",
+            cikk: /*html*/
+            `
+                <article id="article_cikk">
+                    <h2>Ayia Napa: A parti paradicsom Ciprus szívében</h2>
+
+                    <section>
+                        <p>
+                            Ayia Napa, Ciprus egyik legismertebb és legnépszerűbb üdülőhelye, amely híres a gyönyörű 
+                            strandjairól és vibráló éjszakai életéről. A türkizkék tenger, a finom homokos partok és a 
+                            pezsgő szórakozóhelyek kombinációja teszi Ayia Napát egy igazi parti paradicsommá. Ebben a 
+                            cikkben felfedezzük Ayia Napa legfontosabb látnivalóit és ajánlunk néhány programot, hogy 
+                            élménydús utazásod legyen.
+                        </p>
+                        <img src="img/ayia-napa-1.png" alt="ayia-napa">
+
+                        <h3>Nissi Beach:</h3>
+                        <p>
+                            Nissi Beach Ayia Napa egyik legismertebb és legszebb strandja, amely türkizkék vízzel és 
+                            fehér homokkal várja a látogatókat. Ez a gyönyörű partszakasz ideális a napozáshoz, a 
+                            vízi sportokhoz vagy egyszerűen csak a pihenéshez. A kristálytiszta vízben fürödhet, vagy 
+                            lazíthat a napozóágyakon. A strand környékén bárok és éttermek is találhatók, ahol frissítő 
+                            italokat és helyi specialitásokat kóstolhatsz meg.
+                        </p>
+                        <img src="img/ayia-napa-nissi-beach.jpg" alt="ayia-napa">
+
+                        
+                        <h3>Ayia Napa kolostor:</h3>
+                        <p>
+                            Ayia Napa kolostor egy csendes és békés hely a város központjában. Ez a hely eredetileg egy 
+                            kis kolostor volt, amelyet a 16. században építettek. A kolostor területén gyönyörű kertek 
+                            és egy kis múzeum található, amelyben bemutatják Ciprus történelmét és a kolostor történetét. 
+                            Fedezd fel a kolostor által kínált nyugalmat és szépséget, és élvezd a csodálatos kilátást 
+                            a városra.
+                        </p>
+                        <img src="img/ayia-napa-kolostor1.jpg" alt="ayia-napa">
+
+
+                        <h3>Makronissos Beach:</h3>
+                        <p>
+                            Makronissos Beach egy másik lenyűgöző strand Ayia Napában. Ez a partszakasz nagyszerű 
+                            választás azoknak, akik nyugodtabb és kevésbé zsúfolt helyre vágynak. A látványos 
+                            homokdűnék és a kristálytiszta víz itt is elkápráztatja a látogatókat. A strand közelében 
+                            található kávézók és bárok lehetőséget nyújtanak egy frissítő ital vagy könnyű harapnivaló 
+                            elfogyasztására a nap folyamán.
+                        </p>
+                        <img src="img/makronissos-beach.jpg" alt="ayia-napa">
+
+
+                        <h3>Vízisí és vízi sportok:</h3>
+                        <p>
+                            Ayia Napa híres a vízi sportok széles választékáról, amelyeket itt kipróbálhatsz. Ha 
+                            szereted az aktív kikapcsolódást, akkor próbáld ki a vízisít, a banánozást, a jet-ski-t 
+                            vagy akár a siklóernyőzést. A helyi strandokon számos vízi sportközpont található, ahol 
+                            bérelhetsz felszerelést és részt vehetsz a kalandokban. Élvezd a víz izgalmas világát és 
+                            hódolj szenvedélyednek a Ciprusi tengerparton.
+                        </p>
+                        <img src="img/water-sport.jpg" alt="ayia-napa">
+
+
+                        <h3>Ayia Napa népszerű éjszakai élete:</h3>
+                        <p>
+                            Ayia Napa híres az élénk és pezsgő éjszakai életéről. Az üdülőhely rengeteg bárt, klubot és 
+                            szórakozóhelyet kínál a bulizásra vágyóknak. Az egyik legismertebb hely a Napa Square, 
+                            ahol számos bár és klub található, és ahol az éjszaka folyamán lehetőséged van a táncolásra 
+                            és a szórakozásra. Ayia Napa híres DJ-k és előadók rendszeres fellépéseiről, így garantáltan 
+                            felejthetetlen éjszakákat tölthetsz el itt.
+                        </p>
+                        <img src="img/ayia-napa-night.jpg" alt="ayia-napa">
+                        <img src="img/ayia-napa-night.webp" alt="ayia-napa">
+
+                        <h3>Programajánló</h3>
+                        
+                        <ul>
+                            <li>
+                                Végy részt egy hajókiránduláson, és fedezd fel a környező szigeteket és barlangokat. Ayia 
+                                Napa számos hajókirándulást kínál, amelyek lehetőséget adnak a tengeri élményekre és a 
+                                gyönyörű tájak felfedezésére. Fedezd fel a Blue Lagoon kristálytiszta vizét és élvezd a 
+                                napfényt a fedélzeten.
+                            </li>
+
+                            <li>
+                                Látogass el az Ayia Napa Akváriumába, ahol csodálatos tengeri élőlényekkel találkozhatsz. 
+                                A helyszín ideális a családok számára, és interaktív élményeket nyújt a tengeri világ 
+                                felfedezésében. Ismerd meg a cápákat, a teknősöket és a színes halakat a közelről.
+                            </li>
+
+                            <li>
+                                Fedezd fel az Ayia Napa közeli természeti csodáit, például a Cavo Greko Nemzeti Parkot. 
+                                Ez a lenyűgöző természeti terület kiválóan alkalmas túrázáshoz, sétaútvonalakhoz és 
+                                piknikezéshez. Gyönyörködj a lélegzetelállító kilátásban, amelyet a sziklás partok, a 
+                                barlangok és a kék tenger nyújt.
+                            </li>
+
+                            <li>
+                                Látogass el az Ayia Napa szabadtéri moziába, ahol este filmeket vetítenek a szabad ég 
+                                alatt. Ez az alternatív program lehetőséget ad arra, hogy lazíts és élvezd a filmeket 
+                                egy különleges környezetben.
+                            </li>
+                        </ul>
+
+                        <h3>Összegzés</h3>
+
+                        <p>
+                            Ayia Napa egy valódi parti paradicsom, amely kombinálja a gyönyörű strandokat, az izgalmas 
+                            vízi sportokat és a pezsgő éjszakai életet. Fedezd fel a türkizkék vizet, élvezd a 
+                            napsütést a homokos partokon, és élvezd a vibráló szórakozóhelyek kínálta éjszakai életet. 
+                            Ayia Napa garantáltan emlékezetes és élményekben gazdag utazást kínál!
+                        </p>
+                    </section>
+                </article>
+            `
+        },
+        {
+            cel: "Paphos",
+            cikk: /*html*/
+            `
+                <article id="article_cikk">
+                    <h2>Paphos: Kulturális és történelmi gyöngyszemek Ciprus délnyugati részén</h2>
+
+                    <section>
+                        <p>
+                            Paphos, Ciprus délnyugati részén található, és gazdag kulturális és történelmi örökséggel 
+                            rendelkezik. A város híres a régészeti leletekről, a festői tájról és a lenyűgöző strandokról. 
+                            Ebben a cikkben felfedezzük Paphos legfontosabb látnivalóit, valamint ajánlunk néhány 
+                            programot, hogy a legtöbbet hozhasd ki az utazásodból.
+                        </p>
+                        <img src="img/paphos-1.png" alt="paphos">
+
+                        <h3>Paphos ókori romváros</h3>
+                        <p>
+                            Paphos ókori romvárosa a UNESCO Világörökség része, és lenyűgöző történelmi és régészeti 
+                            leleteket kínál. Itt található a híres Római mozaikok háza, amelyek gyönyörűen megőrzött 
+                            mozaikokat és freskókat mutatnak be az ókori görög mitológia témájában. A romvárosban 
+                            sétálva felfedezheted a régészeti helyszíneket, mint például a római amfiteátrumot, az 
+                            ókori erődöt és a múzeumot, ahol további érdekes kiállítások várják a látogatókat.
+                        </p>
+                        <img src="img/paphos-rom.jpg" alt="paphos">
+
+                        
+                        <h3>Paphos kikötő:</h3>
+                        <p>
+                            A Paphos kikötő egy hangulatos és festői hely, amely rengeteg kávézóval, étteremmel és 
+                            üzlettel várja a látogatókat. A kikötőben hagyományos ciprusi hajók, jachtok és halászhajók 
+                            láthatók. Sétálj végig a kikötő partján, élvezd a friss tengeri levegőt és gyönyörködj 
+                            a kilátásban. Itt található az ókori Odeon színház is, amely nyáron előadásoknak és 
+                            koncerteknek ad otthont.
+                        </p>
+                        <img src="img/paphos-kikoto.jpg" alt="paphos">
+
+
+                        <h3>Paphos városfal:</h3>
+                        <p>
+                            A városfal egykor Paphos védelmét szolgálta. Ma azonban a falak sétálóúttá alakultak, 
+                            amelyeken barangolva izgalmas látnivalókhoz juthatsz. Sétálj végig a falak mentén, és 
+                            fedezd fel a középkori bástyákat, a régi kapukat és a rejtett udvarokat. A falak tetejéről 
+                            gyönyörű kilátás nyílik a városra és a tengerre. Ne felejtsd el megörökíteni ezt a 
+                            pillanatot egy fotóval, hogy emléked legyen a paphosi kalandodról.
+                        </p>
+                        <img src="img/paphos-jo-wall.jpg" alt="paphos">
+
+
+                        <h3>Paphos Állatkert:</h3>
+                        <p>
+                            A Paphos Állatkert tökéletes hely a családok számára. Itt találhatók különböző állatfajok, 
+                            például emlősök, madarak és hüllők, amelyeket közelről megfigyelhetsz. Fedezd fel a gazdag 
+                            állatvilágot, és vegyél részt az etetések és bemutatók során. A gyerekek számára interaktív 
+                            élményeket nyújtó játszóterek is rendelkezésre állnak.
+                        </p>
+                        <img src="img/paphos-zoo.webp" alt="paphos">
+
+                        <h3>Programajánló</h3>
+                        
+                        <ul>
+                            <li>
+                                Látogass el a Paphos régészeti parkjába, ahol további ókori leleteket és romokat találsz. 
+                                Fedezd fel az ókori római fürdőket, a Dionüszosz Műtermet és a közeli Káto Paphosz 
+                                ásatási területet. Ez a terület tele van történelmi és kulturális látnivalókkal.
+                            </li>
+
+                            <li>
+                                Élvezd a Paphos közeli strandjainak nyújtotta pihenést és vízi sportokat. Például 
+                                látogass el a Coral Bay-hez, amely híres a homokos partjáról és a kristálytiszta vízről. 
+                                Itt búvárkodhatsz, sznorizhatsz vagy csak élvezheted a napsütést és a strandolást.
+                            </li>
+
+                            <li>
+                                Vegyél részt egy borkóstolón a Paphos közelében található borászatokban. Ciprus híres 
+                                boraival megismerkedhetsz, és élvezheted a borkészítés folyamatát.
+                            </li>
+
+                            <li>
+                                Kirándulj el a Paphos közelében található sziklás Akamas-félszigetre, amely lenyűgöző 
+                                természeti szépségekkel büszkélkedik. Fedezd fel a kanyonokat, a természetes 
+                                sziklaképződményeket és élvezd a lélegzetelállító kilátást a tengerre.
+                            </li>
+                        </ul>
+
+                        <h3>Összegzés</h3>
+
+                        <p>
+                            Paphos egy varázslatos város, amely tele van kulturális és történelmi látnivalókkal. Fedezd 
+                            fel az ókori romvárost, sétálj a városfalakon és gyönyörködj a kikötő hangulatában. Ne 
+                            felejtsd el részt venni a helyi programokon és felfedezni a gazdag állatvilágot. Paphos 
+                            tökéletes úti cél azoknak, akik szeretnék felfedezni Ciprus történelmi és kulturális 
+                            örökségét.
+                        </p>
+                    </section>
+                </article>
+            `
         }
     ]
 }
