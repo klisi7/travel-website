@@ -783,6 +783,86 @@ let cikkek = {
                 </article>
             `
         },
+        {
+            cel: "Thessaloniki",
+            cikk: /*html*/
+            `
+                <article id="article_cikk">
+                    <h2>Thessaloniki: Élénk kulturális és történelmi város Észak-Görögországban</h2>
+
+                    <section>
+                        <p>
+                            Thessaloniki, Észak-Görögország fővárosa és a régió legnagyobb városa, lenyűgöző úti cél azok számára, akik szeretnék felfedezni a görög kultúrát és történelmet. Ez a modern város gazdag múlttal rendelkezik, amely az ókori görög, római és bizánci korszakokra nyúlik vissza. Ebben a cikkben bemutatjuk Thessaloniki legfontosabb látnivalóit és ajánlunk néhány programot, hogy a látogatásod emlékezetessé váljon.
+                        </p>
+                        <img src="img/thessaloniki-fo.jpg" alt="thessaloniki">
+
+                        <h3>Fehér Torony:</h3>
+                        <p>
+                            A Fehér Torony Thessaloniki jelképe és az egyik legismertebb látnivalója. Ez a történelmi városfal része, amely a tengerparton áll, és fantasztikus kilátást nyújt a városra és a Thermaikos-öbölre. Sétálj fel a toronyba, és élvezd a panorámát. A torony kiállításokat is tart, amelyek bemutatják Thessaloniki történelmét és kulturális örökségét.
+                        </p>
+                        <img src="img/thessaloniki-torony.jpeg" alt="thessaloniki">
+
+                        
+                        <h3>Aristotelous tér:</h3>
+                        <p>
+                            Az Aristotelous tér a város főtereként szolgál, és a helyiek és a turisták találkozási pontja. Sétálj végig a teraszon, és élvezd a szép épületek, kávézók és éttermek hangulatát. A tér a tengerparti sétányhoz is közel helyezkedik el, ahol gyönyörű kilátás nyílik a tengerre és a hajókra.
+                        </p>
+                        <img src="img/thessaloniki-ter.jpeg" alt="thessaloniki">
+
+
+                        <h3>Rotunda:</h3>
+                        <p>
+                            A Rotunda egy hatalmas, kerek épület, amely eredetileg mausoleumként épült a 4. században. Később bizánci templommá alakították át. Ma a Rotunda múzeumként működik, és bemutatja a középkori művészet és építészet darabjait. A belső tér lenyűgöző mozaikokkal díszített.
+                        </p>
+                        <img src="img/thessaloniki-rotunda.jpg" alt="thessaloniki">
+
+
+                        <h3>Hét torony:</h3>
+                        <p>
+                            A Hét torony egy sor középkori torony, amelyek eredetileg a város védelmére szolgáltak. Ez a történelmi emlékhely egyedülálló látványosság Thessalonikiban. Sétálj végig a torony során, és élvezd a régi városfal hangulatát. A kilátás a torony tetejéről páratlan panorámát nyújt a városra.
+                        </p>
+                        <img src="img/thessaloniki-het.jpg" alt="thessaloniki">
+
+
+                        <h3>Archeológiai Múzeum:</h3>
+                        <p>
+                            Az Archeológiai Múzeum Thessaloniki egyik legfontosabb kulturális intézménye, amely lenyűgöző gyűjteménnyel rendelkezik az ókori görög és római kori művészetből. Fedezd fel a múzeum állandó kiállítását, amely bemutatja a régió gazdag történelmét és kulturális örökségét. Láthatod itt az ókori emlékműveket, kerámiákat és más régészeti leleteket.
+                        </p>
+                        <img src="img/thessaloniki-muzeum.jpg" alt="thessaloniki">
+
+                        <h3>Programajánló</h3>
+                        
+                        <ul>
+                            <li>
+                                Séta a Ladadika negyedben: Látogass el a Ladadika negyedbe, amely híres a szórakozóhelyeiről és éttermeiről. Fedezd fel az élénk hangulatú utcákat, ahol a kávézók és bárok mellett találhatsz tradicionális görög tavernákat is. Élvezd a görög ételeket és italokat, és szórakozz a helyi zenére.
+                            </li>
+
+                            <li>
+                                Aristotelous sétányon való sétálás: Sétálj végig az Aristotelous sétányon, amely a tengerparti sétány egyik része. Élvezd a friss tengeri levegőt és a gyönyörű kilátást. A sétány mentén számos kávézó és étterem található, ahol megpihenhetsz és élvezheted a görög vendégszeretetet.
+                            </li>
+
+                            <li>
+                                Modiano piac meglátogatása: Látogass el a Modiano piacra, ahol számos helyi élelmiszer, gyümölcs, zöldség és fűszer vásárolható. Fedezd fel a helyi ízeket és aromákat, és tapasztald meg a görög gasztronómia sokszínűségét. Beszélj a helyi árusokkal, és fedezd fel a piac vibráló hangulatát.
+                            </li>
+
+                            <li>
+                                Thessaloniki Egyetem Campusának felfedezése: Látogass el a Thessaloniki Egyetem Campusára, amely egyik legnagyobb és legrégebbi egyetem Görögországban. Sétálj végig a kampuszon, és csodáld meg az épületek neoklasszikus stílusát. A kampuszon található könyvtárak és múzeumok is érdekesek lehetnek.
+                            </li>
+
+                            <li>
+                                A tengerpart élvezete: Pihenj és lazíts a tengerparton, amely számos homokos és kavicsos partszakasszal rendelkezik. Élvezd a napsütést és a tengeri fürdőzést, vagy sétálj végig a part mentén. Thessaloniki tengerpartja kiváló lehetőséget nyújt a pihenésre és a feltöltődésre.
+                            </li>
+                        </ul>
+
+                        <h3>Összegzés</h3>
+
+                        <p>
+                            Thessaloniki egy város, amely gazdag kulturális és történelmi látnivalókban, valamint érdekes programokban bővelkedik. Fedezd fel ezt a vibráló várost, és élvezd a görög vendégszeretetet, amely mindenhol jelen van.
+                        </p>
+                    </section>
+                </article>
+            `
+        },
     ]
 }
 
