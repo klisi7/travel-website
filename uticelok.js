@@ -1079,6 +1079,216 @@ let cikkek = {
                 </article>
             `
         },
+        {
+            cel: "Barcelona",
+            cikk: /*html*/
+            `
+                <article id="article_cikk">
+                    <h2>Barcelona - A művészet és az élet összhangja</h2>
+
+                    <section>
+                        <p>
+                            Barcelona, Spanyolország második legnagyobb városa, egy lenyűgöző hely, amely kulturális gazdagsága, lenyűgöző építészete és élénk városi élete miatt vonzza a látogatókat. Ebben a cikkben felfedezzük Barcelona legfontosabb látnivalóit és ajánlunk néhány programot, hogy átélj egy felejthetetlen utazást ebben az inspiráló városban.
+                        </p>
+                        <img src="img/barcelona-fo.jpg" alt="barcelona">
+
+                        <h3>Sagrada Familia:</h3>
+                        <p>
+                            Látogass el Barcelona jelképének számító Sagrada Familiához, Antoni Gaudí híres építészeti mesterművéhez. Csodáld meg a katedrális impozáns homlokzatát, a fantasztikus szobrokat és a lenyűgöző belső tereket. A Sagrada Familia építészetének részleteiben megjelenik Gaudí kreativitása és egyedi stílusa.
+                        </p>
+                        <img src="img/sagradi.jpg" alt="barcelona">
+
+                        
+                        <h3>Park Güell:</h3>
+                        <p>
+                            Fedezd fel a Park Güell lenyűgöző parkot és Gaudí másik ikonikus művét. Sétálj a színes mozaikokkal díszített teraszokon, és csodáld meg a fantasztikus kilátást a városra. A park a természet és a művészet harmonikus összhangját testesíti meg.
+                        </p>
+                        <img src="img/park-guell.jpg" alt="barcelona">
+
+
+                        <h3>La Rambla:</h3>
+                        <p>
+                            Látogass el Barcelona híres sétálóutcájára, La Ramblára. Sétálj végig ezen a vibráló sugárúton, amely tele van élettel, utcaközértőkkel, virágárusokkal és utcazenészekkel. Ne hagyd ki a híres La Boqueria piacot sem, ahol friss ételeket és helyi specialitásokat kínálnak.
+                        </p>
+                        <img src="img/laramba.jpg" alt="barcelona">
+
+
+                        <h3>Barceloneta strand:</h3>
+                        <p>
+                            Pihenj és lazíts a Barceloneta tengerparton, ahol élvezheted a mediterrán napsütést és a homokos strandot. Vegyél részt a vízi sportokban, mint például a szörfözés vagy a paddleboarding, vagy élvezd a strandbárok és éttermek kínálatát.
+                        </p>
+                        <img src="img/barcelona-strand.jpg" alt="barcelona">
+
+
+                        <h3>Programajánló</h3>
+                        
+                        <ul>
+                            <li>
+                                Látogasd meg a Picasso Múzeumot, ahol Pablo Picasso híres műalkotásait gyűjtik össze. Fedezd fel a művész korai és későbbi munkáit, és mélyedj el a művészet világában.
+                            </li>
+
+                            <li>
+                                Sétálj keresztül Barcelona gótikus negyedén, ahol történelmi épületek, szűk sikátorok és reneszánsz paloták várják felfedezésre. Ne hagyd ki a Barcelona Katedrálist, a Plaça Reialt és a Santa Maria del Mar templomot.
+                            </li>
+
+                            <li>
+                                Ha futballrajongó vagy, látogasd meg a híres Camp Nou stadiont, ahol a Barcelona FC játszik. Vegyél részt egy stadiontúrán, és fedezd fel a klub történelmét és a futball világát.
+                            </li>
+
+                            <li>
+                                Pihenj és élvezd a zöldellő területeket a Park de la Ciutadellában. Sétálj a parkban, piknikezz vagy bérelj vízi járművet a tóban. Ne hagyd ki a híres Cascada szökőkutat és a Parlament épületét sem, amelyek a parkban találhatók.
+                            </li>
+                        </ul>
+
+                        <h3>Összegzés</h3>
+
+                        <p>
+                            Barcelona egy olyan város, amely egyesíti a művészetet, a kultúrát és az életörömöt. Fedezd fel Gaudí lenyűgöző épületeit, élvezd a mediterrán hangulatot és élj át egyedülálló élményeket ebben az inspiráló városban.
+                        </p>
+                    </section>
+                </article>
+            `
+        },
+        {
+            cel: "Malaga",
+            cikk: /*html*/
+            `
+                <article id="article_cikk">
+                    <h2>Malaga - A napfény és kultúra városa</h2>
+
+                    <section>
+                        <p>
+                            Malaga, a Costa del Sol gyöngyszeme, a napfény városa, amely a lenyűgöző tengerparti táj és a gazdag kulturális örökség kombinációjával varázsolja el látogatóit. Ebben a cikkben felfedezzük Malaga legfontosabb látnivalóit és programjait, hogy átélhess egy felejthetetlen utazást ezen a csodálatos helyen.
+                        </p>
+                        <img src="img/malaga-fo.jpg" alt="malaga">
+
+                        <h3>Alcazaba:</h3>
+                        <p>
+                            Látogass el a város központjában található Alcazaba erődre, amely az arab időkben épült. Sétálj a gyönyörű kertekben és az épületek között, és csodáld meg a maur művészet és az iszlám építészet remekeit. A váratól lenyűgöző kilátás nyílik a városra és a tengerre.
+                        </p>
+                        <img src="img/alcazaba.jpg" alt="malaga">
+
+                        
+                        <h3>Picasso Múzeum:</h3>
+                        <p>
+                            Malaga büszkélkedhet Pablo Picasso, a híres spanyol festő szülővárosával. Látogass el a Picasso Múzeumba, ahol a művész műalkotásait gyűjtötték össze. Fedezd fel Picasso életét és munkásságát a múzeum állandó és ideiglenes kiállításain keresztül.
+                        </p>
+                        <img src="img/picasso-muzeum.jpg" alt="malaga">
+
+
+                        <h3>Malaga katedrális:</h3>
+                        <p>
+                            Ne hagyd ki a híres Malaga katedrálist, amelyet "La Manquita" -nak is neveznek, mivel a déli torony soha nem fejeződött be. Csodáld meg a katedrális lenyűgöző gótikus és reneszánsz stílusát, és látogass el a tetőre, hogy élvezd a gyönyörű panorámát.
+                        </p>
+                        <img src="img/malaga-katedralis.jpg" alt="malaga">
+
+
+                        <h3>Málaga tengerparti sétány:</h3>
+                        <p>
+                            Pihenj és lazíts a hosszú tengerparti sétányon, ahol gyönyörű homokos strandok és éttermek várják a látogatókat. Sétálj a sétányon, élvezd a napfényt és a tengerparti hangulatot, vagy bérelj kerékpárt és fedezd fel a part menti területeket.
+                        </p>
+                        <img src="img/malaga-setany.jpg" alt="malaga">
+
+
+                        <h3>Programajánló</h3>
+                        
+                        <ul>
+                            <li>
+                                Fedezd fel a Régi Város szűk sikátorait és hangulatos teraszait. Sétálj a kis utcákon, és élvezd a helyi éttermek és bárok kínálatát. Ne hagyd ki a Plaza de la Merced teret, ahol Picasso szobrát találod.
+                            </li>
+
+                            <li>
+                                Látogass el a Malaga Botanikus Kertbe, ahol lenyűgöző növények és virágok várják a látogatókat. Sétálj a kertben, és élvezd a természet nyugalmát és szépségét.
+                            </li>
+
+                            <li>
+                                Élvezd a helyi piknikezőhelyeket, mint például a Parque de Malaga vagy a Parque de la Concepción. Vigyél magaddal piknikkosarat, és élvezd a szabadban eltöltött időt a családoddal vagy barátaiddal.
+                            </li>
+
+                            <li>
+                                Látogass el a Malaga Estrella nevű vidámparkba, ahol szórakoztató játékok és attrakciók várják a gyerekeket és a fiatalokat. Élvezd a vidámparkban töltött időt, és érezd az adrenalint a különféle szórakozási lehetőségek között.
+                            </li>
+                        </ul>
+
+                        <h3>Összegzés</h3>
+
+                        <p>
+                            Malaga egy olyan város, ahol a történelem és a modernitás találkozik. Élvezd a város mediterrán hangulatát, élvezd a helyi ételeket és italokat, és fedezd fel a gazdag kulturális örökséget. Ez a csodálatos város garantáltan lenyűgöző élményekkel ajándékoz meg téged.
+                        </p>
+                    </section>
+                </article>
+            `
+        },
+        {
+            cel: "Mallorca",
+            cikk: /*html*/
+            `
+                <article id="article_cikk">
+                    <h2>Mallorca - A paradicsomi sziget varázsa</h2>
+
+                    <section>
+                        <p>
+                            Mallorca, a Baleár-szigetek legnagyobb tagja, egy igazi paradicsomi úti cél. Gyönyörű tengerpartok, kristálytiszta víz, mesés hegyvidéki tájak és lenyűgöző városok jellemzik ezt a varázslatos szigetet. Ebben a cikkben felfedezzük Mallorca legfontosabb látnivalóit és ajánlunk néhány programot, hogy átélhess egy felejthetetlen utazást ezen a gyönyörű helyen.
+                        </p>
+                        <img src="img/mallorca-fo.jpg" alt="mallorca">
+
+                        <h3>Palma de Mallorca:</h3>
+                        <p>
+                            Látogass el Mallorca fővárosába, Palma de Mallorcába, ahol lenyűgöző műemlékek, történelmi épületek és élénk városi élet vár. Ne hagyd ki a híres Palma katedrálist a Bellver várat és a Passeig del Born sétányt. Sétálj a régi város szűk utcáin, és élvezd a helyi kávézók és éttermek hangulatát.
+                        </p>
+                        <img src="img/palma-mallorca.jpg" alt="mallorca">
+
+                        
+                        <h3>Sólyomfészek:</h3>
+                        <p>
+                            Fedezd fel a Serra de Tramuntana hegységben található Sólyomfészek (Sa Calobra) lenyűgöző tájait. Ez a festői vidék gyönyörű hegyvidéki útvonalakkal és sziklás öblökkel rendelkezik. Élvezd a sziklák közötti kirándulást, és csodáld meg a híres Sa Calobra sziklaívét és a Torrent de Pareis kanyont.
+                        </p>
+                        <img src="img/solyomfeszek.jpg" alt="mallorca">
+
+
+                        <h3>Valldemossa:</h3>
+                        <p>
+                            Látogass el a varázslatos Valldemossa városába, ahol lenyűgöző táj, szűk sikátorok és gyönyörű kőházak várják a látogatókat. Ne hagyd ki a híres Real Cartuja de Valldemossa kolostort, ahol Chopin és George Sand is megszálltak. Sétálj a városban, és élvezd a mediterrán hangulatot.
+                        </p>
+                        <img src="img/vallmedossa.jpg" alt="mallorca">
+
+
+                        <h3>Cala d'Or:</h3>
+                        <p>
+                            Pihenj és élvezd a nyugodt tengerparti hangulatot Cala d'Orban. Ez a szép üdülőhely lenyűgöző öblökkel, homokos strandokkal és kristálytiszta vízzel várja a látogatókat. Töltődj fel a napsütéssel, fürödj a tengerben és élvezd a strandbárok és éttermek kínálatát.
+                        </p>
+                        <img src="img/cala-dor.jpg" alt="mallorca">
+
+
+                        <h3>Programajánló</h3>
+                        
+                        <ul>
+                            <li>
+                                Látogass el a híres Borrás barlangokhoz, amelyek lenyűgöző cseppkőképződményekkel és lenyűgöző természeti képződményekkel büszkélkednek. Fedezd fel a barlangok rejtett szépségét, és csodáld meg a természeti csodákat.
+                            </li>
+
+                            <li>
+                                Látogass el a híres sótermelési helyekre, például Es Trenc-sóra vagy a Salines d'Es Trenc-re. Ismerd meg a hagyományos sótermelés folyamatát és történetét, és élvezd a lenyűgöző tájakat.
+                            </li>
+
+                            <li>
+                                Vegyél részt egy Sólyom show-n, ahol megfigyelheted ezeket a gyönyörű ragadozómadarakat repülni és bemutatni különleges képességeiket. Ez egy izgalmas és tanulságos élmény a természet szerelmeseinek.
+                            </li>
+
+                            <li>
+                                Látogass el a helyi piacokra, például a Mercat de l'Olivarra vagy a Mercat de Santa Catalinára, ahol friss ételeket, helyi termékeket és kézműves ajándéktárgyakat találsz. Élvezd a piaci hangulatot és kóstolj meg néhány helyi specialitást.
+                            </li>
+                        </ul>
+
+                        <h3>Összegzés</h3>
+
+                        <p>
+                            Mallorca egy igazi paradicsom a természet és a tenger szerelmeseinek. Élvezd a csodálatos tájakat, pihenj a tengerparton, fedezd fel a történelmi városokat és élvezd a helyi kultúrát. Ez a varázslatos sziget garantáltan felejthetetlen élményekkel ajándékoz meg téged.
+                        </p>
+                    </section>
+                </article>
+            `
+        },
     ]
 }
 
