@@ -863,6 +863,222 @@ let cikkek = {
                 </article>
             `
         },
+        {
+            cel: "Nápoly",
+            cikk: /*html*/
+            `
+                <article id="article_cikk">
+                    <h2>Nápoly: A művészet, a kultúra és a gasztronómia otthona</h2>
+
+                    <section>
+                        <p>
+                            Nápoly, Olaszország déli részén található város, amely híres a művészeti örökségéről, kulturális életéről és természetesen a világhírű olasz konyháról. Ez a vibráló város egyedülálló hangulatot áraszt, és rengeteg látnivalóval és programlehetőséggel várja az utazókat. Ebben a cikkben bemutatjuk Nápoly legfontosabb látnivalóit és ajánlunk néhány programot, hogy felfedezd a város szépségeit és élvezd az olasz életstílust.
+                        </p>
+                        <img src="img/napoly-fo.jpg" alt="napoly">
+
+                        <h3>Pompeii régészeti park:</h3>
+                        <p>
+                            Látogass el a Pompeii régészeti parkba, amely Nápoly közelében található. Ez a helyszín lenyűgöző betekintést nyújt az ókori Római Birodalom életébe. Séta a régészeti lelőhelyen, és csodáld meg a több száz éves romokat, épületeket és freskókat. A Pompeii látogatása felejthetetlen élményt nyújt a történelem és a művészet szerelmeseinek.
+                        </p>
+                        <img src="img/napoly-pompei.jpg" alt="napoly">
+
+                        
+                        <h3>Nápolyi Múzeumok:</h3>
+                        <p>
+                            Látogass el Nápoly híres múzeumaiba, amelyek gazdag gyűjteményekkel rendelkeznek. A Nápolyi Régészeti Múzeum a világ egyik legjelentősebb régészeti múzeuma, ahol ókori görög és római műalkotásokat láthatsz. A Capodimonte Múzeum pedig lenyűgöző festményeket és szobrokat kínál, köztük Caravaggio, Botticelli és Tiziano remekeit.
+                        </p>
+                        <img src="img/napoly-muzeum.jpg" alt="napoly">
+
+
+                        <h3>Castel dell'Ovo:</h3>
+                        <p>
+                            Látogass el a Castel dell'Ovo nevű középkori várhoz, amely a város ikonikus jelképe. Ez a vár egyik legrégebbi erődített épülete Európában, és fantasztikus kilátást nyújt a Nápolyi-öbölre. Sétálj a vár területén, és élvezd a tengerre nyíló panorámát. A vár mellett található strandokon pihenhetsz és élvezheted a napsütést.
+                        </p>
+                        <img src="img/napoly-castel.jpg" alt="napoly">
+
+
+                        <h3>San Gregorio Armeno:</h3>
+                        <p>
+                            Látogass el a San Gregorio Armeno negyedbe, ahol a híres karácsonyi nativity (betlehemi) szobrok készülnek. Fedezd fel a szűk utcákat, és nézd meg a különböző méretű és stílusú szobrokat, amelyek a hagyományos olasz karácsonyi dekoráció részei. Itt számos kézműves műhelyt találhatsz, ahol vásárolhatsz egyedi souvenirokat.
+                        </p>
+                        <img src="img/napoly-negyed.jpg" alt="napoly">
+
+
+                        <h3>Nápolyi gasztronómia élvezete:</h3>
+                        <p>
+                            Nápoly híres a fantasztikus olasz konyháról. Kóstold meg a híres nápolyi pizzát, amelyet eredetileg itt találtak fel. Látogass el egy autentikus pizzériába, és élvezd a frissen sütött, ízletes pizzát. Ne hagyd ki a híres sfogliatella és babà süteményeket sem, amelyek a város jellegzetes édességei. Próbáld ki a friss tenger gyümölcseit, a mozzarellát és más helyi specialitásokat is.
+                        </p>
+                        <img src="img/napoly-gasztronomia.jpg" alt="napoly">
+
+                        <h3>Programajánló</h3>
+                        
+                        <ul>
+                            <li>
+                                Fedezd fel Nápoly föld alatti világát a város földalatti városának túrájával. Ez a hálózat az ókori időkből származik, és titkos alagutakból és kamrákból áll. Sétálj végig a földalatti városban, és ismerd meg a régió történelmét és titkait.
+                            </li>
+
+                            <li>
+                                Sétálj végig a híres Spaccanapoli sétálóutcán, amely hosszan kanyargó utcákon keresztül halad a városközpontban. Fedezd fel a helyi életet, az apró üzleteket, a kávézókat és a szűk sikátorokat. Kóstolj meg egy finom eszpresszót és próbáld ki a híres nápolyi édességeket.
+                            </li>
+
+                            <li>
+                                Ha szereted a természetet és az aktív kikapcsolódást, látogass el a Nápolytól nem messze található Vesúv vulkánhoz. Ez az egyik legismertebb vulkán a világon, és fantasztikus kilátást nyújt a környező tájra. Kövesd a túraútvonalakat, és fedezd fel a vulkán csodáit.
+                            </li>
+
+                            <li>
+                                Fedezd fel Nápoly környékét és látogass el a gyönyörű Sorrento városába és az Amalfi-part csodálatos településeire. Élvezd a gyönyörű tengerpartot, az elegáns üdülőhelyeket és az olasz életstílust. Próbáld ki a helyi limoncellót, és élvezd a lenyűgöző kilátást az Amalfi-part meredek szikláiról.
+                            </li>
+                        </ul>
+
+                        <h3>Összegzés</h3>
+
+                        <p>
+                            Nápoly egy olyan város, amely gazdag kulturális és gasztronómiai élményeket kínál. Fedezd fel a város szépségeit, és élvezd az olasz vendégszeretetet és életérzést.
+                        </p>
+                    </section>
+                </article>
+            `
+        },
+        {
+            cel: "Szicília",
+            cikk: /*html*/
+            `
+                <article id="article_cikk">
+                    <h2>Felfedezésre váró gyöngyszem - Szicília varázslatos szigete</h2>
+
+                    <section>
+                        <p>
+                            Szicília, Olaszország legnagyobb szigete, lenyűgöző helyszín, amely kultúrával, történelemmel és lenyűgöző természeti szépséggel büszkélkedik. Az egész szigeten eloszlanak ókori romok, normann kastélyok, barokk épületek és mesés tengerpartok. Ebben a cikkben bemutatjuk Szicília legfőbb látnivalóit és ajánlunk néhány programot, hogy felfedezd ezt a varázslatos szigetet és átélj egy felejthetetlen utazást.
+                        </p>
+                        <img src="img/szicilia-fo.jpg" alt="szicilia">
+
+                        <h3>Palermo:</h3>
+                        <p>
+                            Látogass el Szicília fővárosába, Palermóba, amely egyedülálló keveréke az arab, a normann és az olasz kultúrának. Fedezd fel a Palermo Katedrálist, a Normann Palotát és a Capella Palatina-t, amelyek lenyűgöző művészeti és építészeti kincsekkel büszkélkednek. Sétálj a híres Vucciria és Ballarò piacokon, ahol felfedezheted a helyi kulináris élményeket és az autentikus szicíliai konyhát.
+                        </p>
+                        <img src="img/palermo.jpg" alt="szicilia">
+
+                        
+                        <h3>Taormina:</h3>
+                        <p>
+                            Látogass el a gyönyörű Taorminába, amely egy mesés tengerparti város Szicília keleti partján. Élvezd az ókori görög színház lenyűgöző panorámáját a tengerre, és sétálj végig a Corso Umberto elegáns sétálóutcán, ahol butikok, kávézók és éttermek várják a látogatókat. Ne hagyd ki az Isola Bella nevű természetvédelmi területet sem, ahol gyönyörű strand és kristálytiszta víz várja a pihenni vágyókat.
+                        </p>
+                        <img src="img/taormina.jpg" alt="szicilia">
+
+
+                        <h3>Etna vulkán:</h3>
+                        <p>
+                            Fedezd fel Európa legmagasabb és legaktívabb vulkánját, az Etnát. Vállalkozz egy túrára az Etna Nemzeti Parkban, és csodáld meg a lenyűgöző látképet a környező tájra. Ha kalandvágyó vagy, akkor akár egy szervezett túrán részt vehetsz, és közelről megtekintheted a vulkáni aktivitást.
+                        </p>
+                        <img src="img/etna.jpg" alt="szicilia">
+
+
+                        <h3>Siracusa:</h3>
+                        <p>
+                            Látogass el Siracusa városába, amely Szicília déli részén található. Ez az ókori görög város gazdag történelmi örökséggel büszkélkedik. Látogasd meg a Neapolis Régészeti Parkot, ahol megtalálható a híres görög színház és az Orecchio di Dionisio nevű barlang. Ne hagyd ki a szép Ortigia szigetét sem, ahol számos történelmi épület és szűk sikátor vár felfedezésre.
+                        </p>
+                        <img src="img/siracusa.jpg" alt="szicilia">
+
+
+                        <h3>Programajánló</h3>
+                        
+                        <ul>
+                            <li>
+                                Fedezd fel a szicíliai gasztronómia gazdagságát egy kulináris túra keretében. Látogass el helyi piacokra, és ismerkedj meg a friss helyi alapanyagokkal. Próbáld ki a híres szicíliai ételeket, mint például az arancini, a cannoli és a pasta alla norma. Kóstolj meg szicíliai borokat és olívaolajakat is.
+                            </li>
+
+                            <li>
+                                Látogass el Agrigento városába, ahol megtalálható a híres Valle dei Templi. Ez a régészeti helyszín a legnagyobb görög templomkomplexum a világon. Sétálj végig a lenyűgözően szép templomok között, és fedezd fel a görög kultúra maradványait.
+                            </li>
+
+                            <li>
+                                Fedezd fel Szicília egyik gyöngyszemét, a gyönyörű Favignana szigetét. Ez a kis paradicsomi sziget az Egadi-szigetek része, és türkizkék vizű strandokkal és kristálytiszta vízzel büszkélkedik. Tölts el egy napot a szigeten, élvezd a napfényt, ússz a tengerben és élvezd a nyugodt kikapcsolódást.
+                            </li>
+
+                            <li>
+                                Látogass el Cefalú városába, amely egy festői tengerparti település Szicília északi partján. Csodáld meg a híres Cefalú katedrálist, és sétálj a városka szűk utcáin. Élvezd a homokos strandot és az északi part gyönyörű tájait.
+                            </li>
+                        </ul>
+
+                        <h3>Összegzés</h3>
+
+                        <p>
+                            Szicília varázslatos szigete rengeteg látnivalóval és programlehetőséggel várja az utazókat. Fedezd fel a történelmi helyszíneket, élvezd a gyönyörű strandokat és ízleld meg a szicíliai konyha remekeit. Ez a lenyűgöző helyszín biztosan felejthetetlen élményt nyújt számodra.
+                        </p>
+                    </section>
+                </article>
+            `
+        },
+        {
+            cel: "Cagliari",
+            cikk: /*html*/
+            `
+                <article id="article_cikk">
+                    <h2>Cagliari - Szardínia varázslatos fővárosa</h2>
+
+                    <section>
+                        <p>
+                            Cagliari, Szardínia gyönyörű szigetének fővárosa, olyan hely, amely bűvöletbe ejti látogatóit a történelem, a kultúra és a lélegzetelállító természeti szépségek által. Ebben a cikkben felfedezzük Cagliari legfontosabb látnivalóit, és programokat ajánlunk, hogy átélhess egy felejthetetlen utazást ezen a varázslatos helyen.
+                        </p>
+                        <img src="img/cagliari-fo.jpeg" alt="cagliari">
+
+                        <h3>Castello negyed:</h3>
+                        <p>
+                            Látogass el Cagliari központjában található Castello negyedbe, ahol a középkori várfalon belül lenyűgöző építészeti csodák várják a látogatókat. Sétálj a szűk sikátorokban, fedezd fel a középkori katedrálist, és csodáld meg a Pisan tornyot, amely fantasztikus kilátást nyújt a városra és a tengerre. Élvezd a festői kilátást a városra a Bastione di Saint Remy kilátópontjáról.
+                        </p>
+                        <img src="img/castello.jpg" alt="cagliari">
+
+                        
+                        <h3>Poetto strand:</h3>
+                        <p>
+                            Pihenj és lazíts a híres Poetto strandon, amely Cagliari városának homokos partszakasza. Ez a hosszú, gyönyörű tengerpart tökéletes helyszín a napozáshoz, úszáshoz és strandoláshoz. Élvezd a kristálytiszta vizet és a szikrázó napsütést, vagy bérelj vízi sporteszközöket, mint például szörfdeszkát vagy kajakot, és fedezd fel a part menti vizeket.
+                        </p>
+                        <img src="img/poetto.jpg" alt="cagliari">
+
+
+                        <h3>Sant'Efisio fesztivál:</h3>
+                        <p>
+                            Ha a májusi időszakra látogatsz Cagliariba, ne hagyd ki a híres Sant'Efisio fesztivált. Ez a hagyományos szardíniai ünnep az egyik legnagyobb és legfontosabb vallási fesztivál Olaszországban. A helyiek hagyományos öltözékben vonulnak fel, és a sziget védőszentjét, Sant'Efisiót tiszteletükre viszik körbe a városban.
+                        </p>
+                        <img src="img/cagliari-fest.jpg" alt="cagliari">
+
+
+                        <h3>Szardíniai múzeum:</h3>
+                        <p>
+                            Látogass el a Szardíniai múzeumba, ahol megismerheted Szardínia gazdag történelmét és kulturális örökségét. A múzeum kiállításai bemutatják az ókori népek, mint például a nuraghek és a föníciaiak életét és kultúráját. Fedezd fel a régészeti leleteket, a festményeket és a helyi kézművesművészeti tárgyakat.
+                        </p>
+                        <img src="img/szardinia-muzeum.jpg" alt="cagliari">
+
+
+                        <h3>Programajánló</h3>
+                        
+                        <ul>
+                            <li>
+                                Kóstold meg Szardínia autentikus konyháját, amely különleges és ízletes ételeket kínál. Próbáld ki a híres malloreddust, a culurjont és a pecorino sajtot, amely Szardínia egyik jelképe. Látogass el helyi éttermekbe és kávézókba, és élvezd a helyi ízeket.
+                            </li>
+
+                            <li>
+                                Látogass el a közelben található Nora régészeti területre, amely Szardínia legrégebbi és legfontosabb régészeti lelőhelyei közé tartozik. Fedezd fel az ókori római város romjait, a színházat és a mozaikokat. Élvezd a tengerparti tájat és a történelmi atmoszférát.
+                            </li>
+
+                            <li>
+                                Fedezd fel a Molentargius-Saline Regionális Parkot, ahol egyedülálló madárvilág és gyönyörű táj vár. Sétálj a parkban található sólepárlók között, és csodáld meg a flamingókat, a szalonkákat és más védett madárfajokat. Ez a természeti rezervátum kiváló hely a természet szerelmeseinek és a madármegfigyelőknek.
+                            </li>
+
+                            <li>
+                                Látogass el a Santa Maria katedrálisba, amely Szardínia egyik legfontosabb vallási épülete. Csodáld meg a katedrális lenyűgöző gótikus és barokk stílusú építészetét, valamint a belső díszítéseket és műalkotásokat.
+                            </li>
+                        </ul>
+
+                        <h3>Összegzés</h3>
+
+                        <p>
+                            Cagliari lenyűgöző város, amely egyedülálló történelmi és természeti kincsekkel büszkélkedik. Fedezd fel a város kulturális örökségét, élvezd a gyönyörű strandokat és kóstold meg a helyi gasztronómia remekeit. Ez a varázslatos helyszín garantáltan felejthetetlen élményt nyújt az utazóknak.
+                        </p>
+                    </section>
+                </article>
+            `
+        },
     ]
 }
 
