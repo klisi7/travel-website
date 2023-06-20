@@ -63,6 +63,34 @@ let uticelok = {
                             <a href="#article_cikk" class="elolvas_btn">Elolvasom</a>
                         </div>
                     </div>
+
+                    <div class="box">
+                    <img src="img/zakhyntos4.jpg" alt="görögország">
+                    
+                    <h3>Zakhyntos</h3>
+
+                        <div class="txt">
+                            <p>
+                                Zakynthos Görögország Ion-tengeren található lenyűgöző szigete, amely híres a gyönyörű, 
+                                kék lagúnákról, mesés strandokról és a híres Navagio-öbölről ...
+                            </p>
+                            <a href="#article_cikk" class="elolvas_btn">Elolvasom</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                    <img src="img/sarti2.jpg" alt="görögország">
+                    
+                    <h3>Sarti</h3>
+
+                        <div class="txt">
+                            <p>
+                                Sarti egy bájos üdülőhely, amely Görögországban, a Halkidiki-félszigeten található. 
+                                Ez a festői település büszkélkedik csodálatos homokos ...
+                            </p>
+                            <a href="#article_cikk" class="elolvas_btn">Elolvasom</a>
+                        </div>
+                    </div>
                 </div>
             `
         },
@@ -115,6 +143,20 @@ let uticelok = {
                             <a href="#article_cikk" class="elolvas_btn">Elolvasom</a>
                         </div>
                     </div>
+
+                    <div class="box">
+                        <img src="img/Larnaca-latnivalok-utazas.jpg" alt="ciprus">
+                        
+                        <h3>Larnaka</h3>
+
+                        <div class="txt">
+                            <p>
+                                Larnaca Ciprus legöregebb városa, amely a keleti partvidéken található. Ez a tengerparti
+                                 város híres a gyönyörű homokos strandjairól és a tiszta ...
+                            </p>
+                            <a href="#article_cikk" class="elolvas_btn">Elolvasom</a>
+                        </div>
+                    </div>
             </div>
             `
         },
@@ -127,7 +169,7 @@ let uticelok = {
 
                 <div class="cikkek_box">
                     <div class="box">
-                        <img src="img/napoly-1.png" alt="ciprus">
+                        <img src="img/napoly-1.png" alt="olasz">
                 
                         <h3>Nápoly</h3>
 
@@ -141,7 +183,7 @@ let uticelok = {
                     </div>
 
                     <div class="box">
-                        <img src="img/sicily-1.png" alt="ciprus">
+                        <img src="img/sicily-1.png" alt="olasz">
                 
                         <h3>Szicília</h3>
 
@@ -155,7 +197,7 @@ let uticelok = {
                     </div>
 
                     <div class="box">
-                        <img src="img/cagliari-1.png" alt="ciprus">
+                        <img src="img/cagliari-1.png" alt="olasz">
                 
                         <h3>Cagliari</h3>
 
@@ -167,6 +209,21 @@ let uticelok = {
                         <a href="#article_cikk" class="elolvas_btn">Elolvasom</a>
                         </div>
                     </div>
+
+                    <div class="box">
+                        <img src="img/rimini-box.jpg" alt="olasz">
+                
+                        <h3>Rimini</h3>
+
+                        <div class="txt">
+                            <p>
+                                Rimini egy népszerű üdülőhely Olaszországban, amely az Adriai-tenger partján található. 
+                                Ez a város híres a gyönyörű homokos strandjairól, a ...
+                            </p>
+                            <a href="#article_cikk" class="elolvas_btn">Elolvasom</a>
+                        </div>
+                    </div>
+                    
                 </div>
             `
         },
@@ -570,6 +627,75 @@ let cikkek = {
             `
         },
         {
+            cel: "Larnaka",
+            cikk: /*html*/
+            `
+                <article id="article_cikk">
+                    <h2> Larnaca - A történelem és a tengerpart ölelése</h2>
+
+                    <section>
+                        <p>
+                            Larnaca Ciprus legnagyobb kikötővárosa és turisztikai központja. Ez a varázslatos hely a gazdag történelemmel, a kulturális örökséggel és a gyönyörű tengerpartokkal büszkélkedik. Ebben a cikkben felfedezzük Larnaca legfontosabb látnivalóit és ajánlunk néhány programot, hogy átélhess egy felejthetetlen utazást ezen a lenyűgöző helyen.
+                        </p>
+                        <img src="img/larnaka-fo.jpg" alt="larnaca">
+
+                        <h3>Finikoudes tengerpart:</h3>
+                        <p>
+                            Látogass el a híres Finikoudes tengerpartra, ahol finom homok és kristálytiszta tenger vár. Sétálj a part mentén, pihenj a napsütésben, vagy merülj el a frissítő tengerben. A tengerparton számos kávézó és étterem található, ahol élvezheted a helyi konyhát és a kilátást a tengerre.
+                        </p>
+                        <img src="img/larnaka-finicoudes.jpg" alt="larnaca">
+
+                        
+                        <h3>Larnaca sétálóutcái:</h3>
+                        <p>
+                            Fedezd fel Larnaca hangulatos sétálóutcáit, például a Zinonos Kitieos vagy a Ermou utcát. Nézd meg a helyi üzleteket, butikokat és kézműves boltokat, és fedezz fel autentikus ciprusi termékeket és ajándéktárgyakat.
+                        </p>
+                        <img src="img/larnaca-seta1.jpg" alt="larnaca">
+
+
+                        <h3>Szent Lázár templom:</h3>
+                        <p>
+                            Látogass el a híres Szent Lázár templomhoz, amely a város egyik jelképe. Ez a gótikus stílusú ortodox templom a hagyomány szerint Szent Lázár sírját őrzi. Fedezd fel a templom belsejét, csodáld meg a gazdag díszítéseket és érezd át a vallási jelentőségét.
+                        </p>
+                        <img src="img/larnaca-templom.jpg" alt="larnaca">
+
+
+                        <h3>Hala Sultan Tekke:</h3>
+                        <p>
+                            Látogass el a Hala Sultan Tekke-hez, ami az iszlám egyik legfontosabb szent helye Cipruson. Ez a szentély a hagyomány szerint a Próféta Mohamed unokahúgának, Umm Haramnak a sírját őrzi. Tapasztald meg a szellemi béket és csodáld meg a szent hely környezetét.
+                        </p>
+                        <img src="img/sultan-tekke.jpg" alt="larnaca">
+
+                        <h3>Programajánló</h3>
+                        
+                        <ul>
+                            <li>
+                                Vegyél részt egy sétahajózáson Larnaca kikötőjéből, és élvezd a tengeri panorámát a városról. Csodáld meg a part menti látképet, nézd meg a híres sáncokat és a régi halászhajókat, és élvezd a friss tengeri levegőt.
+                            </li>
+
+                            <li>
+                                Látogass el a Larnaca Salines természetvédelmi területre, ahol megfigyelheted a vándorló madarakat és a sólepárló medencéket. Ez egy különleges hely a természet szerelmeseinek, ahol csodálhatod a madárvilágot és a sótermelés folyamatát.
+                            </li>
+
+                            <li>
+                                Fedezd fel Larnaca múzeumait, például az Archeológiai Múzeumot és a Pierides Múzeumot. Ismerd meg Ciprus történelmét, nézd meg az ókori leleteket és a helyi kultúra gazdagságát.
+                            </li>
+
+                            <li>
+                                Nézd meg Larnaca élénk éjszakai életét, látogass el a helyi bárokba, éttermekbe és szórakozóhelyekre. Élvezd a helyi élőzenét, táncolj a görög zenére és élvezd az éjszakai hangulatot a tengerparton.
+                            </li>
+                        </ul>
+
+                        <h3>Összegzés</h3>
+
+                        <p>
+                            Larnaca lenyűgöző város, ahol a történelem és a tengerpart összetalálkozik. Fedezd fel a város gazdag kulturális örökségét, pihenj a gyönyörű tengerpartokon és élvezd a helyi konyhát és vendégszeretetet. Egy utazás Larnacába felejthetetlen emlékeket teremt és gazdagítja a kalandodat Cipruson.
+                        </p>
+                    </section>
+                </article>
+            `
+        },
+        {
             cel: "Katerini",
             cikk: /*html*/
             `
@@ -864,6 +990,146 @@ let cikkek = {
             `
         },
         {
+            cel: "Zakhyntos",
+            cikk: /*html*/
+            `
+                <article id="article_cikk">
+                    <h2>Zakynthos - A kék barlangok és a homokos öblök szigete</h2>
+
+                    <section>
+                        <p>
+                            Zakynthos, Görögország egyik gyöngyszeme, a Jón-szigetek közé tartozik. Ez a gyönyörű sziget az érintetlen természeti szépségéről, kristálytiszta tengeréről és festői tájairól híres. Ebben a cikkben felfedezzük Zakynthos legfontosabb látnivalóit és ajánlunk néhány programot, hogy átélhess egy felejthetetlen utazást ezen a varázslatos helyen.
+                        </p>
+                        <img src="img/zakhyntos.jpg" alt="zakhyntos">
+
+                        <h3>Navagio-öböl:</h3>
+                        <p>
+                            Navagio-öböl, vagy más néven A hajóroncs öble, Zakynthos egyik legikonikusabb látványossága. A fehér homokos öböl kristálytiszta vízzel és meredek sziklafalakkal körülvéve igazi paradicsomi látványt nyújt. Fedezd fel a híres hajóroncsot, amely a parton fekszik, és élvezd a napfényt és a tengerpart nyugalmát.
+                        </p>
+                        <img src="img/zakhyntos3.jpg" alt="zakhyntos">
+
+                        
+                        <h3>Kék barlangok:</h3>
+                        <p>
+                            Látogass el a híres Kék barlangokhoz, amelyek a sziget északi részén találhatók. Ezek a barlangok lenyűgöző kék színű vízzel és lenyűgöző környezettel rendelkeznek. Vegyél részt egy hajós túrán, és fedezd fel ezen varázslatos barlangok szépségét.
+                        </p>
+                        <img src="img/zakhyntos-kek.jpg" alt="zakhyntos">
+
+
+                        <h3>Porto Limnionas:</h3>
+                        <p>
+                            Pihenj és élvezd a természeti szépséget Porto Limnionas öbölében. Ez a természetes öböl sziklás partokkal és kristálytiszta vízzel rendelkezik. Merülj el a vízben, ugorj le a sziklákról, vagy bérelj vizibiciklit, hogy felfedezd a környéket.
+                        </p>
+                        <img src="img/zakhyntos-porto1.jpg" alt="zakhyntos">
+
+
+                        <h3>Zakynthos város:</h3>
+                        <p>
+                            Látogass el Zakynthos fővárosába, ahol lenyűgöző történelmi épületek, hangulatos kávézók és éttermek várják a látogatókat. Ne hagyd ki a Solomos tér és az Agios Dionysios katedrális látogatását, és élvezd a város mediterrán hangulatát.
+                        </p>
+                        <img src="img/zakhyntos-varos.jpg" alt="zakhyntos">
+
+
+                        <h3>Programajánló</h3>
+                        
+                        <ul>
+                            <li>
+                                Látogass el a Shipwreck kilátóhoz, ahonnan gyönyörű panoráma nyílik a Navagio-öbölre. Csodáld meg a híres hajóroncsot a magasból, és élvezd a lélegzetelállító kilátást a tengerre és a környező tájra.
+                            </li>
+
+                            <li>
+                                Látogass el a híres Gerakas strandra, ahol a tengeri teknősök, például a Caretta Caretta faj fészkelnek. Tölts időt a homokos parton, fürödj a tengerben, és tartsd szemmel a tengeri teknősöket.
+                            </li>
+
+                            <li>
+                                Vegyél részt egy vitorlázásra a Kék barlangokhoz, és élvezd a tengeren való utazás élményét. Fedezd fel a barlangokat, fürödj a kék vizükben, és élvezd a csodálatos tájat a hajóról.
+                            </li>
+
+                            <li>
+                                Látogass el az Olive Oil Museum-ba, ahol betekintést nyerhetsz a híres görög olívaolaj termelésébe és feldolgozásába. Ismerd meg az olívaolaj készítésének folyamatát, és kóstolj meg néhány friss olívaolajat.
+                            </li>
+                        </ul>
+
+                        <h3>Összegzés</h3>
+
+                        <p>
+                            Zakynthos egy igazi paradicsom a természet szerelmeseinek. Fedezd fel a gyönyörű tengerpartokat, a természeti csodákat és élvezd a helyi kultúrát és gasztronómiát. Ez a varázslatos sziget felejthetetlen élményeket nyújt és örök emlékeket teremt.
+                        </p>
+                    </section>
+                </article>
+            `
+        },
+        {
+            cel: "Sarti",
+            cikk: /*html*/
+            `
+                <article id="article_cikk">
+                    <h2> Sarti - Az érintetlen tengerpartok és a bámulatos természeti kincsek városa</h2>
+
+                    <section>
+                        <p>
+                            Sarti egy festői üdülőváros Észak-Görögországban, a Halkidiki-félszigeten található. Ez a kis falu híres az érintetlen tengerpartjairól, a türkizkék vízről és a természeti szépségekről. Ebben a cikkben felfedezzük Sarti legfontosabb látnivalóit és ajánlunk néhány programot, hogy átélhess egy felejthetetlen utazást ezen a varázslatos helyen.
+                        </p>
+                        <img src="img/sarti.jpg" alt="sarti">
+
+                        <h3>Sarti strandok:</h3>
+                        <p>
+                            Sarti büszkélkedhet gyönyörű homokos strandokkal, amelyek az Égei-tenger partján húzódnak. Vegyél részt a tengerparti pihenésben, élvezd a napsütést és a tengerfrissítést a kék vízben. Ne hagyd ki a híres Sarti Beach és a Kavourotripes strand látogatását.
+                        </p>
+                        <img src="img/sarti-strand.jpg" alt="sarti">
+
+                        
+                        <h3>Diaporos-sziget:</h3>
+                        <p>
+                            Látogass el a közelben található Diaporos-szigetre, amely egy varázslatos kis sziget a Sithonia-félsziget közelében. Fedezd fel a sziget kristálytiszta vizét, a homokos öblöket és a lenyűgöző természetet. Bérelj hajót vagy csatlakozz egy hajókiránduláshoz, hogy felfedezd ezt a természeti paradicsomot.
+                        </p>
+                        <img src="img/diaporos.jpg" alt="sarti">
+
+
+                        <h3>Mount Athos:</h3>
+                        <p>
+                            Ha szereted a természetet és a túrázást, látogass el a közelben található Athos-hegységhez. Fedezd fel a hegy lábánál található gyönyörű túraútvonalakat, élvezd a csodálatos kilátást és tapasztald meg a nyugalmat és a csendet a természet közelségében.
+                        </p>
+                        <img src="img/athos.jpg" alt="sarti">
+
+
+                        <h3>Sithonia-félsziget:</h3>
+                        <p>
+                            Fedezd fel a közelben található Sithonia-félszigetet, amely számos kis üdülőhellyel és tengerparti faluval büszkélkedik. Látogass el Vourvourouba, Nikiti-be vagy Neos Marmaras-ba, és élvezd a félsziget gyönyörű strandjait és a helyi kulturális életet.
+                        </p>
+                        <img src="img/sithonia.jpg" alt="sarti">
+
+
+                        <h3>Programajánló</h3>
+                        
+                        <ul>
+                            <li>
+                                Nézd meg a lenyűgöző naplementét Sarti városából vagy a tengerparton. A ragyogó színek és a csodálatos panoráma felejthetetlen élményt nyújt. Ülj le egy teraszon vagy a homokban, és élvezd a naplemente varázsát.
+                            </li>
+
+                            <li>
+                                Látogass el egy helyi borpincébe és kóstolj meg néhány kitűnő görög bort. A Halkidiki-félsziget híres a borászatáról, és lehetőséged van megismerni a helyi borokat és a tradicionális borászati folyamatokat.
+                            </li>
+
+                            <li>
+                                Találj időt egy helyi fesztivál meglátogatására, amelyeket Sarti és a környező falvak rendeznek. Élvezd a hagyományos táncokat, a görög zenét és a helyi gasztronómiai specialitásokat, miközben részt veszel a vidám ünnepségeken.
+                            </li>
+
+                            <li>
+                                Csatlakozz egy hajókiránduláshoz az Athos-hegység körül, és csodáld meg a világörökség részét képező görög kolostorokat és a hegy lenyűgöző sziklás tájait. Ez egy izgalmas és kulturális élmény, amely lehetővé teszi, hogy közelebbről megismerd a régió történelmét és vallási jelentőségét.
+                            </li>
+                        </ul>
+
+                        <h3>Összegzés</h3>
+
+                        <p>
+                            Sarti tökéletes választás azok számára, akik a nyugalmat, a gyönyörű tengerpartokat és a természeti szépséget keresik. Fedezd fel a város és környéke látnivalóit, élvezd a görög vendégszeretetet és hagyományokat, és hozz létre felejthetetlen emlékeket ezen a csodálatos helyen.
+                        </p>
+                    </section>
+                </article>
+            `
+        },
+        {
             cel: "Nápoly",
             cikk: /*html*/
             `
@@ -1074,6 +1340,76 @@ let cikkek = {
 
                         <p>
                             Cagliari lenyűgöző város, amely egyedülálló történelmi és természeti kincsekkel büszkélkedik. Fedezd fel a város kulturális örökségét, élvezd a gyönyörű strandokat és kóstold meg a helyi gasztronómia remekeit. Ez a varázslatos helyszín garantáltan felejthetetlen élményt nyújt az utazóknak.
+                        </p>
+                    </section>
+                </article>
+            `
+        },
+        {
+            cel: "Rimini",
+            cikk: /*html*/
+            `
+                <article id="article_cikk">
+                    <h2>Rimini - A történelem és a tengerpart találkozása</h2>
+
+                    <section>
+                        <p>
+                            Rimini egy lenyűgöző város Olaszországban, ahol a történelem és a tengerpart varázsa találkozik. Ez az élénk üdülőhely híres a festői homokos strandjairól, az ókori római romokról és a pezsgő éjszakai életről. Ebben a cikkben felfedezzük Rimini legfontosabb látnivalóit és ajánlunk néhány programot, hogy átélhess egy felejthetetlen utazást ezen a varázslatos helyen.
+                        </p>
+                        <img src="img/rimini-fo.jpg" alt="rimini">
+
+                        <h3>Arco di Augusto:</h3>
+                        <p>
+                            Látogass el az Arco di Augusto-hoz, Rimini legismertebb műemlékéhez, amely a római időkben épült. Ez a csodálatos íves kapu egyik utolsó megmaradt példája az ókori Római Birodalomból. Fedezd fel a kapu részleteit és a környező területet, és képzeld el magad a múltba repülve.
+                        </p>
+                        <img src="img/arco-rimini.jpg" alt="rimini">
+
+                        
+                        <h3>Malatesta vára:</h3>
+                        <p>
+                            Fedezd fel a Malatesta várat, amely a városközpontban található. Ez a középkori erődítmény a Malatesta család otthona volt, és ma múzeumként működik. Nézd meg a vár impozáns külső részét, és fedezd fel a belső termeit, ahol történelmi kiállítások és műalkotások találhatók.
+                        </p>
+                        <img src="img/malatesta.jpg" alt="rimini">
+
+
+                        <h3>Tiberius híd:</h3>
+                        <p>
+                            Ne hagyd ki a híres Tiberius hidat, amely Rimini városát keresztezi. Ez a római kori híd szintén a város jelképe, és fantasztikus kilátást nyújt a Marecchia folyóra és a környező területekre. Sétálj át a hídon, és élvezd a hagyományos olasz hangulatot.
+                        </p>
+                        <img src="img/rimini-hid.jpg" alt="rimini">
+
+
+                        <h3>Rimini strandok:</h3>
+                        <p>
+                            Élvezd a napfényt és a tengerparti életet Rimini gyönyörű homokos strandjain. Sétálj a tengerparti sétányon, pihenj a napozóágyakon, vagy élvezd a sport- és vízi tevékenységeket, mint például a strandröplabda vagy a vízisí. A tengerparton számos strandbár és étterem található, ahol élvezheted az olasz konyha remekeit.
+                        </p>
+                        <img src="img/rimini-strand.jpg" alt="napoly">
+
+
+                        <h3>Programajánló</h3>
+                        
+                        <ul>
+                            <li>
+                                Látogass el a Fiabilandia vidámparkba, amely különösen ideális a családok számára. Élvezd a vidám attrakciókat, mint például az élményfürdőket, a hullámvasutat és a vidámparki játékokat.
+                            </li>
+
+                            <li>
+                                Tegyél egy kirándulást a közelben található Mirabilandia vidámparkba, amely Olaszország egyik legnagyobb vidámparkja. Élvezd a lenyűgöző attrakciókat és a szórakoztató show-kat, és hozz létre felejthetetlen emlékeket.
+                            </li>
+
+                            <li>
+                                Tapasztald meg Rimini vibráló éjszakai életét, látogass el a helyi klubokba, bárokba és diszkókba. Élvezd a bulizás hangulatát, táncolj a modern zenei ritmusokra, és élvezd az éjszakai társaságot.
+                            </li>
+
+                            <li>
+                                Használd ki Rimini stratégiai elhelyezkedését, és látogass el a közelben található városokba, mint például San Marino vagy Bologna. Fedezd fel a történelmi látnivalókat, a helyi kultúrát és az autentikus olasz életstílust.
+                            </li>
+                        </ul>
+
+                        <h3>Összegzés</h3>
+
+                        <p>
+                            Rimini a történelem, a tengerpart és a szórakozás találkozása, ami egy lenyűgöző utazást ígér. Fedezd fel a város gazdag kulturális örökségét, élvezd a homokos strandokat és élvezd az olasz vendégszeretetet. Rimini a tökéletes választás azoknak, akik egy változatos és izgalmas utazást szeretnének Olaszországban.
                         </p>
                     </section>
                 </article>
