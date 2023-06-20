@@ -568,7 +568,221 @@ let cikkek = {
                     </section>
                 </article>
             `
-        }
+        },
+        {
+            cel: "Katerini",
+            cikk: /*html*/
+            `
+                <article id="article_cikk">
+                    <h2>Katerini: Az Égei partok gyöngyszeme Görögországban</h2>
+
+                    <section>
+                        <p>
+                            Katerini egy varázslatos üdülőhely Görögország Égei-tenger partvidékén. A festői táj, a homokos partok és a gazdag kulturális örökség kombinációja teszi Katerinit egy lenyűgöző úti céllá. Ebben a cikkben felfedezzük Katerini legfontosabb látnivalóit és ajánlunk néhány programot, hogy felejthetetlenné tegyük az utazásodat.
+                        </p>
+                        <img src="img/katerini-1_optimized.png" alt="katerini">
+
+                        <h3>Paralia Beach:</h3>
+                        <p>
+                            Paralia Beach a legismertebb és legkedveltebb strand Kateriniben. A finom homokos partok és a kristálytiszta tenger ideálisak a napozáshoz és a fürdőzéshez. Élvezd a tengerpart nyugalmát, sétálj a partszakaszon, vagy lazíts a napozóágyakon. A strand közelében számos étterem, bár és üzlet található, ahol frissítő italokat és helyi specialitásokat kóstolhatsz meg.
+                        </p>
+                        <img src="img/katerini-5_optimized.png" alt="katerini">
+
+                        
+                        <h3>Platamon vára:</h3>
+                        <p>
+                            Platamon vára egy középkori erődítmény, amely a tengerparti hegyekben található. Ez a lenyűgöző városi ikon egyedülálló panorámával rendelkezik a tengerre és a környező tájra. Fedezd fel a várat és az ódon falakat, sétálj a kis sikátorokban, és gyönyörködj a kilátásban. A vár környékén található éttermek és kávézók tökéletes helyet nyújtanak egy kellemes pihenésre.
+                        </p>
+                        <img src="img/platamon.jpg" alt="katerini">
+
+
+                        <h3>Dion Archeológiai Park:</h3>
+                        <p>
+                            A Dion Archeológiai Park Katerini közelében található, és lenyűgöző régészeti leleteket kínál. Ez az ókori város a görög mitológia fontos helyszíne volt, és a helyszínen még mindig láthatók a római fürdők, a szentélyek és a színházak romjai. Fedezd fel a múltat, és képzeld el, hogy visszarepülsz az ókorba, amikor ez a terület a hatalmas Dion istennek volt szentelve.
+                        </p>
+                        <img src="img/katerini-4.png" alt="katerini">
+
+
+                        <h3>Olimposz-hegy:</h3>
+                        <p>
+                            Az Olimposz-hegy a legmagasabb hegycsúcs Görögországban, és a környéken található gyönyörű természeti terület. A hegyvidéki ösvényeken barangolva élvezheted a spektakuláris kilátást a környező tájra és a tengerre. A hegyvidéken találhatók kis falvak, ahol megismerkedhetsz a hagyományos görög életmóddal és ízekkel.
+                        </p>
+                        <img src="img/katerini-6_optimized.png" alt="katerini">
+
+                        <h3>Programajánló</h3>
+                        
+                        <ul>
+                            <li>
+                                Kóstold meg a helyi konyha ízeit. Próbáld ki a görög gyroszt, a souvlakit és a friss tengeri herkentyűket. Látogass el a helyi éttermekbe és tavernákba, és élvezd a tradicionális görög fogásokat.
+                            </li>
+
+                            <li>
+                                Vegyél részt egy hajókiránduláson a Thermaikosz-öbölben. Fedezd fel a tengeri életet és élvezd a hajózás élményét a kristálytiszta vizeken.
+                            </li>
+
+                            <li>
+                                Látogass el a Platamon parti sétányára, ahol számos üzlet, étterem és bár található. Sétálj a partszakaszon, vásárolj helyi termékeket és kóstold meg a görög süteményeket és fagylaltot.
+                            </li>
+
+                            <li>
+                                Kirándulj el a Katerini környéki hegyekbe és felfedezd a természet szépségeit. Gyönyörködj a vízesésekben, fedezz fel rejtett ösvényeket és kapcsolódj ki a természetben.
+                            </li>
+                        </ul>
+
+                        <h3>Összegzés</h3>
+
+                        <p>
+                            Katerini lenyűgöző úti cél, ahol a homokos partok és a kristálytiszta tenger lehetővé teszik a pihenést és a kikapcsolódást. Fedezd fel a történelmi látnivalókat, sétálj a tengerparton, és élvezd a helyi ételeket. Ne felejtsd el felfedezni a környező hegyeket és természeti területeket, hogy a legtöbbet hozhasd ki a Kateriniben töltött idődből.
+                        </p>
+                    </section>
+                </article>
+            `
+        },
+        {
+            cel: "Neos Marmaras, Chalkidiki",
+            cikk: /*html*/
+            `
+                <article id="article_cikk">
+                    <h2> Neos Marmaras: A görög tengerparti paradicsom Sithonia szigetén</h2>
+
+                    <section>
+                        <p>
+                            Neos Marmaras egy bájos üdülőhely Görögországban, a Sithonia-félszigeten található. Ez a festői település egy lenyűgöző tengerparti paradicsom, amely kristálytiszta vizekkel, mesés strandokkal és hagyományos görög bájjal várja a látogatókat. Ebben a cikkben felfedezzük Neos Marmaras legfontosabb látnivalóit, valamint ajánlunk néhány programot, hogy felejthetetlenné tegyük az utazásodat.                        </p>
+                        <img src="img/marmaras-2.jpg" alt="marmaras">
+
+                        <h3>Paradisos strand:</h3>
+                        <p>
+                            A Paradisos strand Neos Marmaras egyik legnépszerűbb strandja. A homokos part és a csendes, kristálytiszta víz ideális hely a pihenésre és a fürdőzésre. Élvezd a napsütést a napozóágyakon, vagy élvezd a vízi sportokat, például a búvárkodást vagy a szörfözést. A tengerpart közelében találhatók bárok és éttermek, ahol frissítő italokat és helyi specialitásokat kóstolhatsz meg.                        </p>
+                        <img src="img/paradisos.jpg" alt="marmaras">
+
+
+                        <h3>Porto Carras birtok:</h3>
+                        <p>
+                            Porto Carras a környék legnagyobb üdülőkomplexuma, amely számos lehetőséget kínál a kikapcsolódásra és szórakozásra. Látogass el a Porto Carras birtokához, ahol golfpálya, wellnessközpont és kaszinó is található. Ha szereted a bort, látogass el a birtok borkészítő üzemébe, ahol megismerheted a helyi borok készítésének folyamatát és részt vehetsz egy borkóstolón.                        </p>
+                        <img src="img/porto-carras.jpeg" alt="marmaras">
+
+
+                        <h3>Parthenónas hegycsúcs:</h3>
+                        <p>
+                            A Parthenónas a környék legmagasabb hegycsúcsa, ahonnan lenyűgöző kilátás nyílik a környező tájra és a tengerre. Kirándulj fel a Parthenónasra, és élvezd a természet szépségeit. Fedezz fel rejtett ösvényeket, gyönyörködj a mediterrán növényzetben és kapcsolódj ki a hegyvidéki levegőn.                        </p>
+                        <img src="img/parthenonas.jpg" alt="marmaras">
+
+
+                        <h3>Neos Marmaras kikötő:</h3>
+                        <p>
+                            Neos Marmaras kikötője a város központjában található, és kávézókkal, éttermekkel és üzletekkel várja a látogatókat. Sétálj végig a kikötő partján, és élvezd a hangulatos atmoszférát. Ha szereted a hajókirándulásokat, keresd fel a kikötőt, és vegyél részt egy hajókázáson a környező szigetekre vagy a környék gyönyörű öblébe.
+                        </p>
+                        <img src="img/marmaras-1.jpg" alt="marmaras">
+
+                        <h3>Programajánló</h3>
+                        
+                        <ul>
+                            <li>
+                                Hajókirándulás a Kassandra-félszigetre: Vegyél részt egy hajókiránduláson a közeli Kassandra-félszigetre, amely tele van gyönyörű strandokkal és festői üdülőhelyekkel. Fedezd fel a tengerparti városokat, mint például Hanioti vagy Pefkochori, és élvezd a homokos partokat és a kristálytiszta vizet. A hajókirándulás során több helyen megállhatsz, hogy fürödhess és élvezd a napfényt.
+                            </li>
+                            <li>
+                                Búvárkodás és snorkeling: Merülj el a Neos Marmaras közelében található búvárközpontokban, és fedezd fel a tenger mélyét. Csodáld meg a színes korallzátonyokat, a tengeri élővilágot és a víz alatti barlangokat. Akár kezdő vagy haladó búvár vagy, a helyi búvárközpontok kínálnak programokat és tanfolyamokat minden szinten.
+                            </li>
+                            <li>
+                                Quad túrák: Szervezz quad túrát a környéken, és fedezd fel a Sithonia-félsziget szépségeit. Járj végig kalandos útvonalakat, fedezd fel a hegyvidéki ösvényeket és gyönyörködj a lélegzetelállító kilátásban. A quad túrák izgalmas és kalandos programokat nyújtanak, és lehetőséget adnak a természet közelségének megtapasztalására.
+                            </li>
+                            <li>
+                                Esti séták a Neos Marmaras óvárosában: Sétálj végig a Neos Marmaras óvárosának szűk sikátoraiban, és élvezd a tradicionális görög hangulatot. Fedezd fel a helyi üzleteket, éttermeket és kávézókat. Kóstold meg a görög konyha ízeit, és érezd át a helyi élet ritmusát.
+                            </li>
+                            <li>
+                                Kirándulás a Varvara vízeséshez: Kirándulj a Neos Marmaras közelében található Varvara vízeséshez, amely egy gyönyörű természeti csoda. Fedezd fel a vízesést és a környező erdős területet. Ez egy kiváló hely a túrázáshoz, a piknikezéshez és a természet szerelmeseinek.
+                            </li>
+                        </ul>
+
+                        <h3>Összegzés</h3>
+
+                        <p>
+                            Neos Marmaras egy gyönyörű üdülőhely Görögországban, amely a tengerparti paradicsommal és a hagyományos görög hangulattal vonzza a látogatókat. Élvezd a kristálytiszta vizet és a homokos partokat, fedezd fel a természet szépségeit és élvezd a helyi étkezési és szórakozási lehetőségeket. Neos Marmaras tökéletes úti cél azoknak, akik szeretnék felfedezni Sithonia szigetének varázslatos világát és megtapasztalni a görög vendégszeretetet.
+                        </p>
+                    </section>
+                </article>
+            `
+        },
+        {
+            cel: "Athén",
+            cikk: /*html*/
+            `
+                <article id="article_cikk">
+                    <h2>Athén: Az ókori és modern kultúra fővárosa Görögországban</h2>
+
+                    <section>
+                        <p>
+                            Athén, Görögország fővárosa, egy olyan város, amely gazdag történelmi és kulturális örökséggel rendelkezik. Az ókori és modern elemek keveredése teszi Athént egyedülálló úti céllá. Ebben a cikkben felfedezzük Athén legfontosabb látnivalóit, valamint ajánlunk néhány programot, hogy a városnézésed felejthetetlenné váljon.
+                        </p>
+                        <img src="img/athen-fo.jpg" alt="athen">
+
+                        <h3>Akropolisz:</h3>
+                        <p>
+                            Az Akropolisz Athén legikonikusabb látnivalója. Ez a hatalmas mészkő dombon álló ókori erődítmény számos templomot és szentélyt foglal magában, köztük a híres Parthenón templomot is. Sétálj fel a dombra, és gyönyörködj a csodálatos kilátásban a városra. Fedezd fel az ókori építészetet és a görög mitológiát, amelyek az Akropoliszban fejeződnek ki.
+                        </p>
+                        <img src="img/akropolisz.jpg" alt="athen">
+
+                        
+                        <h3>Plaka negyed:</h3>
+                        <p>
+                            A Plaka Athén legtörténelmibb negyede, ahol szűk sikátorok, hagyományos házak és hangulatos kávézók találhatók. Sétálj végig a Plaka utcáin, és érezd át a görög hagyományos hangulatot. Fedezd fel a kis üzleteket, ahol helyi kézműves termékeket, ékszereket és szuveníreket vásárolhatsz.
+                        </p>
+                        <img src="img/plaka.jpg" alt="athen">
+
+
+                        <h3>Akropolisz Múzeum:</h3>
+                        <p>
+                            Az Akropolisz Múzeum az Akropolisz lábánál található, és lenyűgöző gyűjteménnyel rendelkezik az ókori görög művészet remekeiről. Csodáld meg a Parthenón márvány szobrait, az ókori kerámiákat és a díszített frízeket. Az interaktív kiállítások és az információs táblák segítenek megérteni az Akropolisz történetét és jelentőségét.
+                        </p>
+                        <img src="img/athen-muzeum.jpg" alt="athen">
+
+
+                        <h3>Syntagma tér:</h3>
+                        <p>
+                            A Syntagma tér az Athén központjában található főtér, amely a görög parlament épületével és a híres őrségi váltással vonzza a látogatókat. Figyeld meg a hagyományos öltözetbe öltözött őröket, akik szigorúan őrzik a parlament épületét. Sétálj végig a tér környékén, és látogass el a közeli bevásárlóutcákra és éttermekre.
+                        </p>
+                        <img src="img/syntagma.jpg" alt="athen">
+
+
+                        <h3>Görög Nemzeti Régészeti Múzeum:</h3>
+                        <p>
+                            A Görög Nemzeti Régészeti Múzeum a görög történelem és kultúra kiemelkedő helye. Fedezd fel az ókori görög művészet és régészeti leletek lenyűgöző gyűjteményét. Láthatod itt a híres arany Maszkot, az Antikvitászok Érmáját és más értékes műalkotásokat.
+                        </p>
+                        <img src="img/athen-muzeum-1.jpg" alt="athen">
+
+                        <h3>Programajánló</h3>
+                        
+                        <ul>
+                            <li>
+                                Görögországi tánc- és zenei előadások: Látogass el egy hagyományos görög tánc- és zenei előadásra, hogy átélhesd a görög kultúra élettel teli megnyilvánulásait. Élvezd a tradicionális táncokat, mint például a hasapiko vagy a zeibekiko, és hallgasd meg a görög zenét, amelyben a bouzouki hangszer dominál.
+                            </li>
+
+                            <li>
+                                Görög konyhával kapcsolatos workshop: Vegyél részt egy görög konyhával kapcsolatos workshopon, ahol megtanulhatod a híres görög ételek, mint például a moussaka vagy a tzatziki, elkészítését. Tapasztald meg az ízeket és aromákat, és tanulj meg néhány görög ételreceptet, hogy otthon is elkészíthesd.
+                            </li>
+
+                            <li>
+                                Vásárlás a Monastiraki bolhapiacon: Látogass el a Monastiraki bolhapiacon, ahol számos antikvitás és kézműves termék vásárolható. Fedezd fel az ékszereket, a bőröndöket, a kerámiákat és az egyedi műalkotásokat. Élvezd a hangulatot és alkudj a szuvenírekért.
+                            </li>
+
+                            <li>
+                                Kerékpáros túra Athénban: Fedezd fel Athén szépségeit egy kerékpáros túra során. Kirándulj végig a város főbb látnivalóin, mint például az Akropolisz vagy a Zappeion-palota. A kerékpáros túrák lehetőséget adnak arra, hogy könnyedén felfedezd a város különböző részeit és élvezd a szabadban való mozgás élményét.
+                            </li>
+
+                            <li>
+                                Esti panoráma kilátás az Lycabettus hegyről: Kirándulj fel az Lycabettus hegyre, amely Athén egyik legmagasabb pontja. Gyönyörködj a panoráma kilátásban, amint az esti fények felébrednek az egész városban. Az Lycabettus hegy tetején található kávézóban vagy étteremben élvezheted az italokat vagy vacsorát a csodálatos kilátással.
+                            </li>
+                        </ul>
+
+                        <h3>Összegzés</h3>
+
+                        <p>
+                            Athén olyan város, amely gazdag történelmi és kulturális látnivalókkal rendelkezik, valamint számos izgalmas programot kínál. Készülj fel, hogy felfedezd a város gazdag örökségét és élvezd a görög vendégszeretetet.
+                        </p>
+                    </section>
+                </article>
+            `
+        },
     ]
 }
 
