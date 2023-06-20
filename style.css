@@ -171,6 +171,7 @@ main{
     align-items: center;
     justify-content: center;
     background-color: #f0f3bd;
+    min-height: 70vh;
 }
 
 .celok{
@@ -276,6 +277,7 @@ main{
     align-items: center;
     justify-content: center;
     max-width: 100%;
+    padding-top: 50px;
 }
 
 .cikkek_box .box{
@@ -358,6 +360,10 @@ main{
 #target_uticel article ul li{
     padding: 20px;
     font-size: 1.5rem;
+}
+
+#article_cikk{
+    padding-top: 50px;
 }
 
 .next{
