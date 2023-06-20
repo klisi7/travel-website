@@ -223,6 +223,34 @@ let uticelok = {
                             <a href="#article_cikk" class="elolvas_btn">Elolvasom</a>
                         </div>
                     </div>
+
+                    <div class="box">
+                        <img src="img/velence-box.jpg" alt="olasz">
+                
+                        <h3>Velence</h3>
+
+                        <div class="txt">
+                            <p>
+                                Velence Olaszország egyik ikonikus városa, amelyet csatornái és gondolái tesznek 
+                                rendkívül különlegessé. A lenyűgöző város híres a ...
+                            </p>
+                            <a href="#article_cikk" class="elolvas_btn">Elolvasom</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="img/milano-box1.jpg" alt="olasz">
+                
+                        <h3>Milánó</h3>
+
+                        <div class="txt">
+                            <p>
+                                Milánó Olaszország gazdasági és divat központja, amely a Lombardia régióban található. 
+                                Ez a modern és elegáns város híres a világhírű ...
+                            </p>
+                        <a href="#article_cikk" class="elolvas_btn">Elolvasom</a>
+                        </div>
+                    </div>
                     
                 </div>
             `
@@ -272,6 +300,34 @@ let uticelok = {
                             <p>
                                 Mallorca, Spanyolország Balear-szigetek legnagyobb tagja, és egy kivételes hely a 
                                 mediterrán paradicsom élményéhez. A lenyűgöző tengerpartok, mint ...
+                            </p>
+                        <a href="#article_cikk" class="elolvas_btn">Elolvasom</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="img/madrid-box.jpg" alt="spanyolország">
+        
+                        <h3>Madrid</h3>
+
+                        <div class="txt">
+                            <p>
+                                Madrid Spanyolország fővárosa, egy lenyűgöző város, amely gazdag kulturális örökséggel 
+                                és élénk városi élettel büszkélkedik. A városban találhatóak ...
+                            </p>
+                        <a href="#article_cikk" class="elolvas_btn">Elolvasom</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="img/valencia-box.jpg" alt="spanyolország">
+        
+                        <h3>Valencia</h3>
+
+                        <div class="txt">
+                            <p>
+                                Valencia Spanyolország harmadik legnagyobb városa, amely a keleti partvidéken, a 
+                                Földközi-tenger partján helyezkedik el. A város híres a lenyűgöző ...
                             </p>
                         <a href="#article_cikk" class="elolvas_btn">Elolvasom</a>
                         </div>
@@ -1416,6 +1472,146 @@ let cikkek = {
             `
         },
         {
+            cel: "Velence",
+            cikk: /*html*/
+            `
+                <article id="article_cikk">
+                    <h2>Velence - A vízi csodák városa</h2>
+
+                    <section>
+                        <p>
+                            Velence, az olaszországi csodálatos város, amelyet csatornák hálózata és ikonikus gondolák jelölnek. Ez a romantikus és művészeti központ híres a történelmi épületeiről, a lenyűgöző műalkotásairól és a világhírű karneváljáról. Ebben a cikkben felfedezzük Velence legfontosabb látnivalóit és ajánlunk néhány programot, hogy átélhess egy felejthetetlen utazást ezen a varázslatos helyen.
+                        </p>
+                        <img src="img/velence-fo.png" alt="velence">
+
+                        <h3>Szent Márk tér és a Szent Márk bazilika:</h3>
+                        <p>
+                            Kezdd a látogatást a híres Szent Márk téren, ahol a Szent Márk bazilika található. Csodáld meg a téren álló impozáns épületeket, például a Dózse-palotát és a Szent Márk kamerlengőjét. Látogasd meg a Szent Márk bazilikát, fedezd fel a gazdag díszítést és ne hagyd ki a panorámát a tetőről.
+                        </p>
+                        <img src="img/velence-palota.jpg" alt="velence">
+
+                        
+                        <h3>Dózse-palota:</h3>
+                        <p>
+                            Látogass el a Dózse-palotába, ahol a Velencei Köztársaság kormányzói hivatala és börtöne található. Ismerd meg a velencei politikai és történelmi hatalmat, és gyönyörködj a palota művészeti kincseiben és a híres Sóházi hídnál.
+                        </p>
+                        <img src="img/doge-palota.jpg" alt="velence">
+
+
+                        <h3>Velencei Karnevál:</h3>
+                        <p>
+                            Ha időzítésed lehetővé teszi, ne hagyd ki a világhírű Velencei Karnevált. Ez a több száz éves hagyomány gazdag jelmezekkel, maskarásokkal és fesztelen ünnepségekkel teli időszak. Csatlakozz a karneváli felvonuláshoz, részt vegyél a maszkos bálokban és élvezd a kulturális eseményeket.
+                        </p>
+                        <img src="img/velence-karneval.jpg" alt="velence">
+
+
+                        <h3>Gondolahajózás a csatornákon:</h3>
+                        <p>
+                            Egy látogatás Velencében nem lenne teljes gondolahajózás nélkül. Vegyél részt egy romantikus gondolahajózásban a város hálózatán keresztül, és élvezd a páratlan kilátást a vízi utakról. Hallgasd a gondolier dallamait, miközben elhaladsz a csodálatos paloták és hidak mellett.
+                        </p>
+                        <img src="img/gondola.jpg" alt="szicilia">
+
+
+                        <h3>Programajánló</h3>
+                        
+                        <ul>
+                            <li>
+                                Látogass el a Peggy Guggenheim Gyűjteménybe, ahol modern művészeti művek széles választéka található. Fedezd fel a híres műalkotásokat és a kortárs művészet izgalmas világát ebben a csodálatos múzeumban.
+                            </li>
+
+                            <li>
+                                Kirándulj a Velence közelében található Burano szigetre, amely híres a színes házairól és a hagyományos csipkekészítésről. Sétálj végig a szűk utcákon, gyönyörködj a festői kilátásban és fedezd fel a sziget különleges hangulatát.
+                            </li>
+
+                            <li>
+                                Pihenj és élvezd a napsütést a Velence közelében található Lido strandján. Ez a homokos tengerpart kiváló hely a pihenésre, a napozásra és a vízi sportokra. Ne hagyd ki a lehetőséget egy frissítő ital vagy egy kellemes sétára a tengerparton.
+                            </li>
+
+                            <li>
+                                Tapasztald meg Velence éjszakai életét, látogass el a helyi éttermekbe, bárokba és kávézókba. Élvezd a hagyományos olasz ételeket és italokat, hallgasd a helyi zenei előadásokat, és élvezd a hangulatos esti séta lehetőségét a város szűk utcáin.
+                            </li>
+                        </ul>
+
+                        <h3>Összegzés</h3>
+
+                        <p>
+                            Velence egy varázslatos város, amely folyton változó vízi tájakkal és történelmi kincsekkel várja látogatóit. Fedezd fel a város gazdag kulturális örökségét, élvezd a gondolahajózást és a karneváli hangulatot, és pihenj a festői szigeteken. Utazásod Velencébe emlékezetes élményekkel gazdagítja az életedet.
+                        </p>
+                    </section>
+                </article>
+            `
+        },
+        {
+            cel: "Milánó",
+            cikk: /*html*/
+            `
+                <article id="article_cikk">
+                    <h2>Milánó - Divat, Kultúra és Művészet Központja</h2>
+
+                    <section>
+                        <p>
+                            Milánó, az olasz divat és design fővárosa, a kultúra és művészet központja. Ez a vibráló város gazdag történelemmel, impozáns épületekkel és világhírű múzeumokkal büszkélkedik. Ebben a cikkben felfedezzük Milánó legfontosabb látnivalóit és ajánlunk néhány programot, hogy átélhess egy felejthetetlen utazást ezen a lenyűgöző helyen.
+                        </p>
+                        <img src="img/milano-box.jpg" alt="milano">
+
+                        <h3>Milánói dóm:</h3>
+                        <p>
+                            Kezdd a látogatást a híres Milánói dómmal, amely Olaszország legnagyobb gótikus katedrálisa. Gyönyörködj a dóm impozáns külső részében, majd fedezd fel a belső tér gazdag díszítését és a csodálatos kilátást a tetőről. Ne hagyd ki a lehetőséget, hogy felmászd a lépcsőket vagy használd a liftet, hogy eljuss a dóm teraszára.
+                        </p>
+                        <img src="img/dom.jpg" alt="milano">
+
+                        
+                        <h3>La Scala Operaház:</h3>
+                        <p>
+                            Látogass el a híres La Scala Operaházba, ahol a világhírű opera előadások zajlanak. Csodáld meg az operaház impozáns épületét, és ha lehetséges, vegyél részt egy előadáson, hogy átélhesd a híres olasz operairodalom varázsát.
+                        </p>
+                        <img src="img/milano-opera.jpg" alt="milano">
+
+
+                        <h3>Santa Maria delle Grazie és Az utolsó vacsora:</h3>
+                        <p>
+                            Fedezd fel a Santa Maria delle Grazie templomot, ahol Leonardo da Vinci híres művének, Az utolsó vacsorának a freskója található. Foglalj előre jegyet, hogy megtekinthesd ezt a lenyűgöző műalkotást, és mélyedj el a reneszánsz művészet csodálatos világában.
+                        </p>
+                        <img src="img/milano3.jpg" alt="milano">
+
+
+                        <h3>Galleria Vittorio Emanuele II:</h3>
+                        <p>
+                            Sétálj át a híres Galleria Vittorio Emanuele II nevű bevásárlóközponton, amely a város egyik ikonikus helyszíne. Csodáld meg az épület lenyűgöző üvegkupoláját, és élvezd a luxusüzletek, kávézók és éttermek hangulatát. Ne hagyd ki a lehetőséget, hogy állj meg a középen található bikakörben, és fordíts a sarkadon a szerencseért.
+                        </p>
+                        <img src="img/milano4.jpg" alt="milano">
+
+
+                        <h3>Programajánló</h3>
+                        
+                        <ul>
+                            <li>
+                                Látogass el a Pinacoteca di Brera múzeumba, ahol kiváló műalkotások és festmények gyűjteménye található. Fedezd fel a reneszánsz mesterek remekeit, mint például Raffaello vagy Caravaggio, és élvezd a művészeti kincseket ebben a kulturális központban.
+                            </li>
+
+                            <li>
+                                Látogass el a Navigli negyedbe, ahol a város híres csatornái és hajózói találhatók. Sétálj végig a csodálatos csatornapartokon, látogass el a művészeti galériákba, ülj le egy kávézó teraszára, és élvezd az élénk atmoszférát.
+                            </li>
+
+                            <li>
+                                Fedezd fel a világhírű divatnegyedet, a Quadrilatero della Moda-t. Sétálj végig az elegáns utcákon, nézd meg a luxusüzleteket és divatházakat, és élvezd a legújabb divat trendjeit ebben a stílusos környéken.
+                            </li>
+
+                            <li>
+                                Látogass el a Cimitero Monumentale temetőbe, ahol számos impozáns síremlék és művészi alkotás található. Sétálj végig a temető szép kertjein, és csodáld meg a lenyűgöző szobrokat és építményeket, amelyek a múlt nagy személyiségeinek emléket állítanak.
+                            </li>
+                        </ul>
+
+                        <h3>Összegzés</h3>
+
+                        <p>
+                            Milánó egy város, amely tele van művészettel, divattal és kulturális látnivalókkal. Fedezd fel a város gazdag történelmét és különleges hangulatát, és élvezd a designra és a kreativitásra épülő életstílust. Milánó ideális úti cél azoknak, akik szeretnék megtapasztalni Olaszország izgalmas és dinamikus oldalát.
+                        </p>
+                    </section>
+                </article>
+            `
+        },
+        {
             cel: "Barcelona",
             cikk: /*html*/
             `
@@ -1620,6 +1816,146 @@ let cikkek = {
 
                         <p>
                             Mallorca egy igazi paradicsom a természet és a tenger szerelmeseinek. Élvezd a csodálatos tájakat, pihenj a tengerparton, fedezd fel a történelmi városokat és élvezd a helyi kultúrát. Ez a varázslatos sziget garantáltan felejthetetlen élményekkel ajándékoz meg téged.
+                        </p>
+                    </section>
+                </article>
+            `
+        },
+        {
+            cel: "Madrid",
+            cikk: /*html*/
+            `
+                <article id="article_cikk">
+                    <h2> Madrid - Spanyolország Élénk Fővárosa</h2>
+
+                    <section>
+                        <p>
+                            Madrid, Spanyolország fővárosa és egyben legnagyobb városa, egy élénk és pezsgő hely, amely híres kulturális kincseiről, világhírű művészeti gyűjteményeiről és izgalmas éjszakai életéről. Ebben a cikkben felfedezzük Madrid legfontosabb látnivalóit és ajánlunk néhány programot, hogy átélhess egy felejthetetlen utazást ezen a vibráló helyen.
+                        </p>
+                        <img src="img/madrid-fo.jpg" alt="madrid">
+
+                        <h3>Prado Múzeum:</h3>
+                        <p>
+                            Kezdd a látogatást a híres Prado Múzeummal, amely az egyik legjelentősebb művészeti gyűjtemény a világon. Fedezd fel a világhírű festményeket, mint például Velázquez, Goya és El Greco alkotásait. Csodáld meg a múzeum impozáns épületét és mélyedj el a spanyol művészet gazdag történelmében.
+                        </p>
+                        <img src="img/prado.jpg" alt="madrid">
+
+                        
+                        <h3>Királyi Palota:</h3>
+                        <p>
+                            Látogass el a Királyi Palotába, amely a spanyol királyi család hivatalos rezidenciája. Fedezd fel a lenyűgöző termeit, a gazdag díszítést és a művészeti kincseket. Ne hagyd ki a Királyi Szent Károly Templomot és az Almudena-székesegyházat sem, amelyek a palota közelében találhatók.
+                        </p>
+                        <img src="img/kiralyi-palota.jpg" alt="madrid">
+
+
+                        <h3>Retiro Park:</h3>
+                        <p>
+                            Pihenj és élvezd a szabadban való időtöltést a Retiro Parkban, Madrid egyik legnagyobb zöld övezetében. Sétálj a park gyönyörű kertjein és tava mellett, bérelj egy csónakot a tavon, és pihenj a fák árnyékában. Látogasd meg a kristálypalotát és az Alfonso XII-szökőkutat is.
+                        </p>
+                        <img src="img/retiro.jpg" alt="madrid">
+
+
+                        <h3>Plaza Mayor és Mercado de San Miguel:</h3>
+                        <p>
+                            Látogass el a Plaza Mayor térre, ahol érezheted Madrid hagyományos spanyol hangulatát. Ülj le egy kávézó teraszára, figyeld az embereket és élvezd a helyi ételeket és italokat. Ne hagyd ki a Mercado de San Miguel piacot sem, ahol friss helyi termékekkel és tapasokkal találkozhatsz.
+                        </p>
+                        <img src="img/plaza-mayor.jpg" alt="madrid">
+
+
+                        <h3>Programajánló</h3>
+                        
+                        <ul>
+                            <li>
+                                Látogass el a Reina Sofia Múzeumba, ahol kortárs művészeti művek széles választéka található. Csodáld meg a híres Guernica című festményt, amelyet Picasso alkotott, valamint a többi jelentős műalkotást ebben a lenyűgöző múzeumban.
+                            </li>
+
+                            <li>
+                                Fedezd fel Madrid híres tapas-kultúráját és kóstold meg a helyi specialitásokat. Látogass el a La Latina vagy a Malasaña negyedbe, ahol számos tapas-bár és étterem vár rád. Kóstolj meg különféle spanyol ínyencségeket, mint például a jamón ibérico, a patatas bravas vagy a tortilla española.
+                            </li>
+
+                            <li>
+                                Látogasd meg a Santiago Bernabeu Stadiont, a híres Real Madrid futballklub otthonát. Fedezd fel a stadion mögötti múzeumot, ahol megismerheted a klub történetét, és sétálj végig a játékosok öltözőjén és a pályán. Ez egy kihagyhatatlan program minden futballrajongó számára.
+                            </li>
+
+                            <li>
+                                Tapasztald meg Madrid vibráló éjszakai életét a Chueca negyedben. Ez a város legdivatosabb és legnyüzsgőbb negyede, tele bárokkal, klubokkal és kávézókkal. Élvezd a különböző zenei előadásokat, táncolj egész éjjel, és fedezd fel a madridi éjszakai élet pezsgő atmoszféráját.
+                            </li>
+                        </ul>
+
+                        <h3>Összegzés</h3>
+
+                        <p>
+                            Madrid egy város, amely minden utazónak izgalmas élményeket kínál. Fedezd fel a város kulturális örökségét, élvezd a helyi gasztronómiát és tapasztald meg a spanyol életstílust. Utazásod Madridba emlékezetes pillanatokkal gazdagítja az életedet.
+                        </p>
+                    </section>
+                </article>
+            `
+        },
+        {
+            cel: "Valencia",
+            cikk: /*html*/
+            `
+                <article id="article_cikk">
+                    <h2>Valencia - Spanyolország Színes és Gazdag Kulturális Ékszere</h2>
+
+                    <section>
+                        <p>
+                            Valencia, Spanyolország harmadik legnagyobb városa, egy lenyűgöző úticél, amely ötvözi a hagyományt és a modernséget. Ez a mediterrán város gazdag történelemmel, csodálatos építészeti alkotásokkal és lenyűgöző kulturális látnivalókkal büszkélkedhet. Ebben a cikkben bemutatjuk Valenciában található legfontosabb látnivalókat és ajánlunk néhány programot, hogy átélhess egy varázslatos utazást ezen a lenyűgöző helyen.
+                        </p>
+                        <img src="img/valencia-fo.png" alt="valencia">
+
+                        <h3>Ciudad de las Artes y las Ciencias:</h3>
+                        <p>
+                            Kezdd a látogatást a híres Ciudad de las Artes y las Ciencias komplexummal, amely Valencia egyik legfontosabb ikonja. Fedezd fel a modern építészeti csodákat, mint például a futurisztikus Palau de les Arts Reina Sofia (Operaház), a L'Oceanografic (akvárium) és a Hemisfèric (Imax mozi). Ez a komplexum egyszerre kínál kulturális és tudományos élményt.
+                        </p>
+                        <img src="img/valencia-elso.jpg" alt="valencia">
+
+                        
+                        <h3>Valenciai Katedrális és a Szent Grál:</h3>
+                        <p>
+                            Látogass el a Valenciai Katedrálisba, amely a város jelképe. Csodáld meg a katedrális impozáns tornyait és a belső tér gazdag díszítését. Ne hagyd ki a Szent Grál kápolnát sem, ahol állítólag a Szent Grál elhelyezésre került.
+                        </p>
+                        <img src="img/valencia-katedralis.jpg" alt="valencia">
+
+
+                        <h3>Mercado Central:</h3>
+                        <p>
+                            Látogasd meg a Mercado Central piacot, ahol a városi élet pezsgése találkozik. Fedezd fel a friss helyi termékeket, mint például a gyümölcsöket, zöldségeket, húst és halat. Élvezd a piac hangulatát, és kóstolj meg néhány helyi specialitást, például a paellát, amely Valencia híres ételének számít.
+                        </p>
+                        <img src="img/mercado.jpg" alt="valencia">
+
+
+                        <h3>Jardines del Turia:</h3>
+                        <p>
+                            Sétálj a Jardines del Turia nevű parkban, amely egykor a Turia folyó medre volt. Ez a lenyűgöző zöldövezet hosszan elnyúlik a városon keresztül, és kiváló hely a pihenésre, piknikezésre vagy akár biciklizésre. Élvezd a szép kerteket, a csodálatos kilátást és a friss levegőt.
+                        </p>
+                        <img src="img/turia.jpg" alt="valencia">
+
+
+                        <h3>Programajánló</h3>
+                        
+                        <ul>
+                            <li>
+                                Látogass el a La Lonja de la Seda nevű gótikus épületbe, amely egykor a kereskedők találkozóhelye volt. Csodáld meg az épület gazdag díszítését és a lenyűgöző csarnokokat. Ez a hely a világörökség része és bemutatja a város gazdag kereskedelmi és történelmi örökségét.
+                            </li>
+
+                            <li>
+                                Pihenj és élvezd a tengerparti életet a Playa de la Malvarrosa-n. Ez a homokos tengerpart népszerű a helyiek és a turisták körében egyaránt. Élvezd a napsütést, úszást a tengerben vagy sétálgatást a parti sétányon. Ne felejtsd el megkóstolni a híres horchatát, egy frissítő mandulaitalt, amely Valencia specialitása.
+                            </li>
+
+                            <li>
+                                Látogasd meg a Bioparc Valencia állatkertet, ahol közelről megismerheted a különböző állatfajokat. Ez a modern és etikus állatkert egyedülálló környezetben mutatja be a vadon élő állatokat, és lehetőséget nyújt arra, hogy közelebbről megismerd az állatok életét és viselkedését.
+                            </li>
+
+                            <li>
+                                Fedezd fel a gyönyörű Albufera Nemzeti Parkot, amely Valencia mellett található. Ez a természetvédelmi terület lenyűgöző tájakkal rendelkezik, köztük lagúnákkal és mocsarakkal. Csónakázz a tókon, figyeld meg a madarakat és élvezd a csendes természeti környezetet.
+                            </li>
+                        </ul>
+
+                        <h3>Összegzés</h3>
+
+                        <p>
+                            Valencia egy város, amely mindenkit elbűvöl a színes kultúrájával, gasztronómiájával és vendégszeretetével. Fedezd fel a város sokszínűségét, élvezd a hagyományos és modern elemek egyedi keverékét, és érezd jól magad a Mediterráneum hangulatában. Utazásod Valencia-ba egy emlékezetes és gazdag élmény lesz.
                         </p>
                     </section>
                 </article>
