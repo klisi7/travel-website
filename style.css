@@ -252,6 +252,42 @@ main{
     background-size: cover;
 }
 
+.select .celok_box .box{
+    height: 80px;
+    width: 120px;
+
+}
+
+.select .celok_box .box:nth-child(1){
+    background-image: url(img/mindencikk.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.select .celok_box .box:nth-child(2){
+    background-image: url(img/gorog-3.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.select .celok_box .box:nth-child(3){
+    background-image: url(img/cyprus-3.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.select .celok_box .box:nth-child(4){
+    background-image: url(img/olasz-2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.select .celok_box .box:nth-child(5){
+    background-image: url(img/spanyol-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 .celok.uticelok h2:nth-child(2){
     margin: 0;
     font-size: 2rem;
@@ -471,6 +507,17 @@ main{
     text-align: center;
     line-height: 2.5rem;
     margin: 10px;
+}
+
+.cikkek_idezet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    color: #ef233c;
+    font-style: oblique;
+    font-size: 3rem;
+    text-align: center;
 }
 
 footer{
