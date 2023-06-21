@@ -1933,7 +1933,7 @@ let cikkek = {
 
 
                         <h3>Programajánló</h3>
-                        
+
                         <ul>
                             <li>
                                 Látogass el a La Lonja de la Seda nevű gótikus épületbe, amely egykor a kereskedők találkozóhelye volt. Csodáld meg az épület gazdag díszítését és a lenyűgöző csarnokokat. Ez a hely a világörökség része és bemutatja a város gazdag kereskedelmi és történelmi örökségét.
