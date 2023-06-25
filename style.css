@@ -390,11 +390,44 @@ main{
     font-size: 1.5rem;
 }
 
-#target_uticel article ul{
+
+
+
+
+
+#hosszCikk article section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+#hosszCikk article img{
+    margin: 50px;
+    max-height: 600px;
+    width: 80%; 
+}
+
+#hosszCikk article h2, #hosszCikk article h3{
+    text-align: center;
+    color: #ef233c;
+    font-style: oblique;
+    font-size: 2.5rem;
+    margin: 50px 30px;
+}
+
+#hosszCikk article p{
+    text-align: justify;
+    margin: 0 50px;
+    font-size: 1.5rem;
+}
+
+#hosszCikk article ul{
     margin: 30px;
 }
 
-#target_uticel article ul li{
+#hosszCikk article ul li{
     padding: 20px;
     font-size: 1.5rem;
 }
@@ -860,7 +893,7 @@ footer .contact_icons i{
         margin-top: 30px;
     }
 
-    #target_uticel article img{
+    #target_uticel article img, #hosszCikk article img{
         width: 100%; 
     }
 }
@@ -870,13 +903,13 @@ footer .contact_icons i{
         flex-basis: 80%;
     }
 
-    #target_uticel article p{
+    #target_uticel article p, #hosszCikk article p{
         text-align: justify;
         margin: 0 20px;
         font-size: 1.3rem;
     }
 
-    #target_uticel article ul li {
+    #target_uticel article ul li{
         padding: 10px;
         font-size: 1.3rem;
     }
