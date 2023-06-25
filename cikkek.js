@@ -1,4 +1,106 @@
+let cikkek = {
+    cikk: [
+        {
+            hely: "Görögország",
+            tartalom: /*html*/
+            `
+                <section class="cikkek">
 
+                <div class="cikkek_box">
+                    <div class="box">
+                    <img src="img/Névtelen terv(6).png" alt="görögország">
+                    
+                    <h3>Neos Marmaras, Chalkidiki</h3>
+
+                    <div class="txt">
+                        <p>
+                            Neos Marmaras egy gyönyörű görög üdülőhely Halkidiki félszigetén, amely lenyűgöző tengerpartokkal
+                            és hangulatos kikötővel várja a látogatókat. A tradicionális
+                            ...
+                        </p>
+                        <a href="#article_cikk" class="elolvas_btn">Elolvasom</a>
+                    </div>
+                </div>
+
+                </section>
+            `
+        },
+        {
+            hely: "Ciprus",
+            tartalom: /*html*/
+            `
+                <section class="cikkek">
+
+                <div class="cikkek_box">
+                    <div class="box">
+                    <img src="img/Névtelen terv(6).png" alt="görögország">
+                    
+                    <h3>Ciprus</h3>
+
+                    <div class="txt">
+                        <p>
+                            Ciprus
+                            ...
+                        </p>
+                        <a href="#article_cikk" class="elolvas_btn">Elolvasom</a>
+                    </div>
+                </div>
+
+                </section>
+            `
+        },
+        {
+            hely: "Olaszország",
+            tartalom: /*html*/
+            `
+                <section class="cikkek">
+
+                <div class="cikkek_box">
+                    <div class="box">
+                    <img src="img/Névtelen terv(6).png" alt="görögország">
+                    
+                    <h3>Olaszország</h3>
+
+                    <div class="txt">
+                        <p>
+                            Olaszország
+                            ...
+                        </p>
+                        <a href="#article_cikk" class="elolvas_btn">Elolvasom</a>
+                    </div>
+                </div>
+
+                </section>
+            `
+        },
+        {
+            hely: "Spanyolország",
+            tartalom: /*html*/
+            `
+                <section class="cikkek">
+
+                <div class="cikkek_box">
+                    <div class="box">
+                    <img src="img/Névtelen terv(6).png" alt="görögország">
+                    
+                    <h3>Spanyolország</h3>
+
+                    <div class="txt">
+                        <p>
+                            Spanyolország
+                            ...
+                        </p>
+                        <a href="#article_cikk" class="elolvas_btn">Elolvasom</a>
+                    </div>
+                </div>
+
+                </section>
+            `
+        },
+
+
+    ]
+};
 
 var nav = document.querySelector("nav");
 
@@ -38,18 +140,28 @@ selectBtn.onclick = () =>{
 }
 
 items.forEach(target =>{
-    let newBtn = document.createElement("button");
-            newBtn.classList.add("go_btn");
-            newBtn.innerHTML = "Keres";
-
+    
     target.onclick = () =>{
-        target.classList.toggle("checked");
+    
 
-        let checked = document.querySelectorAll(".checked");
-        let checkedTxt = target.querySelector(".item_text").innerHTML;
+        let checkedItem = document.querySelector(".checked");
 
-        if(checked){
-            document.querySelector(".select_container").appendChild(newBtn);
+        if(checkedItem)
+            checkedItem.classList.remove("checked");
+
+        target.classList.add("checked");
+        
+        let checked = document.querySelector(".checked");
+        
+        if(document.querySelector(".go_btn") == undefined){
+        var newBtn = document.createElement("button");
+                newBtn.classList.add("go_btn");
+                newBtn.innerHTML = "Keres";
+                document.querySelector(".select_container").appendChild(newBtn);
+        }
+
+        document.querySelector(".go_btn").onclick = () =>{
+            
         }
     }
 })
