@@ -24,21 +24,6 @@ let cikkek = {
                     </div>
     
 
-                    <div class="box" data-hely="Görögország">
-                        <img src="img/chalkidiki-cikk.png" alt="Chalkidiki">
-                        
-                        <h3>A Chalkidiki félsziget legszebb tengerpartjai</h3>
-
-                        <div class="txt">
-                            <p>
-                                A három lábú félsziget nagyon népszerű turistalátványosság, gyönyörű városai, természeti
-                                képződményei, turisztikai célállomásai okkal vonzzák az idelátogatókat. Tiszta vizei a 
-                                búvárkodni vágyók ...
-                            </p>
-                            <a href="#hosszCikk" class="elolvas_btn">Elolvasom</a>
-                        </div>
-                    </div>
-
                 </div>
                 
             </section>
@@ -67,21 +52,6 @@ let cikkek = {
                     </div>
             
 
-                    <div class="box" data-hely="Ciprus">
-                        <img src="img/cyprus-2.png" alt="cyprus">
-                    
-                        <h3>5 kihagyhatatlan hely, ha Cipruson jársz</h3>
-
-                        <div class="txt">
-                            <p>
-                                Ha Cyprus mellett döntünk a nyaralásunk során, kétség kívül nehezen lőhetünk mellé.
-                                Sajátos tengerpartjainak, változatos látképének elbűvölő ereje van de vannak látványosságai,
-                                amit hiba lenne kihagyni ...
-                            </p>
-                            <a href="#hosszCikk" class="elolvas_btn">Elolvasom</a>
-                        </div>
-                    </div>
-
                 </div>
                 
             </section>
@@ -94,22 +64,6 @@ let cikkek = {
                 <section class="cikkek">
 
                     <div class="cikkek_box">
-                        <div class="box" data-hely="Olaszország">
-                            <img src="img/diving-1.png" alt="buvarhelyek">
-                    
-                            <h3>Olaszország 5 legjobb búvárhelye kezdőknek</h3>
-
-                            <div class="txt">
-                                <p>
-                                    Gondolkodtál már azon, hogy szabadtüdős merüléssel vagy könnyűbúvár felszereléssel merülj alá
-                                    csodaszép tengerpartok habjai alá, hogy megcsodáld a meseszép vízivilág csodáit? 
-                                    Itt van 5 olaszországi hely, ahol ...
-                                </p>
-                                <a href="#hosszCikk" class="elolvas_btn">Elolvasom</a>
-                            </div>
-                        </div>
-                    
-
                         <div class="box" data-hely="Olaszország">
                             <img src="img/diving-1.png" alt="buvarhelyek">
                     
@@ -153,20 +107,6 @@ let cikkek = {
                             </div>
                         </div>
                     
-                        <div class="box" data-hely="Spanyolország">
-                            <img src="img/tenerife-1.png" alt="tenerife">
-                        
-                            <h3>A Vulkánok és Napfény Szigete, Tenerife</h3>
-
-                            <div class="txt">
-                                <p>
-                                    A Kanári-szigetek legnagyobbika, ahol akár télen is nyaralhatunk Spanyolországhoz tartozik,
-                                    habár onnan 1000 km-re esik Afrika mellett. A sziget igazi turistaparadicsom számos utánozhatatlan
-                                    ...
-                                </p>
-                                <a href="#hosszCikk" class="elolvas_btn">Elolvasom</a>
-                            </div>
-                        </div>
 
                     </div>
                     
@@ -280,6 +220,90 @@ let hosszCikk = {
 
                         <p>
                         Ciprus valóban elbűvölő és sokszínű hely, ahol a történelem, a természet és a tengerparti pihenés találkozik. Ne hagyd ki ezeket a kihagyhatatlan helyeket, ha ellátogatsz erre a gyönyörű szigetre. Élvezd a ciprusi vendégszeretetet, kóstolj meg helyi ételeket és fedezd fel a sziget varázslatos világát!     </p>                
+                        
+                    </section>
+                </article>
+            `
+        },
+        {
+            cim: "Olaszország 5 legjobb búvárhelye kezdőknek",
+            cikk: /*html*/
+            `
+                <article id="article_cikk">
+                    <h2>Olaszország 5 legjobb búvárhelye kezdőknek</h2>
+
+                    <section>
+                        <p>Olaszország nemcsak híres történelmi városairól és csodálatos gasztronómiájáról, hanem búvárparadicsomairól is. Ha kezdő búvár vagy, Olaszország számos helyet kínál, ahol felfedezheted a tenger mélységeit és élvezheted a búvárkodás izgalmait. Íme az Olaszország 5 legjobb búvárhelye kezdőknek.</p>
+                        <img src="img/olasz-fo.jpg" alt="olaszország">
+
+                        <h3>Ischia, Nápoly közelében:</h3>
+                        <p>Ischia egy lenyűgöző sziget Nápoly közelében, amely népszerű célpont a búvárkodók körében. A kellemes vízhőmérséklet és a jó látási viszonyok ideálissá teszik a helyet a kezdő búvárok számára. Fedezd fel a tenger alatti barlangokat, élvezd a színes korallzátonyokat és találkozz a tengeri élet lenyűgöző képviselőivel.</p>
+                        <img src="img/olasz-ischia.jpg" alt="olaszország">
+
+                        
+                        <h3>Porto Ercole, Toszkána:</h3>
+                        <p>Porto Ercole egy bájos kisváros Toszkánában, amely kiváló lehetőségeket kínál a búvárkodásra. Az itteni vizek kristálytiszták és gazdag tengeri élettel rendelkeznek. Látogass el a Feniglia tengerparti rezervátumba, ahol a sekély vizek ideálisak a kezdő búvárok számára. Csodáld meg a tengeri fáklyafish és a homokhólyag medúza színes táncát.</p>                
+                        <img src="img/olasz-porto.jpg" alt="olaszország">
+
+
+                        <h3>Cinque Terre, Ligúria:</h3>
+                        <p> A festői Cinque Terre part menti falvak híresek a lenyűgöző kilátásról és a gazdag tengeri életről. A kezdő búvárok számára a Monterosso al Mare vagy a Vernazza partjainál található búvárközpontok kínálnak órákat és túrákat. Fedezd fel a meredek sziklafalakat, a tenger alatti barlangokat és az élénk színekben pompázó tengeri élőlényeket.</p>                     
+                        <img src="img/olasz-cinque.jpg" alt="olaszország">
+
+
+                        <h3>Ustica, Szicília:</h3>
+                        <p>Ustica egy kis sziget Szicília partjainál, amely híres a tengeri rezervátumáról és a kristálytiszta vizeiről. Az itt található búvárközpontok számos lehetőséget kínálnak a kezdő búvároknak, beleértve az oktatást és az útmutatást is. Merülj le a mélybe, és fedezd fel az Ustica lenyűgöző tengeri világát, ahol gyakran lehet látni cápákat, teknősöket és színpompás halakat.</p> 
+                        <img src="img/olasz-ustica.jpg" alt="olaszország">
+
+
+                        <h3>Capo Carbonara, Sardínia:</h3>
+                        <p>Capo Carbonara egy tengerparti üdülőhely Sardínia déli részén, amely ideális választás a kezdő búvárok számára. A homokos strandok és a sekély vizek kiváló lehetőségeket kínálnak a tanulásra és a gyakorlásra. Fedezd fel a tengeri legyek világát, élvezd a korallzátonyokat és találkozz a különböző tengeri fajokkal.</p> 
+                        <img src="img/olasz-capo.jpg" alt="olaszország">
+
+
+                        <p>Ezek az Olaszország 5 legjobb búvárhelye kezdőknek garantáltan izgalmas és emlékezetes búvárélményeket kínálnak. Ne habozz felfedezni a tenger mélységeit, és csodálkozz rá a lenyűgöző tengeri életre, amely Olaszország búvárhelyein otthonra talál!</p>                
+                        
+                    </section>
+                </article>
+            `
+        },
+        {
+            cim: "A Chalkidiki félsziget legszebb tengerpartjai",
+            cikk: /*html*/
+            `
+                <article id="article_cikk">
+                    <h2>A Chalkidiki félsziget legszebb tengerpartjai</h2>
+
+                    <section>
+                        <p>Görögországban található Chalkidiki félsziget, vagy más néven Halkidiki, egy igazi paradicsom a tengerpart szerelmeseinek. Ez a lenyűgöző terület három "láb" vagy félszigetből áll: Kassandra, Sithonia és Athosz. Ha a tökéletes tengerparti élményre vágysz, itt van egy lista a Chalkidiki félsziget legszebb tengerpartjairól.</p>
+                        <img src="img/gorog-fo.jpg" alt="görögország">
+
+                        <h3>Kassandra félsziget, Kalithea:</h3>
+                        <p>A Kalithea strand Kassandra egyik legismertebb és legnépszerűbb tengerpartja. A kristálytiszta víz, a finom homok és a gyönyörű táj egyaránt elbűvölővé teszik ezt a helyet. Itt számos szolgáltatás és bárok találhatók, így nem fogsz unatkozni.</p>
+                        <img src="img/gorog-kalithea.jpg" alt="görögország">
+
+                        
+                        <h3>Kassandra félsziget, Pefkohori:</h3>
+                        <p> Pefkohori egy másik gyönyörű tengerparti üdülőhely Kassandra félszigeten. A hosszú homokos strand és a türkizkék víz tökéletes környezetet teremt a pihenésre és a fürdőzésre. Fedezd fel a part menti tavernákat és élvezd a friss tenger gyümölcseit.</p>                
+                        <img src="img/gorog-pefkohori.jpg" alt="görögország">
+
+
+                        <h3>Sithonia félsziget, Porto Koufo:</h3>
+                        <p>Porto Koufo a Chalkidiki félsziget legnagyobb természetes kikötője, és egyben egy csodálatos tengerpart is. Az itteni vizek mélyek és kristálytiszták, ideálisak a búvárkodáshoz és a snorkelinghez. Élvezd a csendes és nyugodt környezetet, és merülj el a tenger nyugalmában.</p>                     
+                        <img src="img/gorog-porto.jpg" alt="görögország">
+
+
+                        <h3>Sithonia félsziget, Vourvourou:</h3>
+                        <p>Vourvourou egy varázslatos öböl Sithonia félszigeten. A tengerpartot körülvevő hegyek és a szigetek látványa lenyűgöző. Fedezd fel a gyönyörű öblöket és a homokos strandokat, és élvezd a nyugodt vizek nyújtotta fürdőzést.</p> 
+                        <img src="img/gorog-vourvourou.jpg" alt="görögország">
+
+
+                        <h3>Athosz félsziget, Ammouliani-sziget:</h3>
+                        <p>Bár az Athosz félsziget az ortodox szerzetesek zárt területe, a környező területeken számos csodálatos tengerpart található, köztük az Ammouliani-sziget. Ez a gyönyörű sziget lenyűgöző homokos strandokkal és kristálytiszta vizekkel várja a látogatókat. Élvezd a pihentető napozást és fürdőzést a sziget bájos környezetében.</p> 
+                        <img src="img/gorog-athos.jpg" alt="görögország">
+
+
+                        <p>A Chalkidiki félsziget kínálja a Görögországban található leglenyűgözőbb tengerparti helyek egyikét. Függetlenül attól, hogy melyik félszigeten tartózkodsz, garantáltan elkápráztatnak majd a gyönyörű homokos partok és a türkizkék víz. Merülj el a tengeri paradicsomban, és élvezd a Chalkidiki lenyűgöző tengerpartjainak varázsát!</p>                
                         
                     </section>
                 </article>
