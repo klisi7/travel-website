@@ -539,6 +539,7 @@ main{
     align-items: center;
     justify-content: space-between;
     padding: 0 1.2rem;
+    margin-bottom: 1rem;
     border-radius: 8px;
     cursor: pointer;
     background-color: #fff;
@@ -633,6 +634,10 @@ main{
     width: 100%;
     background-color: #ef233c;
     color: #fff;
+    padding: .5rem 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
 }
 
 footer{
@@ -903,6 +908,10 @@ footer .contact_icons i{
 
     .cikkek_box .box h3{
         font-size: 1.2rem;
+    }
+
+    .height{
+        width: 80vw;
     }
 
     .insp_imgs img{
