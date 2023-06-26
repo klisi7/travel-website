@@ -285,33 +285,33 @@ let hosszCikk = {
 
                     <section>
                         <p>A karneválok ünnepe szerte a világon izgalmas és látványos eseményeket jelent, de ha az ember a görög karneválokra gondol, egy különleges, élettel teli és hagyományokkal teli ünnepre asszociál. Görögországban a karnevál időszaka tele van vidámsággal, örömmel és színpompával, ahol az emberek különleges maszkokba öltözve vonulnak az utcákra, hogy ünnepeljenek és mulassanak. Hadd mutassam be nektek a legnagyobb görög karnevált, ami egyedülálló élményt kínál minden látogatónak.</p>
-                        <img src="img/gorog-fo.jpg" alt="görögország">
+                        <img src="img/gorog-karneval-fo.jpg" alt="görögország">
 
                         <h3>A Patraszi Karnevál:</h3>
                         <p>Görögország leghíresebb és legnagyobb karneválja a patraszi karnevál, amelyet minden évben január végétől február végéig rendeznek meg a Patrasz városában. Ez az esemény hatalmas méretű és hatalmas érdeklődést kelt nemcsak helyiek, hanem turisták körében is. A patraszi karnevál hagyománya több mint 180 évre nyúlik vissza, és ma már az egyik legfontosabb kulturális és társadalmi esemény Görögországban.</p>
-                        <img src="img/gorog-kalithea.jpg" alt="görögország">
+                        <img src="img/gorog-patra.jpg" alt="görögország">
 
                         
                         <p>A karnevál időszakát az "Apokriés" néven is ismerik, ami görögül "az értelmetlen" vagy "a visszafogástalan" jelentésű szó. Ez az időszak a böjt előtti utolsó mulatozás, amikor az emberek még egyszer kiereszthetik a gőzt, és mélyen belemerülhetnek a farsangi hangulatba.</p>                
-                        <img src="img/gorog-pefkohori.jpg" alt="görögország">
+                        <img src="img/gorog-apok.jpg" alt="görögország">
 
 
                         <p>A patraszi karnevál hónapokkal a kezdés előtt elkezdődik a szervezés és a felkészülés. A város különböző csoportokra oszlik, akik elkészítik a lenyűgöző maszkokat, kosztümöket és díszleteket. Minden csoport sajátos témát és stílust képvisel, és izgalmas táncokat, zenei előadásokat és színvonalas produkciókat készít.</p>                     
-                        <img src="img/gorog-porto.jpg" alt="görögország">
+                        <img src="img/gorog-karna.jpg" alt="görögország">
 
 
                         <p>A karnevál fő attrakciója az "Apokriatikí Paráda", azaz a Karneváli Menet, amelyben több száz résztvevő vesz részt. Az utcákat áthatja a zene, a tánc és a vidámság hangulata. A főutcák tele vannak nézőkkel, akik izgatottan várják, hogy megláthassák a fantasztikus jelmezeket és a kreatív kocsikat, amelyek a görög mitológia, a történelem és a modern társadalom különböző témáit ábrázolják.</p> 
-                        <img src="img/gorog-vourvourou.jpg" alt="görögország">
+                        <img src="img/gorog-karn2.jpg" alt="görögország">
 
 
                         <p>A patraszi karnevál színes és pörgős programokat kínál a látogatóknak. A városban számos színpad és fesztiváltér található, ahol koncertek, táncbemutatók és kulturális események zajlanak. Az utcák tele vannak árusokkal, akik helyi ételeket, italokat és kézműves termékeket árulnak. A mulatság éjjel-nappal tart, és a város minden szegletében megtalálható a karnevál varázsa.</p> 
-                        <img src="img/gorog-athos.jpg" alt="görögország">
+                        <img src="img/gorog-karna3.jpg" alt="görögország">
 
 
                         <p>A patraszi karnevál több mint egy hétig tart, és a végén az "Égés" nevű esemény zárja le az ünnepet. Az emberek összegyűlnek, és óriási bonfire-t gyújtanak, amely a böjt kezdetét jelzi. A tűz fényében mindannyian együtt táncolnak és énekelnek, miközben búcsúznak a karneváltól és várják a következő évben történő találkozást.</p>                
 
                         <p>A patraszi karnevál átélésével a látogatók részesei lehetnek a görög kultúra és hagyományok gazdag világának. Ez az ünnepi időszak lehetőséget nyújt arra, hogy a turisták közelebbről megismerjék Görögország vidám és barátságos oldalát, és együtt ünnepeljenek a helyiekkel.</p>
-                        <img src="img/gorog-athos.jpg" alt="görögország">
+                        <img src="img/gorog-karna4.jpg" alt="görögország">
                         
                         <p>Görögország a karneválok királya, és a patraszi karnevál az egyik legkiemelkedőbb példa erre. Fedezd fel a görög kultúra, a vidámság és a színpompás ünneplés ezen egyedülálló összefonódását, és merülj el a patraszi karnevál felejthetetlen élményeiben!</p>
                     </section>
@@ -358,6 +358,21 @@ selectBtn.onclick = () =>{
     selectBtn.classList.toggle("open");
 }
 
+document.querySelectorAll("#hosszCikk .elolvas_btn").forEach(target =>{
+    target.onclick = () =>{
+        let parH3 = target.parentNode.parentNode.querySelector("h3").innerHTML;
+
+        console.log(parH3);
+
+        for(let i = 0; i < hosszCikk.hely.length; i++){
+            if(hosszCikk.hely[i].cim == parH3){
+                document.querySelector(".cikkek_box").innerHTML = hosszCikk.hely[i].cikk;
+            }
+        }
+
+    }
+})
+
 items.forEach(target =>{
     
     target.onclick = () =>{
@@ -388,22 +403,23 @@ items.forEach(target =>{
             document.querySelector(".select_btn").classList.remove("open");
             document.querySelector(".go_btn").remove();
 
-
-            document.querySelectorAll("#hosszCikk .elolvas_btn").forEach(target =>{
-                target.onclick = () =>{
-                    let parH3 = target.parentNode.parentNode.querySelector("h3").innerHTML;
-
-                    console.log(parH3);
-    
-                    for(let i = 0; i < hosszCikk.hely.length; i++){
-                        if(hosszCikk.hely[i].cim == parH3){
-                            document.querySelector(".cikkek_box").innerHTML = hosszCikk.hely[i].cikk;
-                        }
-                    }
-    
-                }
-            })
         }
 
+
+        document.querySelectorAll("#hosszCikk .elolvas_btn").forEach(target =>{
+            target.onclick = () =>{
+                let parH3 = target.parentNode.parentNode.querySelector("h3").innerHTML;
+        
+                console.log(parH3);
+        
+                for(let i = 0; i < hosszCikk.hely.length; i++){
+                    if(hosszCikk.hely[i].cim == parH3){
+                        document.querySelector(".cikkek_box").innerHTML = hosszCikk.hely[i].cikk;
+                    }
+                }
+        
+            }
+        })
     }
 })
+
