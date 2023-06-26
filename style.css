@@ -554,7 +554,6 @@ main{
 }
 
 .height{
-    height: 10vh;
     width: 50vw;
     display: flex;
     justify-content: center;
