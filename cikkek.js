@@ -516,9 +516,11 @@ items.forEach(target =>{
                 }
             }
 
+            /*
             document.querySelector(".select_btn").classList.remove("open");
             document.querySelector(".go_btn").remove();
-
+            */
+           
             document.querySelectorAll(".elolvas_btn").forEach(target =>{
                 target.onclick = () =>{
                     let parH3 = target.parentElement.parentElement.querySelector("h3").innerHTML;
