@@ -318,6 +318,120 @@ let hosszCikk = {
                 </article>
             `
         },
+        {
+            cim: "Felfedezésre váró Tengerparti Paradicsomok",
+            cikk: /*html*/
+            `
+                <article id="article_cikk">
+                    <h2>Felfedezésre váró Tengerparti Paradicsomok</h2>
+
+                    <section>
+                        <p>A tengerparti üdülés mindig is az egyik legvonzóbb módja volt a kikapcsolódásnak, és Európa számos lenyűgöző tengerparttal büszkélkedhet. Ebben a cikkben bemutatunk öt felfedezésre váró európai tengerparti paradicsomot, amelyek garantáltan elvarázsolnak téged.</p>
+                        <img src="img/spanyol-hosszu-fo.jpg" alt="spanyolország">
+
+                        <h3>Costa del Sol, Spanyolország:</h3>
+                        <p>A Costa del Sol Spanyolország déli részén található, és híres lenyűgöző homokos partjairól és mediterrán életstílusáról. A régió legnépszerűbb városa Marbella, ahol a napsütéses strandok, a luxus üdülőhelyek és a golfpályák várnak rád. Élvezd a gyönyörű tengerparti sétányokat, a kiváló gasztronómiát és a pezsgő éjszakai életet.</p>
+                        <img src="img/spanyol-costa.jpg" alt="spanyolország">
+
+                        
+                        <h3>Costa Brava, Spanyolország:</h3>
+                        <p>A Costa Brava Spanyolország északi partján terül el, és csodálatos tájakat kínál a látogatóknak. Az itt található tengerparti városok, mint például Tossa de Mar és Lloret de Mar, gyönyörű homokos és aprókavicsos strandokkal várják a látogatókat. Fedezd fel a sziklás öblöket, a rejtett ösvényeket és a türkizkék vizet. Ne hagyd ki a Costa Brava híres városát, Gironát sem, ahol a középkori városközpont, a szűk sikátorok és a híres Girona katedrális található.</p>                
+                        <img src="img/spanyol-costa-brava.jpg" alt="spanyolország">
+
+
+                        <h3>Costa Blanca, Spanyolország:</h3>
+                        <p>A Costa Blanca Spanyolország keleti partvidékén terül el, és a lenyűgöző strandok, a kristálytiszta víz és a napsütéses éghajlat miatt vonzza a látogatókat. Az Alacant városában található Alicante strandja híres a homokos partjáról és a hatalmas pálmafáiról. Fedezd fel a bájos kisvárosokat, mint például Jávea, Moraira és Calpe, ahol változatos tengerparti élmények várnak rád, beleértve a vízi sportokat és a hajókirándulásokat.</p>                     
+                        <img src="img/spanyol-costa-blanca.jpg" alt="spanyolország">
+
+
+                        <h3>Algarve, Portugália:</h3>
+                        <p>Az Algarve Portugália déli partján helyezkedik el, és egy másik elbűvölő tengerparti célpont Európában. A régió híres a kanyargós partvonaláról, a sziklás barlangokról és a homokos öblökről. Albufeira városa egyik legkedveltebb üdülőhely, ahol a napozás, a vitorlázás és a delfinmegfigyelés egyaránt élvezetes programok. Ne hagyd ki a Ponta da Piedade különleges sziklaképződményeinek felfedezését Lagos közelében.</p> 
+                        <img src="img/portugal-hosszu.jpg" alt="portugália">
+
+
+                        <h3>Amalfi-part, Olaszország:</h3>
+                        <p>Az Amalfi-part Olaszország déli részén található, és a vidék mesés tengerparti tájairól, a hegyekre épült festői falvakról és az olasz kultúráról híres. Positano városa az egyik legismertebb hely a régióban, és gyönyörű homokos strandjáról, színes épületeiről és a város felett magasodó hegyekről ismert. Élvezd a tengerparti sétautakat, látogass el az Amalfi városába és a Ravello kisvárosába, ahol lenyűgöző kilátás nyílik a tengerre.</p> 
+                        <img src="img/olasz-amalfi.jpg" alt="olaszország">
+
+
+                        <p>Ezek az európai tengerparti célpontok igazi paradicsomok a pihenésre, a kikapcsolódásra és a varázslatos tájakra vágyó utazóknak. Fedezd fel ezeket a helyeket, élvezd a tengerpartok nyújtotta élményeket és merülj el a mediterrán hangulatban.</p>                
+                        
+                    </section>
+                </article>
+            `
+        },
+        {
+            cim: "Kalandok az Egei és a Jón-tengeren",
+            cikk: /*html*/
+            `
+                <article id="article_cikk">
+                    <h2>Kalandok az Egei és a Jón-tengeren</h2>
+
+                    <section>
+                        <p>Görögország egyedülálló tengerparti paradicsom, amely különleges élményeket kínál az Egei- és a Jón-tengeren. Ebben a cikkben bemutatjuk néhány izgalmas kalandot és felfedeznivalót, amelyek várják az utazókat ezen a varázslatos területen.</p>
+                        <img src="img/gorog-hosszu-fo.jpg" alt="görögország">
+
+                        <h3>Szörfözés a Naxos szigetén, az Egei-tengerben:</h3>
+                        <p>A Naxos szigete az egyik legjobb helyszín a szörfözés szerelmeseinek. A sziget híres a szélviszonyairól, amelyek ideálisak a szörfözéshez és a kiteszörfözéshez. A mikroklima miatt a nyári hónapokban erős szél fúj a sziget partjain, ami fantasztikus feltételeket teremt a vízi sportok szerelmeseinek. Fedezd fel a Naxos szigetének homokos strandjait és kristálytiszta vizét, miközben élvezed a szörfözés izgalmát.</p>
+                        <img src="img/gorog-naxos.jpg" alt="görögország">
+
+                        
+                        <h3>Búvárkodás a Zakynthos szigetén, a Jón-tengeren:</h3>
+                        <p>A Zakynthos szigete gyönyörű korallokban gazdag tengeri élővilága miatt ideális hely a búvárkodáshoz. A kék barlangok, a rejtett barlangrendszerek és a lenyűgöző tengeri barlangok lenyűgözik a látogatókat. Merülj el a kristálytiszta vízben, és fedezd fel a tenger mélyének titkait. Találkozhatsz teknősökkel, delfinekkel és számos más tengeri élőlényvel, miközben élvezed a búvárkodás varázslatos élményét.</p>                
+                        <img src="img/gorog-zakhyntos-diving.jpg" alt="görögország">
+
+
+                        <h3>Hajókirándulás a Santorini szigetre, az Egei-tengeren:</h3>
+                        <p>A Santorini szigete egyszerűen lenyűgöző látványt nyújt, és a hajókirándulás itt igazi élmény. Fedezd fel a vulkanikus sziget csodálatos partjait, amelyek sziklákból emelkednek ki a tengerből. Gyönyörködj a híres kalderában, ahol a fehérre meszelt házak és a kék kupolák a látogatók számára különleges látványt nyújtanak. A hajókirándulás során lehetőséged nyílik fürdőzésre a forró forrásokban és a természetes termálvizekben, valamint a bájos tengerpartokon való pihenésre.</p>                     
+                        <img src="img/gorog-santorini.jpg" alt="görögország">
+
+
+                        <h3>Vitorlázás a Korfu szigeten, a Jón-tengeren:</h3>
+                        <p>A Korfu szigete lenyűgöző tengeri tájakkal és változatos vitorlázási lehetőségekkel rendelkezik. Fedezd fel a sziget körüli apró szigeteket, a kis öblöket és a rejtett partszakaszokat. Élvezd a nyugodt vizeket és a szél által hajtott vitorláshajózás élményét. A vitorlázás közben meglátogathatod a mesés tengerparti falvakat, mint például Paleokastritsa, és élvezheted a hagyományos görög gasztronómiát és vendégszeretetet.</p> 
+                        <img src="img/gorog-korfu.jpg" alt="görögország">
+
+
+                        <p>Az Egei- és a Jón-tengeren található görög szigetek izgalmas kalandokat kínálnak a tenger szerelmeseinek. Legyen szó szörfözésről, búvárkodásról, hajókirándulásról vagy vitorlázásról, ezek a helyszínek garantáltan elbűvölnek és felejthetetlen élményekkel gazdagítanak. Merülj el a tengerparti paradicsomok világában, és élvezd a Görögország varázslatos tengeri kalandjait.</p>                
+                        
+                    </section>
+                </article>
+            `
+        },
+        {
+            cim: "Európai Nemzeti Parkok, amik elbűvölnek",
+            cikk: /*html*/
+            `
+                <article id="article_cikk">
+                    <h2>Európai Nemzeti Parkok, amik elbűvölnek</h2>
+
+                    <section>
+                        <p>Európa számos lenyűgöző Nemzeti Parkkal büszkélkedhet, amelyek a természet csodáit és egyedülálló tájakat kínálnak. Ebben a cikkben bemutatunk néhányat ezek közül, amelyek biztosan elvarázsolnak téged.</p>
+                        <img src="img/nemzeti-parkok-fo.jpg" alt="nemzetipark">
+
+                        <h3>Gran Paradiso Nemzeti Park, Olaszország:</h3>
+                        <p>Az olasz Alpokban elhelyezkedő Gran Paradiso Nemzeti Park a legősibb nemzeti park Olaszországban. A parkot hegyek, gleccserek és festői völgyek jellemzik. Itt található az Alpok legmagasabb pontja, a Gran Paradiso csúcsa. A park gazdag állat- és növényvilága, valamint a gyönyörű alpesi tájak lehetővé teszik a kirándulásokat, hegymászást és a természeti szépségek felfedezését.</p>
+                        <img src="img/olasz-nemzeti-park.jpg" alt="olaszország">
+                        <img src="img/olasz-nemzeti-park2.jpg" alt="olaszország">
+
+                        
+                        <h3>Ordesa és Monte Perdido Nemzeti Park, Spanyolország:</h3>
+                        <p>A spanyol Pireneusokban található Ordesa és Monte Perdido Nemzeti Park egy varázslatos hely, lenyűgöző szurdokokkal, vadregényes vízesésekkel és hegyvidéki tájakkal. Ez a park a természet szerelmeseinek ideális hely a túrázáshoz, hegymászáshoz és a vadon élő állatok megfigyeléséhez. A Monte Perdido, a Pireneusok egyik legmagasabb csúcsa, impozáns látványt nyújt a park területén.</p>                
+                        <img src="img/spanyol-nemzeti-park.jpg" alt="spanyolország">
+                        <img src="img/spanyol-nemzeti-park2.jpg" alt="spanyolország">
+
+
+                        <h3>Krka Nemzeti Park, Horvátország:</h3>
+                        <p>Horvátországban található a lenyűgöző Krka Nemzeti Park, amelyet a festői Krka folyó és vízesések tesznek egyedivé. A parkban sétahidak és sétaösvények vezetnek a buja növényzet által borított területeken, ahol lenyűgöző vízeséseket, kristálytiszta tavakat és kanyonokat fedezhetsz fel. A Krka Nemzeti Park egy igazi oázis, ahol fürödhetsz a természetben és élvezheted a gyönyörű tájat.</p>                     
+                        <img src="img/horvat-nemzeti-park.jpg" alt="horvátország">
+                        <img src="img/horvat-nemzeti-park2.jpg" alt="horvátország">
+
+
+                        <p>Ezek az Európai Nemzeti Parkok igazi kincsek, amelyek varázslatos természeti szépséggel ajándékoznak meg bennünket. Látogasd meg ezeket a parkokat, fedezd fel a hegyek, folyók és vízesések világát, és gyönyörködj a gazdag növény- és állatvilágban. A Nemzeti Parkok ideális helyek a természet szerelmeseinek és az aktív pihenést keresőknek egyaránt.</p>                
+                        
+                    </section>
+                </article>
+            `
+        },
     ]
 }
 
@@ -409,14 +523,23 @@ items.forEach(target =>{
                 target.onclick = () =>{
                     let parH3 = target.parentElement.parentElement.querySelector("h3").innerHTML;
             
-                    console.log(parH3);
+                    for(let i = 0; i < hosszCikk.hely.length; i++){
+                        if(hosszCikk.hely[i].cim == parH3){
+                            document.querySelector(".cikkek_box").innerHTML = hosszCikk.hely[i].cikk
+                        }
+                    }
+                }
+            })
+
+            document.querySelectorAll(".box .elolvas_btn").forEach(target =>{
+                target.onclick = () =>{
+                    let parH3 = target.parentElement.parentElement.querySelector("h3").innerHTML;
             
                     for(let i = 0; i < hosszCikk.hely.length; i++){
                         if(hosszCikk.hely[i].cim == parH3){
-                            console.log(hosszCikk.hely[i].cikk);
+                            document.querySelector(".cikkek_box").innerHTML = hosszCikk.hely[i].cikk
                         }
                     }
-            
                 }
             })
         }
