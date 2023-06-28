@@ -390,10 +390,9 @@ main{
     font-size: 1.5rem;
 }
 
-
-
-
-
+#hosszCikk{
+    padding-top: 60px;
+}
 
 #hosszCikk article section{
     display: flex;
