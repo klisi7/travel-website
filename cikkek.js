@@ -377,7 +377,7 @@ items.forEach(target =>{
     
     target.onclick = () =>{
     
-        let checkedItem = document.querySelector(".checked");
+        var checkedItem = document.querySelector(".checked");
 
         if(checkedItem)
             checkedItem.classList.remove("checked");
@@ -387,39 +387,40 @@ items.forEach(target =>{
         let checked = document.querySelector(".checked");
         
         if(document.querySelector(".go_btn") == undefined){
-        var newBtn = document.createElement("button");
-                newBtn.classList.add("go_btn");
-                newBtn.innerHTML = "Keres";
-                document.querySelector(".select_container").appendChild(newBtn);
+            let newBtn = document.createElement("button");
+            newBtn.classList.add("go_btn");
+            newBtn.innerHTML = "Keres";
+            document.querySelector(".select_container").appendChild(newBtn);
         }
 
         document.querySelector(".go_btn").onclick = () =>{
             for(let i = 0; i < cikkek.cikk.length; i++){
                 if(cikkek.cikk[i].hely == checked.innerText){
                     document.querySelector(".cikk .cikkek .cikkek_box").innerHTML = cikkek.cikk[i].tartalom;
+                    document.querySelector(".btn_text").innerHTML = checked.innerText;
                 }
             }
 
             document.querySelector(".select_btn").classList.remove("open");
             document.querySelector(".go_btn").remove();
 
+            document.querySelectorAll(".elolvas_btn").forEach(target =>{
+                target.onclick = () =>{
+                    let parH3 = target.parentElement.parentElement.querySelector("h3").innerHTML;
+            
+                    console.log(parH3);
+            
+                    for(let i = 0; i < hosszCikk.hely.length; i++){
+                        if(hosszCikk.hely[i].cim == parH3){
+                            console.log(hosszCikk.hely[i].cikk);
+                        }
+                    }
+            
+                }
+            })
         }
 
 
-        document.querySelectorAll("#hosszCikk .elolvas_btn").forEach(target =>{
-            target.onclick = () =>{
-                let parH3 = target.parentNode.parentNode.querySelector("h3").innerHTML;
-        
-                console.log(parH3);
-        
-                for(let i = 0; i < hosszCikk.hely.length; i++){
-                    if(hosszCikk.hely[i].cim == parH3){
-                        document.querySelector(".cikkek_box").innerHTML = hosszCikk.hely[i].cikk;
-                    }
-                }
-        
-            }
-        })
     }
-})
 
+})
