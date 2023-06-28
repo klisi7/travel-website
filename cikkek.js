@@ -432,6 +432,86 @@ let hosszCikk = {
                 </article>
             `
         },
+        {
+            cim: "Természet és Kultúra Európában",
+            cikk: /*html*/
+            `
+                <article id="article_cikk">
+                    <h2>Természet és Kultúra Európában</h2>
+
+                    <section>
+                        <p>Európa nem csak a gyönyörű tájakról és természeti szépségekről híres, hanem gazdag kulturális örökséggel is rendelkezik. Az alábbi öt helyszín kiemelkedő kulturális élményeket kínál, amelyekbe mélyedve felfedezheted Európa lenyűgöző kulturális sokszínűségét.</p>
+                        <img src="img/europa-kultura.jpg" alt="görögország">
+
+                        <h3>Santorini, Görögország:</h3>
+                        <p>Görögország kulturális gazdagsága rendkívül változatos, és Santorini szigete kiváló példa erre. A helyi lakosok büszkén ápolják görög hagyományaikat, és hagyományos ünnepek és fesztiválok színesítik az életüket. Fedezd fel a görög konyha gazdagságát, kóstolj meg hagyományos ételeket és italokat, és érezd át a helyi zene és tánc ütemét, amelyek mind hozzájárulnak a görög kulturális élményhez.</p>
+                        <img src="img/gorog-santorini2.jpg" alt="görögország">
+
+                        
+                        <h3>Firenze, Olaszország:</h3>
+                        <p>Firenze Olaszország művészeti és kulturális központja, ahol a reneszánsz csodái találkoznak. A városban számos múzeum, galéria és műemlék található, amelyek lenyűgözik a művészet szerelmeseit. Látogasd meg az Uffizi Galériát, ahol a világhírű festményeket csodálhatod meg, sétálj a város utcáin, és gyönyörködj a művészi műemlékekben, mint például a Duomo vagy a Palazzo Vecchio.</p>                
+                        <img src="img/olasz-firenze.jpg" alt="olaszország">
+
+
+                        <h3>Alpok, Ausztria:</h3>
+                        <p>Az osztrák Alpok nem csak a lenyűgöző természeti szépségről híres, hanem a hagyományos osztrák kultúra és zene központjaként is ismert. Az alpesi falvakban és városokban még mindig élő hagyományokat találsz, mint például a híres adventi és karácsonyi vásárok, a népi hagyományőrző fesztiválok és a hegyi táncok és zenék bemutatói. Fedezd fel az osztrák kultúra gazdagságát és a hagyományokba ágyazott életörömöt az Alpok csodálatos környezetében.</p>                     
+                        <img src="img/ausztria-alpok.jpg" alt="ausztria">
+
+
+                        <h3>Dubrovník, Horvátország:</h3>
+                        <p>Dubrovník Horvátország egyik legkulturálisabb városa, amely gazdag történelmi és építészeti örökséggel büszkélkedhet. A középkori városfalak, a műemlékek és a kőházak lenyűgöző látványt nyújtanak. Sétálj a városközpontban, látogasd meg a múzeumokat és a galériákat, és érezd át a helyi kulturális élet pezsgését. Ne hagyd ki a hagyományos horvát étkek és italok kóstolását sem, hogy teljes mértékben átélhesd Dubrovník varázslatos kulturális élményeit.</p> 
+                        <img src="img/horvat-kultura.jpg" alt="horvátország">
+
+
+                        <p>Ezek az európai helyszínek kiemelkedő kulturális élményeket kínálnak, amelyek segítségével jobban megismerheted a régiók történelmét, kultúráját és hagyományait. Fedezd fel Európa gazdag kulturális örökségét, és élvezd a különleges élményeket, amiket ezek a helyek nyújtanak.</p>                
+                        
+                    </section>
+                </article>
+            `
+        },
+        {
+            cim: "Top 5 úticél fiataloknak Európában",
+            cikk: /*html*/
+            `
+                <article id="article_cikk">
+                    <h2>Top 5 úticél fiataloknak Európában</h2>
+
+                    <section>
+                        <p>Európa számos izgalmas és változatos úticélt kínál a fiatal utazók számára. Az alábbiakban bemutatunk öt olyan helyszínt, amelyek garantáltan felejthetetlen élményeket nyújtanak a kalandvágyó fiatalok számára.</p>
+                        <img src="img/top5-fiatal.jpg" alt="beach-party">
+
+                        <h3>Berlin, Németország:</h3>
+                        <p>Berlin Európa egyik legvibrálóbb és legdivatosabb városa, amely a fiatalok körében rendkívül népszerű. A város tele van művészeti és kulturális eseményekkel, pezsgő éjszakai élettel és alternatív kávézókkal, klubokkal és boltokkal. Fedezd fel a város híres művészeti negyedeit, mint például a Kreuzberg vagy a Friedrichshain, és látogass el a Berlini Fal emlékhelyére. Ne hagyd ki a híres múzeumokat sem, mint például a Pergamon-múzeum vagy a Berlini Fal Múzeum.</p>
+                        <img src="img/top5-fiatal-berlin.jpg" alt="németország">
+
+                        
+                        <h3>Barcelona, Spanyolország:</h3>
+                        <p>Barcelona a mediterrán életstílus és a kreatív szabadság városa. A gyönyörű tengerparti városban lenyűgöző építészeti látnivalók, mint például a Gaudí által tervezett épületek várják az utazókat. Sétálj az ikonikus La Rambla sétányon, élvezd a város pezsgő éjszakai életét, és felfedezd a különleges katalán kultúrát és konyhát. Ne hagyd ki a híres Camp Nou stadiont sem, ahol megtekintheted a Barcelona FC hazai mérkőzéseit.</p>                
+                        <img src="img/top5-fiatal-barcelona.jpg" alt="spanyolország">
+
+
+                        <h3>Prága, Csehország:</h3>
+                        <p>Prága az egyik legromantikusabb és legbájosabb város Európában, amely tele van történelemmel és művészettel. A város központjában található Óváros tér és a Károly-híd lenyűgöző látványt nyújtanak, és a Prágai Vár megtekintése magával ragadó élményt kínál. Fedezd fel a város híres sörfőzdéit, és élvezd a cseh konyha remekeit, mint például a tradicionális gulyásleves vagy a trdelník, egy édes cseh sütemény.</p>                     
+                        <img src="img/top5-fiatal-praga.jpg" alt="csehország">
+
+
+                        <h3>Ibiza, Spanyolország:</h3>
+                        <p>Ibiza a világ egyik legismertebb bulizós szigete, ahol a fiatalok éjszakai élete egyszerűen lenyűgöző. A világhírű DJ-k és a legmenőbb klubok vonzzák ide az utazókat. Emellett a sziget gyönyörű strandokat és kristálytiszta vizet kínál, ahol pihenésre és kikapcsolódásra is van lehetőség. Ne hagyd ki a híres Pacha vagy Amnesia klubokat, és élvezd a naplemente parti hangulatát a Café del Mar-nál.</p> 
+                        <img src="img/top5-fiatal-ibiza.jpg" alt="spanyolország">
+
+
+                        <h3>Athén, Görögország:</h3>
+                        <p>Athén Görögország kulturális és történelmi központja, amely tele van izgalmas látnivalókkal és élményekkel. Látogasd meg az ikonikus Akropoliszt, ahol lenyűgöző ókori épületek találhatók, és élvezd a város kávézóinak és éttermeinek hangulatát. Ne hagyd ki a Plaka negyedet, ahol tradicionális görög ételeket kóstolhatsz, és látogass el a Monastiraki piacra, ahol különféle souvenirek és helyi termékek közül válogathatsz.</p> 
+                        <img src="img/top5-fiatal-athen.jpg" alt="horvátország">
+
+
+                        <p>Ezek az európai úticélok kiváló választások a fiatal utazók számára, akik izgalmas kalandokra vágynak. Ezek a városok és szigetek garantáltan felejthetetlen élményeket nyújtanak, és lehetővé teszik, hogy felfedezd a helyi kultúrákat, gasztronómiát és éjszakai életet. Ne habozz, csomagolj és indulj el a következő fiataloknak szóló európai kalandodra!</p>                
+                        <img src="img/top5-fiatal-vege.jpg" alt="nightlife">
+                        
+                    </section>
+                </article>
+            `
+        },
     ]
 }
 
@@ -510,17 +590,15 @@ items.forEach(target =>{
         document.querySelector(".go_btn").onclick = () =>{
             for(let i = 0; i < cikkek.cikk.length; i++){
                 if(cikkek.cikk[i].hely == checked.innerText){
-                    document.querySelector(".cikk .cikkek .cikkek_box").innerHTML = "";
-                    document.querySelector(".cikk .cikkek .cikkek_box").innerHTML = cikkek.cikk[i].tartalom;
+                    document.querySelector(".cikkek_box").innerHTML = cikkek.cikk[i].tartalom;
                     document.querySelector(".btn_text").innerHTML = checked.innerText;
                 }
             }
 
-            /*
             document.querySelector(".select_btn").classList.remove("open");
             document.querySelector(".go_btn").remove();
-            */
-           
+
+
             document.querySelectorAll(".elolvas_btn").forEach(target =>{
                 target.onclick = () =>{
                     let parH3 = target.parentElement.parentElement.querySelector("h3").innerHTML;
