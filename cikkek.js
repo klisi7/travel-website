@@ -590,7 +590,7 @@ items.forEach(target =>{
         document.querySelector(".go_btn").onclick = () =>{
             for(let i = 0; i < cikkek.cikk.length; i++){
                 if(cikkek.cikk[i].hely == checked.innerText){
-                    document.querySelector("#hosszCikk .cikkek_box").innerHTML = cikkek.cikk[i].tartalom;
+                    document.querySelector("#hosszCikk .cikkek_box").innerHTML = cikkek.cikk[i].tartalom.toString();
                     document.querySelector(".btn_text").innerHTML = checked.innerText;
                 }
             }
