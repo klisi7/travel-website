@@ -399,7 +399,7 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 100px 0;
+    margin: 100px 0 20px 0;
 }
 
 #hosszCikk article img{
@@ -432,7 +432,34 @@ main{
 }
 
 #article_cikk{
-    padding-top: 50px;
+    padding-top: 20px;
+}
+
+.down-side{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.down-side button{
+    border: none;
+    border-radius: 10px;
+    background-color: none;
+    background: none;
+    font-size: 1.5rem;
+    color: #ef233c;
+}
+
+.down-side i{
+    font-size: 2rem;
+    color: #fff;
+    padding: 15px;
+    background-color: #ef233c;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .next{
