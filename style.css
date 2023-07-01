@@ -444,24 +444,23 @@ main{
     margin: 20px 0;
 }
 
-.down-side button{
-    border: none;
+.down-side a{
+    padding: 5px 10px;
     border-radius: 10px;
-    background-color: none;
-    background: none;
     font-size: 1.5rem;
     color: #ef233c;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
 }
 
-.down-side button > i{
-    font-size: 1.5rem;
+.down-side .go_back i{
+    font-size: 1.2rem;
     padding-left: 5px;
 }
 
-.down-side a > i{
+.down-side .go_up{
     font-size: 2rem;
     color: #fff;
     padding: 15px;
@@ -1024,11 +1023,11 @@ footer .contact_icons i{
         width: 100%;
     }
 
-    .down-side button{
+    .down-side a{
         font-size: 1.2rem;
     }
 
-    .down-side a > i{
+    .down-side .go_up{
         padding: 10px;
     }
 
