@@ -508,6 +508,10 @@ let hosszCikk = {
                         <p>Ezek az európai úticélok kiváló választások a fiatal utazók számára, akik izgalmas kalandokra vágynak. Ezek a városok és szigetek garantáltan felejthetetlen élményeket nyújtanak, és lehetővé teszik, hogy felfedezd a helyi kultúrákat, gasztronómiát és éjszakai életet. Ne habozz, csomagolj és indulj el a következő fiataloknak szóló európai kalandodra!</p>                
                         <img src="img/top5-fiatal-vege.jpg" alt="nightlife">
                         
+                        <div class="down-side">
+                            <button>Vissza a cikkekhez</button>
+                            <a><i class="fa fa-arrow-up"></i></a>
+                        </div>
                     </section>
                 </article>
             `
