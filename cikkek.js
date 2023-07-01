@@ -139,7 +139,13 @@ let hosszCikk = {
                         </p>
 
                         <p>
-                            Ne habozz, tervezz egy utat Tenerifére, és fedezd fel a sziget varázslatos világát, ahol a vulkáni tájak, a trópusi strandok és a lenyűgöző természeti csodák garantáltan elkápráztatnak!                        </p>
+                            Ne habozz, tervezz egy utat Tenerifére, és fedezd fel a sziget varázslatos világát, ahol a vulkáni tájak, a trópusi strandok és a lenyűgöző természeti csodák garantáltan elkápráztatnak!
+                        </p>
+
+                        <div class="down-side">
+                            <button>Vissza a cikkekhez <i class="fa fa-arrow-right"></i></button>
+                            <a><i class="fa fa-arrow-up"></i></a>
+                        </div>
                     </section>
                 </article>
             `
@@ -187,6 +193,11 @@ let hosszCikk = {
 
                         <p>
                         Ciprus valóban elbűvölő és sokszínű hely, ahol a történelem, a természet és a tengerparti pihenés találkozik. Ne hagyd ki ezeket a kihagyhatatlan helyeket, ha ellátogatsz erre a gyönyörű szigetre. Élvezd a ciprusi vendégszeretetet, kóstolj meg helyi ételeket és fedezd fel a sziget varázslatos világát!     </p>                
+
+                        <div class="down-side">
+                            <button>Vissza a cikkekhez</button>
+                            <a><i class="fa fa-arrow-up"></i></a>
+                        </div>
                         
                     </section>
                 </article>
@@ -229,6 +240,11 @@ let hosszCikk = {
 
 
                         <p>Ezek az Olaszország 5 legjobb búvárhelye kezdőknek garantáltan izgalmas és emlékezetes búvárélményeket kínálnak. Ne habozz felfedezni a tenger mélységeit, és csodálkozz rá a lenyűgöző tengeri életre, amely Olaszország búvárhelyein otthonra talál!</p>                
+
+                        <div class="down-side">
+                            <button>Vissza a cikkekhez</button>
+                            <a><i class="fa fa-arrow-up"></i></a>
+                        </div>
                         
                     </section>
                 </article>
@@ -272,6 +288,10 @@ let hosszCikk = {
 
                         <p>A Chalkidiki félsziget kínálja a Görögországban található leglenyűgözőbb tengerparti helyek egyikét. Függetlenül attól, hogy melyik félszigeten tartózkodsz, garantáltan elkápráztatnak majd a gyönyörű homokos partok és a türkizkék víz. Merülj el a tengeri paradicsomban, és élvezd a Chalkidiki lenyűgöző tengerpartjainak varázsát!</p>                
                         
+                        <div class="down-side">
+                            <button>Vissza a cikkekhez</button>
+                            <a><i class="fa fa-arrow-up"></i></a>
+                        </div>
                     </section>
                 </article>
             `
@@ -314,6 +334,11 @@ let hosszCikk = {
                         <img src="img/gorog-karna4.jpg" alt="görögország">
                         
                         <p>Görögország a karneválok királya, és a patraszi karnevál az egyik legkiemelkedőbb példa erre. Fedezd fel a görög kultúra, a vidámság és a színpompás ünneplés ezen egyedülálló összefonódását, és merülj el a patraszi karnevál felejthetetlen élményeiben!</p>
+
+                        <div class="down-side">
+                            <button>Vissza a cikkekhez</button>
+                            <a><i class="fa fa-arrow-up"></i></a>
+                        </div>
                     </section>
                 </article>
             `
@@ -355,6 +380,11 @@ let hosszCikk = {
 
 
                         <p>Ezek az európai tengerparti célpontok igazi paradicsomok a pihenésre, a kikapcsolódásra és a varázslatos tájakra vágyó utazóknak. Fedezd fel ezeket a helyeket, élvezd a tengerpartok nyújtotta élményeket és merülj el a mediterrán hangulatban.</p>                
+
+                        <div class="down-side">
+                            <button>Vissza a cikkekhez</button>
+                            <a><i class="fa fa-arrow-up"></i></a>
+                        </div>
                         
                     </section>
                 </article>
@@ -392,6 +422,11 @@ let hosszCikk = {
 
 
                         <p>Az Egei- és a Jón-tengeren található görög szigetek izgalmas kalandokat kínálnak a tenger szerelmeseinek. Legyen szó szörfözésről, búvárkodásról, hajókirándulásról vagy vitorlázásról, ezek a helyszínek garantáltan elbűvölnek és felejthetetlen élményekkel gazdagítanak. Merülj el a tengerparti paradicsomok világában, és élvezd a Görögország varázslatos tengeri kalandjait.</p>                
+
+                        <div class="down-side">
+                            <button>Vissza a cikkekhez</button>
+                            <a><i class="fa fa-arrow-up"></i></a>
+                        </div>
                         
                     </section>
                 </article>
@@ -427,6 +462,11 @@ let hosszCikk = {
 
 
                         <p>Ezek az Európai Nemzeti Parkok igazi kincsek, amelyek varázslatos természeti szépséggel ajándékoznak meg bennünket. Látogasd meg ezeket a parkokat, fedezd fel a hegyek, folyók és vízesések világát, és gyönyörködj a gazdag növény- és állatvilágban. A Nemzeti Parkok ideális helyek a természet szerelmeseinek és az aktív pihenést keresőknek egyaránt.</p>                
+
+                        <div class="down-side">
+                            <button>Vissza a cikkekhez</button>
+                            <a><i class="fa fa-arrow-up"></i></a>
+                        </div>
                         
                     </section>
                 </article>
@@ -464,6 +504,11 @@ let hosszCikk = {
 
 
                         <p>Ezek az európai helyszínek kiemelkedő kulturális élményeket kínálnak, amelyek segítségével jobban megismerheted a régiók történelmét, kultúráját és hagyományait. Fedezd fel Európa gazdag kulturális örökségét, és élvezd a különleges élményeket, amiket ezek a helyek nyújtanak.</p>                
+
+                        <div class="down-side">
+                            <button>Vissza a cikkekhez</button>
+                            <a><i class="fa fa-arrow-up"></i></a>
+                        </div>
                         
                     </section>
                 </article>
