@@ -451,9 +451,17 @@ main{
     background: none;
     font-size: 1.5rem;
     color: #ef233c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.down-side i{
+.down-side button > i{
+    font-size: 1.5rem;
+    padding-left: 5px;
+}
+
+.down-side a > i{
     font-size: 2rem;
     color: #fff;
     padding: 15px;
@@ -1010,6 +1018,18 @@ footer .contact_icons i{
 
     .height{
         width: 80vw;
+    }
+
+    .down-side{
+        width: 100%;
+    }
+
+    .down-side button{
+        font-size: 1.2rem;
+    }
+
+    .down-side a > i{
+        padding: 10px;
     }
 
     .insp_imgs img{
