@@ -194,6 +194,124 @@ let cikkek = {
                 </div>
             `
         },
+        {
+            hely: "Minden cikk",
+            tartalom: /*html*/
+            `
+                <div class="box" data-hely="Görögország">
+                    <img src="img/chalkidiki-cikk.png" alt="Chalkidiki">
+                    
+                    <h3>A Chalkidiki félsziget legszebb tengerpartjai</h3>
+
+                    <div class="txt">
+                        <p>
+                            A három lábú félsziget nagyon népszerű turistalátványosság, gyönyörű városai, természeti
+                            képződményei, turisztikai célállomásai okkal vonzzák az idelátogatókat. Tiszta vizei a 
+                            búvárkodni vágyók ...
+                        </p>
+                        <a href="#hosszCikk" class="elolvas_btn">Elolvasom</a>
+                    </div>
+                </div>
+            `
+        },
+        {
+            hely: "Minden cikk",
+            tartalom: /*html*/
+            `
+                <div class="box">
+                    <img src="img/boat-1.png" alt="cyprus">
+                    
+                    <h3>Kalandok az Egei és a Jón-tengeren</h3>
+
+                    <div class="txt">
+                        <p>
+                            Utazz a görög szigetvilágba, ahogy felfedezed az Egei- és Jón-tenger gyönyörű szigeteit, 
+                            amelyek lenyűgöző strandokkal, hagyományos falvakkal ...
+                        </p>
+                        <a href="#hosszCikk" class="elolvas_btn">Elolvasom</a>
+                    </div>
+                </div>
+            `
+        },
+        {
+            hely: "Minden cikk",
+            tartalom: /*html*/
+            `
+                <div class="box">
+                    <img src="img/carneval-1.png" alt="karneval">
+                    
+                    <h3>A karneválok királya, görög módra</h3>
+
+                    <div class="txt">
+                        <p>
+                            Fedezd fel Görögország legnagyobb karneváljának varázsát, ahol az életöröm és a színes kavalkád találkozik
+                            egy lenyűgöző ünnepi forgatagban! Engedd, hogy elragadjon ...
+                        </p>
+                        <a href="#hosszCikk" class="elolvas_btn">Elolvasom</a>
+                    </div>
+                </div>
+            `
+        },
+        {
+            hely: "Minden cikk",
+            tartalom: /*html*/
+            `
+                <div class="box" data-hely="Ciprus">
+                    <img src="img/cyprus-2.png" alt="cyprus">
+                
+                    <h3>5 kihagyhatatlan hely, ha Cipruson jársz</h3>
+
+                    <div class="txt">
+                        <p>
+                            Ha Cyprus mellett döntünk a nyaralásunk során, kétség kívül nehezen lőhetünk mellé.
+                            Sajátos tengerpartjainak, változatos látképének elbűvölő ereje van de vannak látványosságai,
+                            amit hiba lenne kihagyni ...
+                        </p>
+                        <a href="#hosszCikk" class="elolvas_btn">Elolvasom</a>
+                    </div>
+                </div>
+            `
+        },
+        {
+            hely: "Minden cikk",
+            tartalom: /*html*/
+            `
+                <div class="box" data-hely="Olaszország">
+                    <img src="img/diving-1.png" alt="buvarhelyek">
+            
+                    <h3>Olaszország 5 legjobb búvárhelye kezdőknek</h3>
+
+                    <div class="txt">
+                        <p>
+                            Gondolkodtál már azon, hogy szabadtüdős merüléssel vagy könnyűbúvár felszereléssel merülj alá
+                            csodaszép tengerpartok habjai alá, hogy megcsodáld a meseszép vízivilág csodáit? 
+                            Itt van 5 olaszországi hely, ahol ...
+                        </p>
+                        <a href="#hosszCikk" class="elolvas_btn">Elolvasom</a>
+                    </div>
+                </div>
+            `
+        },
+        {
+            hely: "Minden cikk",
+            tartalom: /*html*/
+            `
+                <div class="box" data-hely="Spanyolország">
+                    <img src="img/tenerife-1.png" alt="tenerife">
+                
+                    <h3>A Vulkánok és Napfény Szigete, Tenerife</h3>
+
+                    <div class="txt">
+                        <p>
+                            A Kanári-szigetek legnagyobbika, ahol akár télen is nyaralhatunk Spanyolországhoz tartozik,
+                            habár onnan 1000 km-re esik Afrika mellett. A sziget igazi turistaparadicsom számos utánozhatatlan
+                            ...
+                        </p>
+                        <a href="#hosszCikk" class="elolvas_btn">Elolvasom</a>
+                    </div>
+                </div>
+            `
+        },
     ]
 };
 
@@ -757,7 +875,7 @@ items.forEach(target =>{
 
             for(let i = 0; i < cikkek.cikk.length; i++){
                 if(cikkek.cikk[i].hely == checked.innerText){
-                    //document.querySelector(".btn_text").innerHTML = checked.innerText;
+                    document.querySelector(".btn_text").innerHTML = checked.innerText;
                     target.push(cikkek.cikk[i].tartalom);
                     document.querySelector("#hosszCikk .cikkek_box").innerHTML = "";
                     for(let i = 0; i < target.length; i++){
