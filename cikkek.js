@@ -21,6 +21,44 @@ let cikkek = {
             `
         },
         {
+            hely: "Görögország",
+            tartalom: /*html*/
+            `
+                <div class="box">
+                    <img src="img/boat-1.png" alt="cyprus">
+                    
+                    <h3>Kalandok az Egei és a Jón-tengeren</h3>
+
+                    <div class="txt">
+                        <p>
+                            Utazz a görög szigetvilágba, ahogy felfedezed az Egei- és Jón-tenger gyönyörű szigeteit, 
+                            amelyek lenyűgöző strandokkal, hagyományos falvakkal ...
+                        </p>
+                        <a href="#hosszCikk" class="elolvas_btn">Elolvasom</a>
+                    </div>
+                </div>
+            `
+        },
+        {
+            hely: "Görögország",
+            tartalom: /*html*/
+            `
+                <div class="box">
+                    <img src="img/carneval-1.png" alt="karneval">
+                    
+                    <h3>A karneválok királya, görög módra</h3>
+
+                    <div class="txt">
+                        <p>
+                            Fedezd fel Görögország legnagyobb karneváljának varázsát, ahol az életöröm és a színes kavalkád találkozik
+                            egy lenyűgöző ünnepi forgatagban! Engedd, hogy elragadjon ...
+                        </p>
+                        <a href="#hosszCikk" class="elolvas_btn">Elolvasom</a>
+                    </div>
+                </div>
+            `
+        },
+        {
             hely: "Ciprus",
             tartalom: /*html*/
             `
@@ -74,6 +112,82 @@ let cikkek = {
                             A Kanári-szigetek legnagyobbika, ahol akár télen is nyaralhatunk Spanyolországhoz tartozik,
                             habár onnan 1000 km-re esik Afrika mellett. A sziget igazi turistaparadicsom számos utánozhatatlan
                             ...
+                        </p>
+                        <a href="#hosszCikk" class="elolvas_btn">Elolvasom</a>
+                    </div>
+                </div>
+            `
+        },
+        {
+            hely: "Minden cikk",
+            tartalom: /*html*/
+            `
+                <div class="box">
+                    <img src="img/island-1.png" alt="cyprus">
+                    
+                    <h3>Felfedezésre váró Tengerparti Paradicsomok</h3>
+
+                    <div class="txt">
+                        <p>
+                            Merülj el a spanyol Costa del Sol, Costa Brava és Costa Blanca varázsában, ahogy felfedezed ezeknek
+                            a tengerparti paradicsomoknak a lenyűgöző strandjait ...
+                        </p>
+                        <a href="#hosszCikk" class="elolvas_btn">Elolvasom</a>
+                    </div>
+                </div>
+            `
+        },
+        {
+            hely: "Minden cikk",
+            tartalom: /*html*/
+            `
+                <div class="box">
+                    <img src="img/national-park-1.png" alt="cyprus">
+                    
+                    <h3>Európai Nemzeti Parkok, amik elbűvölnek</h3>
+
+                    <div class="txt">
+                        <p>
+                            Kalandozz Európa lenyűgöző nemzeti parkjaiban, ahol a hegyek, vízesések, gleccserek és
+                            vadregényes tájak lenyűgözik a természet szerelmeseit ...
+                        </p>
+                        <a href="#hosszCikk" class="elolvas_btn">Elolvasom</a>
+                    </div>
+                </div>
+            `
+        },
+        {
+            hely: "Minden cikk",
+            tartalom: /*html*/
+            `
+                <div class="box">
+                    <img src="img/top5-fiatal.jpg" alt="beach-party">
+                
+                    <h3>Top 5 úticél fiataloknak Európában</h3>
+
+                    <div class="txt">
+                        <p>
+                            Európa számos izgalmas és változatos úticélt kínál a fiatal utazók számára. Az 
+                            alábbiakban bemutatunk öt olyan helyszínt, amelyek garantáltan ...
+                        </p>
+                        <a href="#hosszCikk" class="elolvas_btn">Elolvasom</a>
+                    </div>
+                </div>
+            `
+        },
+        {
+            hely: "Minden cikk",
+            tartalom: /*html*/
+            `
+                <div class="box">
+                    <img src="img/horvat-kultura.jpg" alt="kultura">
+                
+                    <h3>Természet és Kultúra Európában</h3>
+
+                    <div class="txt">
+                        <p>
+                            Európa nem csak a gyönyörű tájakról és természeti szépségekről híres, hanem 
+                            gazdag kulturális örökséggel is rendelkezik. Az alábbi öt helyszín ...
                         </p>
                         <a href="#hosszCikk" class="elolvas_btn">Elolvasom</a>
                     </div>
@@ -636,11 +750,20 @@ items.forEach(target =>{
             document.querySelector(".select_container").appendChild(newBtn);
         }
 
+
+
         document.querySelector(".go_btn").onclick = () =>{
+            let target = [];
+
             for(let i = 0; i < cikkek.cikk.length; i++){
                 if(cikkek.cikk[i].hely == checked.innerText){
-                    document.querySelector("#hosszCikk .cikkek_box").innerHTML = cikkek.cikk[i].tartalom.toString();
-                    document.querySelector(".btn_text").innerHTML = checked.innerText;
+                    //document.querySelector(".btn_text").innerHTML = checked.innerText;
+                    target.push(cikkek.cikk[i].tartalom);
+                    document.querySelector("#hosszCikk .cikkek_box").innerHTML = "";
+                    for(let i = 0; i < target.length; i++){
+                        document.querySelector("#hosszCikk .cikkek_box").innerHTML += target[i];
+                        console.log(target[i]);
+                    }
                 }
             }
 
@@ -654,7 +777,7 @@ items.forEach(target =>{
             
                     for(let i = 0; i < hosszCikk.hely.length; i++){
                         if(hosszCikk.hely[i].cim == parH3){
-                            document.querySelector(".cikkek_box").innerHTML = hosszCikk.hely[i].cikk
+                            document.querySelector(".cikkek_box").innerHTML = hosszCikk.hely[i].cikk;
                         }
                     }
                 }
