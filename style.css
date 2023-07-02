@@ -390,6 +390,15 @@ main{
     font-size: 1.5rem;
 }
 
+#target_uticel article ul{
+    margin: 20px;
+}
+
+#target_uticel article ul li{
+    font-size: 1.3rem;
+    padding: 20px;
+}
+
 #hosszCikk{
     padding-top: 60px;
 }
@@ -626,6 +635,12 @@ main{
     position: relative;
     max-width: 320px;
     width: 100%;
+}
+
+.select_container h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ef233c;
 }
 
 .select_btn{
