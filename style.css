@@ -414,7 +414,7 @@ main{
 #hosszCikk article img{
     max-height: 600px;
     width: 80%; 
-    margin: 2px;
+    margin: 1px;
 }
 
 #hosszCikk article h2, #hosszCikk article h3{
@@ -427,7 +427,7 @@ main{
 
 #hosszCikk article p{
     text-align: justify;
-    margin: 0 50px 50px 50px;
+    margin: 20px 50px;
     font-size: 1.5rem;
 }
 
@@ -984,7 +984,7 @@ footer .contact_icons i{
 
     #target_uticel article p, #hosszCikk article p{
         text-align: justify;
-        margin: 0 20px;
+        margin: 20px 30px;
         font-size: 1.3rem;
     }
 
@@ -1024,6 +1024,7 @@ footer .contact_icons i{
 
     .cikkek_idezet{
         max-width: 100%;
+        top: 100px;
     }
 
     .cikkek_idezet h2{
